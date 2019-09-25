@@ -1,0 +1,53 @@
+\chapter{Implementation}
+
+As for now, we are focussing on how to implement the first approach 
+and then move onto the second approach. The integrated reinforcement learning algorithm is driven
+by a discrete event simulator. There are already some railway simulators like \textbf{OpenTrack} \cite{WEBSITE:2} and \textbf{RailML}\cite{WEBSITE:3} but they
+would be useful for the final analysis of the results. Once we have the desired timetable then we can use these 
+simulator softwares to determine the quality of solution. But for the implementation of the 
+algorithm we have to implement the simulator on own.
+
+\section {Railway simulator}
+\subsection{Requirement}
+The simulator is supposed to be robust enough that it can run both toy and real life 
+examples. 
+The simulator is suppose to run through several episodes during training and hence need 
+to be efficient. At the
+beginning of every episode, the initial locations of all the trains
+are reset to their original values. It is assumed that trains that have not yet started, 
+or have finished their journeys, do not
+occupy any of the tracks. Following the train-to-resource mapping, 
+the simulator creates a list of events for processing, one
+corresponding to each train (whether already running or yet to
+start its journey). Each event in the list contains the following
+information: the time at which to process the event, the train to
+which it corresponds, the resource where the train is currently
+located, the last observed state-action pair for the train (empty
+if the train is yet to start), and the direction of the train journey. 
+
+At each step, the algorithm moves the simulation clock to
+the earliest time stamp in the event list. If multiple events are to
+be processed at the same time stamp, they are handled sequentially. We are for now 
+not focussing on how to avoid deadlock, but instead if we get into deadlock, we will detect and give huge
+negative reward and the RL algorithm is suppose to avoid deadlock on it's own.
+
+
+\subsection{Implementation}
+There are two components to railway simulator :
+\begin{enumerate}
+    \item Underlying Railway Network. 
+    \item Trains and the simulation of there movements.
+\end{enumerate}
+
+For the implementation of the railway network we can use \textbf{NetworkX}\cite{WEBSITE:4} package of python.
+\textbf{NetworkX is a Python package for the creation, manipulation,
+and study of the structure, dynamics, and functions of complex networks.}
+\vspace{1.5cm}
+
+Once the network is ready we have to simulate movement of each train over the network. For 
+that we can use \textbf{SimPy}\cite{WEBSITE:5} package of python. \textbf{SimPy is a process-based discrete-event simulation framework based on standard Python}.
+In this we can model each train as the separate process and network as the resource. We can 
+model the movement of trains using this package. We yield events when the train starts from some station and once 
+the train reaches the next station, event is yielded and then we can process accordingly. So whole simulation is done 
+by generating events at points where the algorithm is supposed to take action.
+

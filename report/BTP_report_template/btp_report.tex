@@ -1,0 +1,78 @@
+\documentclass {CSEThesis}
+
+% \usepackage[showframe , margin=1in , top = 0.5in]{geometry}
+ 
+\usepackage[hidelinks]{hyperref}
+\usepackage{amsmath}        % Extra math definitions
+\usepackage{graphics}       % PostScript figures
+\usepackage{setspace}       % 1.5 spacing
+%\usepackage{psfig,epsfig}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{hyperref}
+\usepackage{epsfig,color}
+\usepackage{titlesec}
+\usepackage{float}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+%% use this in your preamble
+\usepackage{newunicodechar}
+\newunicodechar{ﬀ}{ff}
+\newunicodechar{ﬁ}{fi} 
+\newunicodechar{ﬂ}{fl}
+\newunicodechar{ﬃ}{ffi}
+\newunicodechar{ﬄ}{ffl}
+%% end of common ligatures
+% Custom packages
+%\usepackage[first]{datestamp}   % Datestamp on first page of each chapter
+\titleformat{\chapter}[display]   
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+
+\usepackage{color}
+
+\btptitle = {Railway Scheduling Using Reinforcement Learning} % { and } are needed around your name
+\name = {Arpit Singh}          % and other feilds. don't remove.
+\rollno = {111601031}
+\email = {111601031@smail.iitpkd.ac.in}
+\guide = {Dr. Chandra Shekar Lakshminarayanan}
+
+
+\begin{document}
+\let\cleardoublepage\clearpage
+\include{title}
+\tableofcontents 
+% \voffset=-0.8in
+\addcontentsline{toc}{chapter}{List of Figures} 
+\listoffigures 
+
+\pagenumbering{arabic}
+\def\headrulehook{\color{black}}      % Color the header rule
+
+%========== Chapters
+% \voffset = -0.2in;
+% \typeout{}
+% \include{acknowledgement}
+% \cleardoublepage
+\typeout{}
+\include{chapter1}
+\cleardoublepage 
+\typeout{}
+\include{chapter2}
+\cleardoublepage 
+\typeout{}
+\include{chapter3}
+\cleardoublepage 
+\typeout{}
+\include{chapter4}
+\cleardoublepage 
+\typeout{}
+\include{futurework}
+\typeout{}
+
+\bibliography{btp}
+\bibliographystyle{IEEEtran}
+
+\end{document}
+

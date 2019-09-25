@@ -1,0 +1,22 @@
+\BOOKMARK [0][-]{chapter*.1}{List of Figures}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
+\BOOKMARK [0][-]{chapter.2}{Problem Statement}{}% 3
+\BOOKMARK [1][-]{section.2.1}{Indian Railways}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.2}{Railway Scheduling Problem}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.2.1}{Scheduling}{section.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.2}{Rescheduling}{section.2.2}% 7
+\BOOKMARK [0][-]{chapter.3}{Reinforcement Learning Approach}{}% 8
+\BOOKMARK [1][-]{section.3.1}{Brief Description}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.2}{Prior Work}{chapter.3}% 10
+\BOOKMARK [2][-]{subsection.3.2.1}{State Representation \(Local state space\)}{section.3.2}% 11
+\BOOKMARK [2][-]{subsection.3.2.2}{Action and Policy Definition}{section.3.2}% 12
+\BOOKMARK [1][-]{section.3.3}{Proposed Approach}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.3.1}{State Space Representation}{section.3.3}% 14
+\BOOKMARK [2][-]{subsection.3.3.2}{Action And Policy Definition}{section.3.3}% 15
+\BOOKMARK [1][-]{section.3.4}{Objective Function}{chapter.3}% 16
+\BOOKMARK [0][-]{chapter.4}{Implementation}{}% 17
+\BOOKMARK [1][-]{section.4.1}{Railway simulator}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.1.1}{Requirement}{section.4.1}% 19
+\BOOKMARK [2][-]{subsection.4.1.2}{Implementation}{section.4.1}% 20
+\BOOKMARK [0][-]{chapter.5}{Conclusion and Future Work}{}% 21
+\BOOKMARK [0][-]{chapter.5}{References}{}% 22
