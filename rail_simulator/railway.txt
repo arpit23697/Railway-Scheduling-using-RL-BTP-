@@ -1,5 +1,8 @@
-alpha beta 2 3 4
-beta gamma 1 4
-gamma zeta 1 5
-delta alpha 2 4 6
-zeta beta 1 8
+Alpha Beta 2 3 4
+Beta Gamma 1 4
+Gamma Zeta 1 5
+Delta Alpha 2 4 6
+Zeta Beta 1 8
+A B 5 10 12 13 10 11
+B C 2 6 7
+A Delta 2 10 11
