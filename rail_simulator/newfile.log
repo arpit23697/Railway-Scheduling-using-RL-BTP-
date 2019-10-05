@@ -1,0 +1,18 @@
+2019-10-05 22:01:32,952 Train Shatabdi initiating at time 0
+2019-10-05 22:01:32,953 Train Shatabdi inited at time 10
+2019-10-05 22:01:32,954 Train Shatabdi time : 10 Try to depart to track Alpha-Beta
+2019-10-05 22:01:32,955 Train Shatabdi time : 10 On track Alpha-Beta
+2019-10-05 22:01:32,955 Train Shatabdi time : 14.0 Travelled on track Alpha-Beta
+2019-10-05 22:01:32,955 Train Shatabdi time : 14.0 Try to arrive at station Beta
+2019-10-05 22:01:32,955 Train Shatabdi time : 14.0 Arrived at station Beta
+2019-10-05 22:01:32,956 Train Shatabdi time : 14.0 Try to depart to track Beta-Gamma
+2019-10-05 22:01:32,956 Train Shatabdi time : 15.0 On track Beta-Gamma
+2019-10-05 22:01:32,956 Train Shatabdi time : 19.0 Travelled on track Beta-Gamma
+2019-10-05 22:01:32,956 Train Shatabdi time : 19.0 Try to arrive at station Gamma
+2019-10-05 22:01:32,957 Train Shatabdi time : 19.0 Arrived at station Gamma
+2019-10-05 22:01:32,957 Train Shatabdi time : 19.0 Try to depart to track Gamma-Zeta
+2019-10-05 22:01:32,957 Train Shatabdi time : 27.0 On track Gamma-Zeta
+2019-10-05 22:01:32,957 Train Shatabdi time : 32.0 Travelled on track Gamma-Zeta
+2019-10-05 22:01:32,958 Train Shatabdi time : 32.0 Try to arrive at station Zeta
+2019-10-05 22:01:32,958 Train Shatabdi time : 32.0 Arrived at station Zeta
+2019-10-05 22:01:32,958 Train Shatabdi time : 32.0 Completed journey.
