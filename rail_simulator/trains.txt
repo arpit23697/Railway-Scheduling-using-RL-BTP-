@@ -5,8 +5,14 @@ Gamma 27
 Zeta 32
 MalGaddi 1 2 6
 Alpha 7 
-Beta 12
-Gamma 15
-Zeta 20
-Beta 25
-Alpha 29
+Beta 17
+Gamma 21
+Zeta 40
+Beta 45
+Alpha 60
+Intercity 1 1 5
+Alpha 12
+Delta  20
+A 22
+B 35 
+C 55
