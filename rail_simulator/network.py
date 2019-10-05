@@ -273,13 +273,16 @@ class Network:
     def draw_railway_network(self ,ax = None ,suppress_label = False , suppress_station_info = False , 
                             suppress_track_info = False , suppress_edge_label = False ):
         
-        
+        #clear the diagram
+        ax.clear()
+
         #define the layout
         pos = nx.drawing.layout.planar_layout(self.G)
         
         #draw the labels
         if not suppress_label:
             labels = {}
+            # nx.draw_networkx_labels(self.G , pos , labels = labels , font_size=20 , font_color='red' , ax = ax)
             for i, n in enumerate(list(self.G.nodes)):
                 s = self.G.nodes[n]['details']
 
@@ -287,7 +290,6 @@ class Network:
                 free_tracks = s.total_free
                 labels[n] = i
                 labels[n] = "{}\n{}/{}".format(n , free_tracks , total_tracks)
-
             nx.draw_networkx_labels(self.G , pos , labels = labels , font_size=8 , font_color='red' , ax = ax)
         
         #draw the nodes

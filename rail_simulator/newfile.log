@@ -1,18 +1,81 @@
-2019-10-05 22:01:32,952 Train Shatabdi initiating at time 0
-2019-10-05 22:01:32,953 Train Shatabdi inited at time 10
-2019-10-05 22:01:32,954 Train Shatabdi time : 10 Try to depart to track Alpha-Beta
-2019-10-05 22:01:32,955 Train Shatabdi time : 10 On track Alpha-Beta
-2019-10-05 22:01:32,955 Train Shatabdi time : 14.0 Travelled on track Alpha-Beta
-2019-10-05 22:01:32,955 Train Shatabdi time : 14.0 Try to arrive at station Beta
-2019-10-05 22:01:32,955 Train Shatabdi time : 14.0 Arrived at station Beta
-2019-10-05 22:01:32,956 Train Shatabdi time : 14.0 Try to depart to track Beta-Gamma
-2019-10-05 22:01:32,956 Train Shatabdi time : 15.0 On track Beta-Gamma
-2019-10-05 22:01:32,956 Train Shatabdi time : 19.0 Travelled on track Beta-Gamma
-2019-10-05 22:01:32,956 Train Shatabdi time : 19.0 Try to arrive at station Gamma
-2019-10-05 22:01:32,957 Train Shatabdi time : 19.0 Arrived at station Gamma
-2019-10-05 22:01:32,957 Train Shatabdi time : 19.0 Try to depart to track Gamma-Zeta
-2019-10-05 22:01:32,957 Train Shatabdi time : 27.0 On track Gamma-Zeta
-2019-10-05 22:01:32,957 Train Shatabdi time : 32.0 Travelled on track Gamma-Zeta
-2019-10-05 22:01:32,958 Train Shatabdi time : 32.0 Try to arrive at station Zeta
-2019-10-05 22:01:32,958 Train Shatabdi time : 32.0 Arrived at station Zeta
-2019-10-05 22:01:32,958 Train Shatabdi time : 32.0 Completed journey.
+2019-10-05 23:34:43,407 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-05 23:34:43,574 Train Shatabdi initiating at time 0
+2019-10-05 23:34:43,675 Time : 1 Updating Graph
+2019-10-05 23:34:43,681 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-05 23:34:43,717 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-05 23:34:43,913 Time : 2 Updating Graph
+2019-10-05 23:34:44,171 Time : 3 Updating Graph
+2019-10-05 23:34:44,427 Time : 4 Updating Graph
+2019-10-05 23:34:44,685 Time : 5 Updating Graph
+2019-10-05 23:34:44,953 Time : 6 Updating Graph
+2019-10-05 23:34:45,211 Time : 7 Updating Graph
+2019-10-05 23:34:45,473 Time : 8 Updating Graph
+2019-10-05 23:34:45,728 Time : 9 Updating Graph
+2019-10-05 23:34:46,036 Time : 10 Updating Graph
+2019-10-05 23:34:46,239 Train Shatabdi inited at time 10
+2019-10-05 23:34:46,339 Time : 11 Updating Graph
+2019-10-05 23:34:46,478 Train Shatabdi time : 12 Try to depart to track Alpha-Beta
+2019-10-05 23:34:46,578 Time : 12 Updating Graph
+2019-10-05 23:34:46,725 Train Shatabdi time : 12 On track Alpha-Beta
+2019-10-05 23:34:46,825 Time : 13 Updating Graph
+2019-10-05 23:34:47,086 Time : 14 Updating Graph
+2019-10-05 23:34:47,351 Time : 15 Updating Graph
+2019-10-05 23:34:47,530 Train Shatabdi time : 16.0 Travelled on track Alpha-Beta
+2019-10-05 23:34:47,631 Time : 16 Updating Graph
+2019-10-05 23:34:47,892 Time : 17 Updating Graph
+2019-10-05 23:34:48,052 Train Shatabdi time : 18.0 Try to arrive at station Beta
+2019-10-05 23:34:48,152 Time : 18 Updating Graph
+2019-10-05 23:34:48,309 Train Shatabdi time : 18.0 Arrived at station Beta
+2019-10-05 23:34:48,410 Time : 19 Updating Graph
+2019-10-05 23:34:48,568 Train Shatabdi time : 20.0 Try to depart to track Beta-Gamma
+2019-10-05 23:34:48,668 Time : 20 Updating Graph
+2019-10-05 23:34:48,833 Train Shatabdi time : 20.0 On track Beta-Gamma
+2019-10-05 23:34:48,933 Time : 21 Updating Graph
+2019-10-05 23:34:49,189 Time : 22 Updating Graph
+2019-10-05 23:34:49,449 Time : 23 Updating Graph
+2019-10-05 23:34:49,603 Train Shatabdi time : 24.0 Travelled on track Beta-Gamma
+2019-10-05 23:34:49,704 Time : 24 Updating Graph
+2019-10-05 23:34:49,967 Time : 25 Updating Graph
+2019-10-05 23:34:50,132 Train Shatabdi time : 26.0 Try to arrive at station Gamma
+2019-10-05 23:34:50,232 Time : 26 Updating Graph
+2019-10-05 23:34:50,388 Train Shatabdi time : 26.0 Arrived at station Gamma
+2019-10-05 23:34:50,488 Time : 27 Updating Graph
+2019-10-05 23:34:50,649 Train Shatabdi time : 28.0 Try to depart to track Gamma-Zeta
+2019-10-05 23:34:50,750 Time : 28 Updating Graph
+2019-10-05 23:34:50,912 Train Shatabdi time : 28.0 On track Gamma-Zeta
+2019-10-05 23:34:51,013 Time : 29 Updating Graph
+2019-10-05 23:34:51,269 Time : 30 Updating Graph
+2019-10-05 23:34:51,540 Time : 31 Updating Graph
+2019-10-05 23:34:51,806 Time : 32 Updating Graph
+2019-10-05 23:34:51,974 Train Shatabdi time : 33.0 Travelled on track Gamma-Zeta
+2019-10-05 23:34:52,075 Time : 33 Updating Graph
+2019-10-05 23:34:52,326 Time : 34 Updating Graph
+2019-10-05 23:34:52,496 Train Shatabdi time : 35.0 Try to arrive at station Zeta
+2019-10-05 23:34:52,596 Time : 35 Updating Graph
+2019-10-05 23:34:52,727 Train Shatabdi time : 35.0 Arrived at station Zeta
+2019-10-05 23:34:52,727 Train Shatabdi time : 35.0 Completed journey.
+2019-10-05 23:34:52,828 Time : 36 Updating Graph
+2019-10-05 23:34:53,087 Time : 37 Updating Graph
+2019-10-05 23:34:53,230 Train :Shatabdi Time : 38.0 Completed Journey : Released all the resources 
+2019-10-05 23:34:53,331 Time : 38 Updating Graph
+2019-10-05 23:34:53,593 Time : 39 Updating Graph
+2019-10-05 23:34:53,854 Time : 40 Updating Graph
+2019-10-05 23:34:54,116 Time : 41 Updating Graph
+2019-10-05 23:34:54,400 Time : 42 Updating Graph
+2019-10-05 23:34:54,664 Time : 43 Updating Graph
+2019-10-05 23:34:54,910 Time : 44 Updating Graph
+2019-10-05 23:34:55,170 Time : 45 Updating Graph
+2019-10-05 23:34:55,432 Time : 46 Updating Graph
+2019-10-05 23:34:55,697 Time : 47 Updating Graph
+2019-10-05 23:34:55,961 Time : 48 Updating Graph
+2019-10-05 23:34:56,233 Time : 49 Updating Graph
+2019-10-05 23:34:56,511 Time : 50 Updating Graph
+2019-10-05 23:34:56,868 Time : 51 Updating Graph
+2019-10-05 23:34:57,120 Time : 52 Updating Graph
+2019-10-05 23:34:57,390 Time : 53 Updating Graph
+2019-10-05 23:34:57,649 Time : 54 Updating Graph
+2019-10-05 23:34:57,916 Time : 55 Updating Graph
+2019-10-05 23:34:58,179 Time : 56 Updating Graph
+2019-10-05 23:34:58,438 Time : 57 Updating Graph
+2019-10-05 23:34:58,707 Time : 58 Updating Graph
+2019-10-05 23:34:58,969 Time : 59 Updating Graph
