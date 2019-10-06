@@ -1,154 +1,220 @@
-2019-10-06 02:01:41,179 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-06 02:01:41,310 Train Shatabdi initiating at time 0
-2019-10-06 02:01:41,310 Train MalGaddi initiating at time 0
-2019-10-06 02:01:41,311 Train Intercity initiating at time 0
-2019-10-06 02:01:41,811 Time : 1 Updating Graph
-2019-10-06 02:01:41,841 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-06 02:01:41,914 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-06 02:01:42,510 Time : 2 Updating Graph
-2019-10-06 02:01:43,166 Time : 3 Updating Graph
-2019-10-06 02:01:43,868 Time : 4 Updating Graph
-2019-10-06 02:01:44,541 Time : 5 Updating Graph
-2019-10-06 02:01:45,196 Time : 6 Updating Graph
-2019-10-06 02:01:45,841 Time : 7 Updating Graph
-2019-10-06 02:01:45,998 Train MalGaddi inited at time 7
-2019-10-06 02:01:45,998 Train MalGaddi time : 7 Try to depart to track Alpha-Beta
-2019-10-06 02:01:45,998 Train MalGaddi time : 7 On track Alpha-Beta
-2019-10-06 02:01:46,499 Time : 8 Updating Graph
-2019-10-06 02:01:47,154 Time : 9 Updating Graph
-2019-10-06 02:01:47,783 Time : 10 Updating Graph
-2019-10-06 02:01:47,940 Train Shatabdi inited at time 10
-2019-10-06 02:01:47,940 Train Shatabdi time : 10 Try to depart to track Alpha-Beta
-2019-10-06 02:01:47,940 Train Shatabdi time : 10 On track Alpha-Beta
-2019-10-06 02:01:47,940 Train MalGaddi time : 11.0 Travelled on track Alpha-Beta
-2019-10-06 02:01:48,441 Time : 11 Updating Graph
-2019-10-06 02:01:48,597 Train MalGaddi time : 11.0 Try to arrive at station Beta
-2019-10-06 02:01:48,597 Train MalGaddi time : 11.0 Arrived at station Beta
-2019-10-06 02:01:48,597 Train MalGaddi time : 11.0 Try to depart to track Beta-Gamma
-2019-10-06 02:01:49,098 Time : 12 Updating Graph
-2019-10-06 02:01:49,227 Train Intercity inited at time 12
-2019-10-06 02:01:49,227 Train Intercity time : 12 Try to depart to track Alpha-Delta
-2019-10-06 02:01:49,228 Train Intercity time : 12 On track Alpha-Delta
-2019-10-06 02:01:49,728 Time : 13 Updating Graph
-2019-10-06 02:01:49,882 Train Shatabdi time : 14.0 Travelled on track Alpha-Beta
-2019-10-06 02:01:50,383 Time : 14 Updating Graph
-2019-10-06 02:01:50,548 Train Shatabdi time : 14.0 Try to arrive at station Beta
-2019-10-06 02:01:50,549 Train Shatabdi time : 14.0 Arrived at station Beta
-2019-10-06 02:01:50,549 Train Shatabdi time : 14.0 Try to depart to track Beta-Gamma
-2019-10-06 02:01:51,050 Time : 15 Updating Graph
-2019-10-06 02:01:51,178 Train Shatabdi time : 15.0 On track Beta-Gamma
-2019-10-06 02:01:51,679 Time : 16 Updating Graph
-2019-10-06 02:01:52,308 Time : 17 Updating Graph
-2019-10-06 02:01:52,468 Train Intercity time : 18.0 Travelled on track Alpha-Delta
-2019-10-06 02:01:52,970 Time : 18 Updating Graph
-2019-10-06 02:01:53,128 Train Intercity time : 18.0 Try to arrive at station Delta
-2019-10-06 02:01:53,128 Train Intercity time : 18.0 Arrived at station Delta
-2019-10-06 02:01:53,128 Train Intercity time : 18.0 Try to depart to track Delta-A
-2019-10-06 02:01:53,129 Train Shatabdi time : 19.0 Travelled on track Beta-Gamma
-2019-10-06 02:01:53,630 Time : 19 Updating Graph
-2019-10-06 02:01:53,785 Train Shatabdi time : 19.0 Try to arrive at station Gamma
-2019-10-06 02:01:53,786 Train Shatabdi time : 19.0 Arrived at station Gamma
-2019-10-06 02:01:53,786 Train Shatabdi time : 19.0 Try to depart to track Gamma-Zeta
-2019-10-06 02:01:53,786 Train MalGaddi time : 19.0 On track Beta-Gamma
-2019-10-06 02:01:54,287 Time : 20 Updating Graph
-2019-10-06 02:01:54,447 Train Intercity time : 20.0 On track Delta-A
-2019-10-06 02:01:54,948 Time : 21 Updating Graph
-2019-10-06 02:01:55,582 Time : 22 Updating Graph
-2019-10-06 02:01:55,749 Train MalGaddi time : 23.0 Travelled on track Beta-Gamma
-2019-10-06 02:01:56,250 Time : 23 Updating Graph
-2019-10-06 02:01:56,408 Train MalGaddi time : 23.0 Try to arrive at station Gamma
-2019-10-06 02:01:56,408 Train MalGaddi time : 23.0 Arrived at station Gamma
-2019-10-06 02:01:56,408 Train MalGaddi time : 23.0 Try to depart to track Gamma-Zeta
-2019-10-06 02:01:56,408 Train MalGaddi time : 23.0 On track Gamma-Zeta
-2019-10-06 02:01:56,909 Time : 24 Updating Graph
-2019-10-06 02:01:57,540 Time : 25 Updating Graph
-2019-10-06 02:01:58,202 Time : 26 Updating Graph
-2019-10-06 02:01:58,840 Time : 27 Updating Graph
-2019-10-06 02:01:58,973 Train MalGaddi time : 28.0 Travelled on track Gamma-Zeta
-2019-10-06 02:01:59,475 Time : 28 Updating Graph
-2019-10-06 02:01:59,603 Train MalGaddi time : 28.0 Try to arrive at station Zeta
-2019-10-06 02:01:59,603 Train MalGaddi time : 28.0 Arrived at station Zeta
-2019-10-06 02:01:59,603 Train MalGaddi time : 28.0 Try to depart to track Zeta-Beta
-2019-10-06 02:01:59,603 Train Shatabdi time : 28.0 On track Gamma-Zeta
-2019-10-06 02:02:00,104 Time : 29 Updating Graph
-2019-10-06 02:02:00,762 Time : 30 Updating Graph
-2019-10-06 02:02:00,923 Train Intercity time : 31.0 Travelled on track Delta-A
-2019-10-06 02:02:01,424 Time : 31 Updating Graph
-2019-10-06 02:02:01,586 Train Intercity time : 31.0 Try to arrive at station A
-2019-10-06 02:02:01,586 Train Intercity time : 31.0 Arrived at station A
-2019-10-06 02:02:01,586 Train Intercity time : 31.0 Try to depart to track A-B
-2019-10-06 02:02:01,587 Train Intercity time : 31.0 On track A-B
-2019-10-06 02:02:02,087 Time : 32 Updating Graph
-2019-10-06 02:02:02,250 Train Shatabdi time : 33.0 Travelled on track Gamma-Zeta
-2019-10-06 02:02:02,751 Time : 33 Updating Graph
-2019-10-06 02:02:02,911 Train Shatabdi time : 33.0 Try to arrive at station Zeta
-2019-10-06 02:02:03,412 Time : 34 Updating Graph
-2019-10-06 02:02:04,075 Time : 35 Updating Graph
-2019-10-06 02:02:04,705 Time : 36 Updating Graph
-2019-10-06 02:02:05,335 Time : 37 Updating Graph
-2019-10-06 02:02:05,965 Time : 38 Updating Graph
-2019-10-06 02:02:06,623 Time : 39 Updating Graph
-2019-10-06 02:02:07,252 Time : 40 Updating Graph
-2019-10-06 02:02:07,385 Train MalGaddi time : 40.0 On track Zeta-Beta
-2019-10-06 02:02:07,385 Train Shatabdi time : 40.0 Arrived at station Zeta
-2019-10-06 02:02:07,385 Train Shatabdi time : 40.0 Completed journey.
-2019-10-06 02:02:07,386 Train :Shatabdi Time : 40.0 Completed Journey : Released all the resources 
-2019-10-06 02:02:07,887 Time : 41 Updating Graph
-2019-10-06 02:02:08,039 Train Intercity time : 42.0 Travelled on track A-B
-2019-10-06 02:02:08,540 Time : 42 Updating Graph
-2019-10-06 02:02:08,673 Train Intercity time : 42.0 Try to arrive at station B
-2019-10-06 02:02:08,674 Train Intercity time : 42.0 Arrived at station B
-2019-10-06 02:02:08,674 Train Intercity time : 42.0 Try to depart to track B-C
-2019-10-06 02:02:08,674 Train Intercity time : 42.0 On track B-C
-2019-10-06 02:02:09,174 Time : 43 Updating Graph
-2019-10-06 02:02:09,835 Time : 44 Updating Graph
-2019-10-06 02:02:10,469 Time : 45 Updating Graph
-2019-10-06 02:02:11,101 Time : 46 Updating Graph
-2019-10-06 02:02:11,764 Time : 47 Updating Graph
-2019-10-06 02:02:11,923 Train MalGaddi time : 48.0 Travelled on track Zeta-Beta
-2019-10-06 02:02:11,923 Train Intercity time : 48.0 Travelled on track B-C
-2019-10-06 02:02:12,424 Time : 48 Updating Graph
-2019-10-06 02:02:12,556 Train MalGaddi time : 48.0 Try to arrive at station Beta
-2019-10-06 02:02:12,556 Train Intercity time : 48.0 Try to arrive at station C
-2019-10-06 02:02:12,556 Train MalGaddi time : 48.0 Arrived at station Beta
-2019-10-06 02:02:12,556 Train Intercity time : 48.0 Arrived at station C
-2019-10-06 02:02:12,556 Train Intercity time : 48.0 Completed journey.
-2019-10-06 02:02:12,556 Train MalGaddi time : 48.0 Try to depart to track Beta-Alpha
-2019-10-06 02:02:12,556 Train :Intercity Time : 48.0 Completed Journey : Released all the resources 
-2019-10-06 02:02:12,556 Train MalGaddi time : 48.0 On track Beta-Alpha
-2019-10-06 02:02:13,058 Time : 49 Updating Graph
-2019-10-06 02:02:13,688 Time : 50 Updating Graph
-2019-10-06 02:02:14,327 Time : 51 Updating Graph
-2019-10-06 02:02:14,493 Train MalGaddi time : 52.0 Travelled on track Beta-Alpha
-2019-10-06 02:02:14,994 Time : 52 Updating Graph
-2019-10-06 02:02:15,130 Train MalGaddi time : 52.0 Try to arrive at station Alpha
-2019-10-06 02:02:15,130 Train MalGaddi time : 52.0 Arrived at station Alpha
-2019-10-06 02:02:15,130 Train MalGaddi time : 52.0 Completed journey.
-2019-10-06 02:02:15,130 Train :MalGaddi Time : 52.0 Completed Journey : Released all the resources 
-2019-10-06 02:02:15,631 Time : 53 Updating Graph
-2019-10-06 02:02:16,298 Time : 54 Updating Graph
-2019-10-06 02:02:16,930 Time : 55 Updating Graph
-2019-10-06 02:02:17,589 Time : 56 Updating Graph
-2019-10-06 02:02:18,226 Time : 57 Updating Graph
-2019-10-06 02:02:18,867 Time : 58 Updating Graph
-2019-10-06 02:02:19,572 Time : 59 Updating Graph
-2019-10-06 02:02:20,234 Time : 60 Updating Graph
-2019-10-06 02:02:20,896 Time : 61 Updating Graph
-2019-10-06 02:02:21,554 Time : 62 Updating Graph
-2019-10-06 02:02:22,210 Time : 63 Updating Graph
-2019-10-06 02:02:22,868 Time : 64 Updating Graph
-2019-10-06 02:02:23,501 Time : 65 Updating Graph
-2019-10-06 02:02:24,134 Time : 66 Updating Graph
-2019-10-06 02:02:24,766 Time : 67 Updating Graph
-2019-10-06 02:02:25,418 Time : 68 Updating Graph
-2019-10-06 02:02:26,048 Time : 69 Updating Graph
-2019-10-06 02:02:26,707 Time : 70 Updating Graph
-2019-10-06 02:02:27,384 Time : 71 Updating Graph
-2019-10-06 02:02:28,035 Time : 72 Updating Graph
-2019-10-06 02:02:28,667 Time : 73 Updating Graph
-2019-10-06 02:02:29,297 Time : 74 Updating Graph
-2019-10-06 02:02:29,959 Time : 75 Updating Graph
-2019-10-06 02:02:30,600 Time : 76 Updating Graph
-2019-10-06 02:02:31,255 Time : 77 Updating Graph
-2019-10-06 02:02:31,912 Time : 78 Updating Graph
-2019-10-06 02:02:32,572 Time : 79 Updating Graph
+2019-10-07 00:04:03,220 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-07 00:04:03,393 Time : 0 -- Train Shatabdi initiating
+2019-10-07 00:04:03,393 Time : 0 -- Train MalGaddi initiating
+2019-10-07 00:04:03,393 Time : 0 -- Train Intercity initiating
+2019-10-07 00:04:03,393 Time : 0 -- Train Express initiating
+2019-10-07 00:04:03,894 Time : 1 Updating Graph
+2019-10-07 00:04:03,944 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-07 00:04:04,016 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-07 00:04:04,645 Time : 2 Updating Graph
+2019-10-07 00:04:05,381 Time : 3 Updating Graph
+2019-10-07 00:04:06,046 Time : 4 Updating Graph
+2019-10-07 00:04:06,746 Time : 5 Updating Graph
+2019-10-07 00:04:07,518 Time : 6 Updating Graph
+2019-10-07 00:04:08,197 Time : 7 Updating Graph
+2019-10-07 00:04:08,393 Time : 7 -- Train MalGaddi initiated.
+2019-10-07 00:04:08,393 Time : 8.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-07 00:04:08,894 Time : 8 Updating Graph
+2019-10-07 00:04:09,040 Time : 9.0 -- Train MalGaddi Try to depart to track Alpha-Beta
+2019-10-07 00:04:09,541 Time : 9 Updating Graph
+2019-10-07 00:04:09,808 Time : 9.0 -- Train MalGaddi On track Alpha-Beta
+2019-10-07 00:04:10,309 Time : 10 Updating Graph
+2019-10-07 00:04:10,532 Time : 10 -- Train Shatabdi initiated.
+2019-10-07 00:04:10,533 Time : 11.0 -- Train Shatabdi Wait for 1 unit time
+2019-10-07 00:04:11,033 Time : 11 Updating Graph
+2019-10-07 00:04:11,237 Time : 12.0 -- Train Shatabdi Wait for 1 unit time
+2019-10-07 00:04:11,738 Time : 12 Updating Graph
+2019-10-07 00:04:11,954 Time : 12 -- Train Intercity initiated.
+2019-10-07 00:04:11,954 Time : 12 -- Train Express initiated.
+2019-10-07 00:04:11,954 Time : 13.0 -- Train Shatabdi Wait for 1 unit time
+2019-10-07 00:04:11,955 Time : 13.0 -- Train Intercity Try to depart to track Alpha-Delta
+2019-10-07 00:04:11,955 Time : 13.0 -- Train Express Try to depart to track A-B
+2019-10-07 00:04:11,955 Time : 13.0 -- Train MalGaddi Travelled on track Alpha-Beta
+2019-10-07 00:04:12,455 Time : 13 Updating Graph
+2019-10-07 00:04:12,740 Time : 13.0 -- Train Intercity On track Alpha-Delta
+2019-10-07 00:04:12,741 Time : 13.0 -- Train Express On track A-B
+2019-10-07 00:04:12,741 Time : 14.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-07 00:04:12,741 Time : 14.0 -- Train Shatabdi Wait for 1 unit time
+2019-10-07 00:04:13,242 Time : 14 Updating Graph
+2019-10-07 00:04:13,518 Time : 15.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-07 00:04:13,518 Time : 15.0 -- Train Shatabdi Try to depart to track Alpha-Beta
+2019-10-07 00:04:14,018 Time : 15 Updating Graph
+2019-10-07 00:04:14,210 Time : 15.0 -- Train Shatabdi On track Alpha-Beta
+2019-10-07 00:04:14,210 Time : 16.0 -- Train MalGaddi Try to arrive at station Beta
+2019-10-07 00:04:14,711 Time : 16 Updating Graph
+2019-10-07 00:04:14,920 Time : 16.0 -- Train MalGaddi Arrived at station Beta
+2019-10-07 00:04:14,921 Time : 17.0 -- Train MalGaddi Try to depart to track Beta-Gamma
+2019-10-07 00:04:15,421 Time : 17 Updating Graph
+2019-10-07 00:04:15,637 Time : 17.0 -- Train MalGaddi On track Beta-Gamma
+2019-10-07 00:04:16,138 Time : 18 Updating Graph
+2019-10-07 00:04:16,365 Time : 19.0 -- Train Intercity Travelled on track Alpha-Delta
+2019-10-07 00:04:16,365 Time : 19.0 -- Train Shatabdi Travelled on track Alpha-Beta
+2019-10-07 00:04:16,865 Time : 19 Updating Graph
+2019-10-07 00:04:17,085 Time : 20.0 -- Train Intercity Try to arrive at station Delta
+2019-10-07 00:04:17,086 Time : 20.0 -- Train Shatabdi Try to arrive at station Beta
+2019-10-07 00:04:17,586 Time : 20 Updating Graph
+2019-10-07 00:04:17,800 Time : 20.0 -- Train Intercity Arrived at station Delta
+2019-10-07 00:04:17,800 Time : 20.0 -- Train Shatabdi Arrived at station Beta
+2019-10-07 00:04:17,800 Time : 21.0 -- Train Intercity Try to depart to track Delta-A
+2019-10-07 00:04:17,800 Time : 21.0 -- Train Shatabdi Wait for 1 unit time
+2019-10-07 00:04:17,800 Time : 21.0 -- Train MalGaddi Travelled on track Beta-Gamma
+2019-10-07 00:04:18,301 Time : 21 Updating Graph
+2019-10-07 00:04:18,498 Time : 21.0 -- Train Intercity On track Delta-A
+2019-10-07 00:04:18,499 Time : 22.0 -- Train MalGaddi Try to arrive at station Gamma
+2019-10-07 00:04:18,499 Time : 22.0 -- Train Shatabdi Wait for 1 unit time
+2019-10-07 00:04:19,000 Time : 22 Updating Graph
+2019-10-07 00:04:19,192 Time : 22.0 -- Train MalGaddi Arrived at station Gamma
+2019-10-07 00:04:19,193 Time : 23.0 -- Train MalGaddi Try to depart to track Gamma-Zeta
+2019-10-07 00:04:19,193 Time : 23.0 -- Train Shatabdi Wait for 1 unit time
+2019-10-07 00:04:19,693 Time : 23 Updating Graph
+2019-10-07 00:04:19,901 Time : 23.0 -- Train MalGaddi On track Gamma-Zeta
+2019-10-07 00:04:19,901 Time : 24.0 -- Train Shatabdi Try to depart to track Beta-Gamma
+2019-10-07 00:04:19,901 Time : 24.0 -- Train Express Travelled on track A-B
+2019-10-07 00:04:20,402 Time : 24 Updating Graph
+2019-10-07 00:04:20,631 Time : 24.0 -- Train Shatabdi On track Beta-Gamma
+2019-10-07 00:04:20,632 Time : 25.0 -- Train Express Wait for 1 unit time
+2019-10-07 00:04:21,132 Time : 25 Updating Graph
+2019-10-07 00:04:21,336 Time : 26.0 -- Train Express Wait for 1 unit time
+2019-10-07 00:04:21,837 Time : 26 Updating Graph
+2019-10-07 00:04:21,998 Time : 27.0 -- Train Express Wait for 1 unit time
+2019-10-07 00:04:22,499 Time : 27 Updating Graph
+2019-10-07 00:04:22,727 Time : 28.0 -- Train Express Wait for 1 unit time
+2019-10-07 00:04:22,727 Time : 28.0 -- Train MalGaddi Travelled on track Gamma-Zeta
+2019-10-07 00:04:22,727 Time : 28.0 -- Train Shatabdi Travelled on track Beta-Gamma
+2019-10-07 00:04:23,228 Time : 28 Updating Graph
+2019-10-07 00:04:23,434 Time : 29.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-07 00:04:23,434 Time : 29.0 -- Train Shatabdi Try to arrive at station Gamma
+2019-10-07 00:04:23,435 Time : 29.0 -- Train Express Try to arrive at station B
+2019-10-07 00:04:23,935 Time : 29 Updating Graph
+2019-10-07 00:04:24,187 Time : 29.0 -- Train Shatabdi Arrived at station Gamma
+2019-10-07 00:04:24,187 Time : 29.0 -- Train Express Arrived at station B
+2019-10-07 00:04:24,187 Time : 30.0 -- Train MalGaddi Try to arrive at station Zeta
+2019-10-07 00:04:24,187 Time : 30.0 -- Train Shatabdi Wait for 1 unit time
+2019-10-07 00:04:24,187 Time : 30.0 -- Train Express Wait for 1 unit time
+2019-10-07 00:04:24,688 Time : 30 Updating Graph
+2019-10-07 00:04:24,909 Time : 30.0 -- Train MalGaddi Arrived at station Zeta
+2019-10-07 00:04:24,910 Time : 31.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-07 00:04:24,910 Time : 31.0 -- Train Shatabdi Wait for 1 unit time
+2019-10-07 00:04:24,910 Time : 31.0 -- Train Express Try to depart to track B-C
+2019-10-07 00:04:25,411 Time : 31 Updating Graph
+2019-10-07 00:04:25,633 Time : 31.0 -- Train Express On track B-C
+2019-10-07 00:04:25,634 Time : 32.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-07 00:04:25,634 Time : 32.0 -- Train Shatabdi Wait for 1 unit time
+2019-10-07 00:04:25,634 Time : 32.0 -- Train Intercity Travelled on track Delta-A
+2019-10-07 00:04:26,134 Time : 32 Updating Graph
+2019-10-07 00:04:26,349 Time : 33.0 -- Train Intercity Wait for 1 unit time
+2019-10-07 00:04:26,350 Time : 33.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-07 00:04:26,350 Time : 33.0 -- Train Shatabdi Try to depart to track Gamma-Zeta
+2019-10-07 00:04:26,850 Time : 33 Updating Graph
+2019-10-07 00:04:27,050 Time : 33.0 -- Train Shatabdi On track Gamma-Zeta
+2019-10-07 00:04:27,050 Time : 34.0 -- Train Intercity Try to arrive at station A
+2019-10-07 00:04:27,050 Time : 34.0 -- Train MalGaddi Try to depart to track Zeta-Beta
+2019-10-07 00:04:27,551 Time : 34 Updating Graph
+2019-10-07 00:04:27,785 Time : 34.0 -- Train Intercity Arrived at station A
+2019-10-07 00:04:27,785 Time : 35.0 -- Train Intercity Try to depart to track A-B
+2019-10-07 00:04:28,286 Time : 35 Updating Graph
+2019-10-07 00:04:28,500 Time : 35.0 -- Train Intercity On track A-B
+2019-10-07 00:04:29,001 Time : 36 Updating Graph
+2019-10-07 00:04:29,216 Time : 37.0 -- Train Express Travelled on track B-C
+2019-10-07 00:04:29,717 Time : 37 Updating Graph
+2019-10-07 00:04:29,925 Time : 38.0 -- Train Express Wait for 1 unit time
+2019-10-07 00:04:29,925 Time : 38.0 -- Train Shatabdi Travelled on track Gamma-Zeta
+2019-10-07 00:04:30,425 Time : 38 Updating Graph
+2019-10-07 00:04:30,641 Time : 39.0 -- Train Shatabdi Try to arrive at station Zeta
+2019-10-07 00:04:30,641 Time : 39.0 -- Train Express Wait for 1 unit time
+2019-10-07 00:04:31,141 Time : 39 Updating Graph
+2019-10-07 00:04:31,354 Time : 40.0 -- Train Express Try to arrive at station C
+2019-10-07 00:04:31,855 Time : 40 Updating Graph
+2019-10-07 00:04:32,080 Time : 40.0 -- Train Express Arrived at station C
+2019-10-07 00:04:32,080 Time : 40.0 -- Train Express Completed journey.
+2019-10-07 00:04:32,080 Time : 40.0 -- Train MalGaddi On track Zeta-Beta
+2019-10-07 00:04:32,080 Time : 40.0 -- Train Shatabdi Arrived at station Zeta
+2019-10-07 00:04:32,080 Time : 40.0 -- Train Shatabdi Completed journey.
+2019-10-07 00:04:32,080 Time : 41.0 -- Train Express Wait for 1 unit time
+2019-10-07 00:04:32,581 Time : 41 Updating Graph
+2019-10-07 00:04:32,803 Time : 41.0 -- Train :Shatabdi Completed Journey : Released all the resources 
+2019-10-07 00:04:32,803 Time : 42.0 -- Train Express Wait for 1 unit time
+2019-10-07 00:04:33,304 Time : 42 Updating Graph
+2019-10-07 00:04:34,021 Time : 43 Updating Graph
+2019-10-07 00:04:34,234 Time : 43.0 -- Train :Express Completed Journey : Released all the resources 
+2019-10-07 00:04:34,735 Time : 44 Updating Graph
+2019-10-07 00:04:35,454 Time : 45 Updating Graph
+2019-10-07 00:04:35,658 Time : 46.0 -- Train Intercity Travelled on track A-B
+2019-10-07 00:04:36,158 Time : 46 Updating Graph
+2019-10-07 00:04:36,358 Time : 47.0 -- Train Intercity Wait for 1 unit time
+2019-10-07 00:04:36,858 Time : 47 Updating Graph
+2019-10-07 00:04:37,074 Time : 48.0 -- Train Intercity Try to arrive at station B
+2019-10-07 00:04:37,074 Time : 48.0 -- Train MalGaddi Travelled on track Zeta-Beta
+2019-10-07 00:04:37,575 Time : 48 Updating Graph
+2019-10-07 00:04:37,755 Time : 48.0 -- Train Intercity Arrived at station B
+2019-10-07 00:04:37,755 Time : 49.0 -- Train MalGaddi Try to arrive at station Beta
+2019-10-07 00:04:37,755 Time : 49.0 -- Train Intercity Wait for 1 unit time
+2019-10-07 00:04:38,256 Time : 49 Updating Graph
+2019-10-07 00:04:38,471 Time : 49.0 -- Train MalGaddi Arrived at station Beta
+2019-10-07 00:04:38,472 Time : 50.0 -- Train MalGaddi Try to depart to track Beta-Alpha
+2019-10-07 00:04:38,472 Time : 50.0 -- Train Intercity Try to depart to track B-C
+2019-10-07 00:04:38,972 Time : 50 Updating Graph
+2019-10-07 00:04:39,193 Time : 50.0 -- Train MalGaddi On track Beta-Alpha
+2019-10-07 00:04:39,193 Time : 50.0 -- Train Intercity On track B-C
+2019-10-07 00:04:39,694 Time : 51 Updating Graph
+2019-10-07 00:04:40,402 Time : 52 Updating Graph
+2019-10-07 00:04:41,108 Time : 53 Updating Graph
+2019-10-07 00:04:41,358 Time : 54.0 -- Train MalGaddi Travelled on track Beta-Alpha
+2019-10-07 00:04:41,859 Time : 54 Updating Graph
+2019-10-07 00:04:42,077 Time : 55.0 -- Train MalGaddi Try to arrive at station Alpha
+2019-10-07 00:04:42,578 Time : 55 Updating Graph
+2019-10-07 00:04:42,797 Time : 55.0 -- Train MalGaddi Arrived at station Alpha
+2019-10-07 00:04:42,797 Time : 55.0 -- Train MalGaddi Completed journey.
+2019-10-07 00:04:42,798 Time : 56.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-07 00:04:42,798 Time : 56.0 -- Train Intercity Travelled on track B-C
+2019-10-07 00:04:43,298 Time : 56 Updating Graph
+2019-10-07 00:04:43,464 Time : 57.0 -- Train Intercity Try to arrive at station C
+2019-10-07 00:04:43,464 Time : 57.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-07 00:04:43,965 Time : 57 Updating Graph
+2019-10-07 00:04:44,209 Time : 57.0 -- Train Intercity Arrived at station C
+2019-10-07 00:04:44,209 Time : 57.0 -- Train Intercity Completed journey.
+2019-10-07 00:04:44,210 Time : 58.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-07 00:04:44,710 Time : 58 Updating Graph
+2019-10-07 00:04:45,028 Time : 58.0 -- Train :Intercity Completed Journey : Released all the resources 
+2019-10-07 00:04:45,529 Time : 59 Updating Graph
+2019-10-07 00:04:45,715 Time : 60.0 -- Train :MalGaddi Completed Journey : Released all the resources 
+2019-10-07 00:04:46,216 Time : 60 Updating Graph
+2019-10-07 00:04:46,947 Time : 61 Updating Graph
+2019-10-07 00:04:47,689 Time : 62 Updating Graph
+2019-10-07 00:04:48,411 Time : 63 Updating Graph
+2019-10-07 00:04:49,142 Time : 64 Updating Graph
+2019-10-07 00:04:49,883 Time : 65 Updating Graph
+2019-10-07 00:04:50,608 Time : 66 Updating Graph
+2019-10-07 00:04:51,368 Time : 67 Updating Graph
+2019-10-07 00:04:52,118 Time : 68 Updating Graph
+2019-10-07 00:04:52,810 Time : 69 Updating Graph
+2019-10-07 00:04:53,495 Time : 70 Updating Graph
+2019-10-07 00:04:54,227 Time : 71 Updating Graph
+2019-10-07 00:04:54,958 Time : 72 Updating Graph
+2019-10-07 00:04:55,637 Time : 73 Updating Graph
+2019-10-07 00:04:56,453 Time : 74 Updating Graph
+2019-10-07 00:04:57,267 Time : 75 Updating Graph
+2019-10-07 00:04:57,982 Time : 76 Updating Graph
+2019-10-07 00:04:58,709 Time : 77 Updating Graph
+2019-10-07 00:04:59,426 Time : 78 Updating Graph
+2019-10-07 00:05:00,148 Time : 79 Updating Graph
+2019-10-07 00:05:00,919 Time : 80 Updating Graph
+2019-10-07 00:05:01,646 Time : 81 Updating Graph
+2019-10-07 00:05:02,381 Time : 82 Updating Graph
+2019-10-07 00:05:03,121 Time : 83 Updating Graph
+2019-10-07 00:05:03,856 Time : 84 Updating Graph
+2019-10-07 00:05:04,674 Time : 85 Updating Graph
+2019-10-07 00:05:05,382 Time : 86 Updating Graph
+2019-10-07 00:05:06,156 Time : 87 Updating Graph
+2019-10-07 00:05:06,835 Time : 88 Updating Graph
+2019-10-07 00:05:07,544 Time : 89 Updating Graph
+2019-10-07 00:05:08,243 Time : 90 Updating Graph
+2019-10-07 00:05:08,930 Time : 91 Updating Graph
+2019-10-07 00:05:09,692 Time : 92 Updating Graph
+2019-10-07 00:05:10,427 Time : 93 Updating Graph
+2019-10-07 00:05:11,157 Time : 94 Updating Graph
+2019-10-07 00:05:11,966 Time : 95 Updating Graph
+2019-10-07 00:05:12,713 Time : 96 Updating Graph
+2019-10-07 00:05:13,457 Time : 97 Updating Graph
+2019-10-07 00:05:14,202 Time : 98 Updating Graph
+2019-10-07 00:05:14,905 Time : 99 Updating Graph
