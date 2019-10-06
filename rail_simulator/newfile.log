@@ -1,92 +1,47 @@
-2019-10-07 00:23:00,788 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-07 00:23:00,925 Time : 0 -- Train Train1 initiating
-2019-10-07 00:23:00,925 Time : 0 -- Train Train2 initiating
-2019-10-07 00:23:01,426 Time : 1 Updating Graph
-2019-10-07 00:23:01,461 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-07 00:23:01,540 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-07 00:23:01,639 Time : 1 -- Train Train1 initiated.
-2019-10-07 00:23:01,639 Time : 1 -- Train Train2 initiated.
-2019-10-07 00:23:01,640 Time : 2.0 -- Train Train1 Try to depart to track Zeta-Beta
-2019-10-07 00:23:01,640 Time : 2.0 -- Train Train2 Wait for 1 unit time
-2019-10-07 00:23:02,140 Time : 2 Updating Graph
-2019-10-07 00:23:02,319 Time : 2.0 -- Train Train1 On track Zeta-Beta
-2019-10-07 00:23:02,319 Time : 3.0 -- Train Train2 Try to depart to track Beta-Zeta
-2019-10-07 00:23:02,820 Time : 3 Updating Graph
-2019-10-07 00:23:03,489 Time : 4 Updating Graph
-2019-10-07 00:23:04,124 Time : 5 Updating Graph
-2019-10-07 00:23:04,778 Time : 6 Updating Graph
-2019-10-07 00:23:05,446 Time : 7 Updating Graph
-2019-10-07 00:23:06,156 Time : 8 Updating Graph
-2019-10-07 00:23:06,807 Time : 9 Updating Graph
-2019-10-07 00:23:06,987 Time : 10.0 -- Train Train1 Travelled on track Zeta-Beta
-2019-10-07 00:23:07,488 Time : 10 Updating Graph
-2019-10-07 00:23:07,669 Time : 11.0 -- Train Train1 Try to arrive at station Beta
-2019-10-07 00:23:08,170 Time : 11 Updating Graph
-2019-10-07 00:23:08,821 Time : 12 Updating Graph
-2019-10-07 00:23:09,478 Time : 13 Updating Graph
-2019-10-07 00:23:10,137 Time : 14 Updating Graph
-2019-10-07 00:23:10,842 Time : 15 Updating Graph
-2019-10-07 00:23:11,514 Time : 16 Updating Graph
-2019-10-07 00:23:12,196 Time : 17 Updating Graph
-2019-10-07 00:23:12,860 Time : 18 Updating Graph
-2019-10-07 00:23:13,526 Time : 19 Updating Graph
-2019-10-07 00:23:14,181 Time : 20 Updating Graph
-2019-10-07 00:23:14,838 Time : 21 Updating Graph
-2019-10-07 00:23:15,500 Time : 22 Updating Graph
-2019-10-07 00:23:16,153 Time : 23 Updating Graph
-2019-10-07 00:23:16,803 Time : 24 Updating Graph
-2019-10-07 00:23:17,460 Time : 25 Updating Graph
-2019-10-07 00:23:18,117 Time : 26 Updating Graph
-2019-10-07 00:23:18,773 Time : 27 Updating Graph
-2019-10-07 00:23:19,429 Time : 28 Updating Graph
-2019-10-07 00:23:20,098 Time : 29 Updating Graph
-2019-10-07 00:23:20,817 Time : 30 Updating Graph
-2019-10-07 00:23:21,488 Time : 31 Updating Graph
-2019-10-07 00:23:22,206 Time : 32 Updating Graph
-2019-10-07 00:23:22,848 Time : 33 Updating Graph
-2019-10-07 00:23:23,506 Time : 34 Updating Graph
-2019-10-07 00:23:24,161 Time : 35 Updating Graph
-2019-10-07 00:23:24,812 Time : 36 Updating Graph
-2019-10-07 00:23:25,472 Time : 37 Updating Graph
-2019-10-07 00:23:26,130 Time : 38 Updating Graph
-2019-10-07 00:23:26,786 Time : 39 Updating Graph
-2019-10-07 00:23:27,440 Time : 40 Updating Graph
-2019-10-07 00:23:28,099 Time : 41 Updating Graph
-2019-10-07 00:23:28,781 Time : 42 Updating Graph
-2019-10-07 00:23:29,436 Time : 43 Updating Graph
-2019-10-07 00:23:30,095 Time : 44 Updating Graph
-2019-10-07 00:23:30,751 Time : 45 Updating Graph
-2019-10-07 00:23:31,405 Time : 46 Updating Graph
-2019-10-07 00:23:32,055 Time : 47 Updating Graph
-2019-10-07 00:23:32,711 Time : 48 Updating Graph
-2019-10-07 00:23:33,417 Time : 49 Updating Graph
-2019-10-07 00:23:34,071 Time : 50 Updating Graph
-2019-10-07 00:23:34,782 Time : 51 Updating Graph
-2019-10-07 00:23:35,500 Time : 52 Updating Graph
-2019-10-07 00:23:36,207 Time : 53 Updating Graph
-2019-10-07 00:23:36,871 Time : 54 Updating Graph
-2019-10-07 00:23:37,525 Time : 55 Updating Graph
-2019-10-07 00:23:38,225 Time : 56 Updating Graph
-2019-10-07 00:23:39,012 Time : 57 Updating Graph
-2019-10-07 00:23:39,722 Time : 58 Updating Graph
-2019-10-07 00:23:40,469 Time : 59 Updating Graph
-2019-10-07 00:23:41,133 Time : 60 Updating Graph
-2019-10-07 00:23:41,801 Time : 61 Updating Graph
-2019-10-07 00:23:42,454 Time : 62 Updating Graph
-2019-10-07 00:23:43,158 Time : 63 Updating Graph
-2019-10-07 00:23:43,882 Time : 64 Updating Graph
-2019-10-07 00:23:44,579 Time : 65 Updating Graph
-2019-10-07 00:23:45,218 Time : 66 Updating Graph
-2019-10-07 00:23:45,876 Time : 67 Updating Graph
-2019-10-07 00:23:46,558 Time : 68 Updating Graph
-2019-10-07 00:23:47,217 Time : 69 Updating Graph
-2019-10-07 00:23:47,876 Time : 70 Updating Graph
-2019-10-07 00:23:48,537 Time : 71 Updating Graph
-2019-10-07 00:23:49,198 Time : 72 Updating Graph
-2019-10-07 00:23:49,858 Time : 73 Updating Graph
-2019-10-07 00:23:50,514 Time : 74 Updating Graph
-2019-10-07 00:23:51,165 Time : 75 Updating Graph
-2019-10-07 00:23:51,892 Time : 76 Updating Graph
-2019-10-07 00:23:52,563 Time : 77 Updating Graph
-2019-10-07 00:23:53,227 Time : 78 Updating Graph
-2019-10-07 00:23:53,888 Time : 79 Updating Graph
+2019-10-07 02:23:42,303 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-07 02:23:42,415 Time : 0 -- Train Train1 initiating
+2019-10-07 02:23:42,416 Time : 0 -- Train Train2 initiating
+2019-10-07 02:23:42,917 Time : 1 Updating Graph
+2019-10-07 02:23:42,948 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-07 02:23:42,992 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-07 02:23:43,081 Time : 1 -- Train Train1 initiated.
+2019-10-07 02:23:43,081 Time : 1 -- Train Train2 initiated.
+2019-10-07 02:23:43,081 Time : 2.0 -- Train Train1 Wait for 1 unit time
+2019-10-07 02:23:43,081 Time : 2.0 -- Train Train2 Try to depart to track Beta-Zeta
+2019-10-07 02:23:43,582 Time : 2 Updating Graph
+2019-10-07 02:23:43,756 Time : 2.0 -- Train Train2 On track Beta-Zeta
+2019-10-07 02:23:43,757 Time : 3.0 -- Train Train1 Wait for 1 unit time
+2019-10-07 02:23:44,258 Time : 3 Updating Graph
+2019-10-07 02:23:44,439 Time : 4.0 -- Train Train1 Wait for 1 unit time
+2019-10-07 02:23:44,940 Time : 4 Updating Graph
+2019-10-07 02:23:45,093 Time : 5.0 -- Train Train1 Try to depart to track Zeta-Beta
+2019-10-07 02:23:45,594 Time : 5 Updating Graph
+2019-10-07 02:23:46,242 Time : 6 Updating Graph
+2019-10-07 02:23:46,895 Time : 7 Updating Graph
+2019-10-07 02:23:47,561 Time : 8 Updating Graph
+2019-10-07 02:23:48,213 Time : 9 Updating Graph
+2019-10-07 02:23:48,364 Time : 10.0 -- Train Train2 Travelled on track Beta-Zeta
+2019-10-07 02:23:48,864 Time : 10 Updating Graph
+2019-10-07 02:23:49,016 Time : 11.0 -- Train Train2 Wait for 1 unit time
+2019-10-07 02:23:49,517 Time : 11 Updating Graph
+2019-10-07 02:23:49,638 Time : 12.0 -- Train Train2 Wait for 1 unit time
+2019-10-07 02:23:50,139 Time : 12 Updating Graph
+2019-10-07 02:23:50,291 Time : 13.0 -- Train Train2 Wait for 1 unit time
+2019-10-07 02:23:50,792 Time : 13 Updating Graph
+2019-10-07 02:23:50,913 Time : 14.0 -- Train Train2 Try to arrive at station Zeta
+2019-10-07 02:23:51,414 Time : 14 Updating Graph
+2019-10-07 02:23:56,738 Time : 15 Updating Graph
+2019-10-07 02:23:57,365 Time : 16 Updating Graph
+2019-10-07 02:23:57,991 Time : 17 Updating Graph
+2019-10-07 02:23:58,623 Time : 18 Updating Graph
+2019-10-07 02:23:59,251 Time : 19 Updating Graph
+2019-10-07 02:23:59,851 Time : 20 Updating Graph
+2019-10-07 02:24:00,488 Time : 21 Updating Graph
+2019-10-07 02:24:01,114 Time : 22 Updating Graph
+2019-10-07 02:24:01,742 Time : 23 Updating Graph
+2019-10-07 02:24:02,341 Time : 24 Updating Graph
+2019-10-07 02:24:02,942 Time : 25 Updating Graph
+2019-10-07 02:24:03,573 Time : 26 Updating Graph
+2019-10-07 02:24:04,203 Time : 27 Updating Graph
+2019-10-07 02:24:04,832 Time : 28 Updating Graph
+2019-10-07 02:24:05,469 Time : 29 Updating Graph

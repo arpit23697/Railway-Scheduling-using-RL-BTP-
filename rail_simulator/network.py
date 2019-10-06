@@ -77,7 +77,7 @@ class Station:
 
 class Track:
     id_ = 0
-    def __init__ (self , total_parallel_tracks , length_of_tracks , env):
+    def __init__ (self , total_parallel_tracks , length_of_tracks , node_x , node_y,  env):
         '''
         Tracks in between the stations
         Note : In this model, we are not using multigraph to represent multiple tracks in between the stations
@@ -88,6 +88,8 @@ class Track:
         @parameter :
         total_parallel_tracks
         length_of_tracks : numpy array for length of each track
+        node_x : one end of the track
+        node_y : other end of the track
         env : simpy environment
         '''
         
@@ -98,6 +100,8 @@ class Track:
         self.n_parallel_track = total_parallel_tracks
         self.length_of_tracks = length_of_tracks
         self.average_length = np.mean(self.length_of_tracks)
+        self.node_x = node_x
+        self.node_y = node_y
         self.env = env 
 
         # All the tracks are initially free
@@ -142,6 +146,7 @@ class Track:
         '''
         print('*' * 50)
         print("Tracks ID : {}".format(self.id) )
+        print("Connecting : {} - {}".format(self.node_x , self.node_y))
         print("Number of tracks : {}".format(self.n_parallel_track))
         print("Average length : {}".format(self.average_length) )
         print("Track status")
@@ -207,7 +212,7 @@ class Network:
                 track_length = np.array([int(line[i]) for i in range(3 , n_tracks + 3)])
                 
                 #adding the edge to the graph
-                t = Track(n_tracks , track_length , env)
+                t = Track(n_tracks , track_length , node_x , node_y , env)
                 self.G.add_edge(node_x , node_y , weight = np.mean(track_length) , details=t)
 
     def get_station_resource (self , name):
@@ -361,6 +366,21 @@ class Network:
         for e_x , e_y in self.G.edges:
             self.G[e_x][e_y]['details'].print_details()
 
+    def get_stations (self):
+
+        #Return all the stations in the list
+        stations_list = []
+        for n in list(self.G.nodes):
+            stations_list.append(self.G.nodes[n]['details'])
+        
+        return stations_list
             
+    def get_tracks (self):
+
+        track_list = []
+        for e_x , e_y in self.G.edges:
+            track_list.append(self.G[e_x][e_y]['details'])
+
+        return track_list
         
         
