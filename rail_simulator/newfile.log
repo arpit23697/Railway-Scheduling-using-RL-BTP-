@@ -1,47 +1,30 @@
-2019-10-07 02:23:42,303 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-07 02:23:42,415 Time : 0 -- Train Train1 initiating
-2019-10-07 02:23:42,416 Time : 0 -- Train Train2 initiating
-2019-10-07 02:23:42,917 Time : 1 Updating Graph
-2019-10-07 02:23:42,948 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-07 02:23:42,992 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-07 02:23:43,081 Time : 1 -- Train Train1 initiated.
-2019-10-07 02:23:43,081 Time : 1 -- Train Train2 initiated.
-2019-10-07 02:23:43,081 Time : 2.0 -- Train Train1 Wait for 1 unit time
-2019-10-07 02:23:43,081 Time : 2.0 -- Train Train2 Try to depart to track Beta-Zeta
-2019-10-07 02:23:43,582 Time : 2 Updating Graph
-2019-10-07 02:23:43,756 Time : 2.0 -- Train Train2 On track Beta-Zeta
-2019-10-07 02:23:43,757 Time : 3.0 -- Train Train1 Wait for 1 unit time
-2019-10-07 02:23:44,258 Time : 3 Updating Graph
-2019-10-07 02:23:44,439 Time : 4.0 -- Train Train1 Wait for 1 unit time
-2019-10-07 02:23:44,940 Time : 4 Updating Graph
-2019-10-07 02:23:45,093 Time : 5.0 -- Train Train1 Try to depart to track Zeta-Beta
-2019-10-07 02:23:45,594 Time : 5 Updating Graph
-2019-10-07 02:23:46,242 Time : 6 Updating Graph
-2019-10-07 02:23:46,895 Time : 7 Updating Graph
-2019-10-07 02:23:47,561 Time : 8 Updating Graph
-2019-10-07 02:23:48,213 Time : 9 Updating Graph
-2019-10-07 02:23:48,364 Time : 10.0 -- Train Train2 Travelled on track Beta-Zeta
-2019-10-07 02:23:48,864 Time : 10 Updating Graph
-2019-10-07 02:23:49,016 Time : 11.0 -- Train Train2 Wait for 1 unit time
-2019-10-07 02:23:49,517 Time : 11 Updating Graph
-2019-10-07 02:23:49,638 Time : 12.0 -- Train Train2 Wait for 1 unit time
-2019-10-07 02:23:50,139 Time : 12 Updating Graph
-2019-10-07 02:23:50,291 Time : 13.0 -- Train Train2 Wait for 1 unit time
-2019-10-07 02:23:50,792 Time : 13 Updating Graph
-2019-10-07 02:23:50,913 Time : 14.0 -- Train Train2 Try to arrive at station Zeta
-2019-10-07 02:23:51,414 Time : 14 Updating Graph
-2019-10-07 02:23:56,738 Time : 15 Updating Graph
-2019-10-07 02:23:57,365 Time : 16 Updating Graph
-2019-10-07 02:23:57,991 Time : 17 Updating Graph
-2019-10-07 02:23:58,623 Time : 18 Updating Graph
-2019-10-07 02:23:59,251 Time : 19 Updating Graph
-2019-10-07 02:23:59,851 Time : 20 Updating Graph
-2019-10-07 02:24:00,488 Time : 21 Updating Graph
-2019-10-07 02:24:01,114 Time : 22 Updating Graph
-2019-10-07 02:24:01,742 Time : 23 Updating Graph
-2019-10-07 02:24:02,341 Time : 24 Updating Graph
-2019-10-07 02:24:02,942 Time : 25 Updating Graph
-2019-10-07 02:24:03,573 Time : 26 Updating Graph
-2019-10-07 02:24:04,203 Time : 27 Updating Graph
-2019-10-07 02:24:04,832 Time : 28 Updating Graph
-2019-10-07 02:24:05,469 Time : 29 Updating Graph
+2019-10-07 02:39:02,489 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-07 02:39:02,614 Time : 0 -- Train Train1 initiating
+2019-10-07 02:39:02,614 Time : 0 -- Train Train2 initiating
+2019-10-07 02:39:03,115 Time : 1 Updating Graph
+2019-10-07 02:39:03,145 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-07 02:39:03,188 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-07 02:39:03,280 Time : 1 -- Train Train1 initiated.
+2019-10-07 02:39:03,280 Time : 1 -- Train Train2 initiated.
+2019-10-07 02:39:03,280 Time : 2.0 -- Train Train1 Try to depart to track Zeta-Beta
+2019-10-07 02:39:03,280 Time : 2.0 -- Train Train2 Wait for 1 unit time
+2019-10-07 02:39:03,781 Time : 2 Updating Graph
+2019-10-07 02:39:03,972 Time : 2.0 -- Train Train1 On track Zeta-Beta
+2019-10-07 02:39:03,972 Time : 3.0 -- Train Train2 Wait for 1 unit time
+2019-10-07 02:39:04,473 Time : 3 Updating Graph
+2019-10-07 02:39:04,627 Time : 4.0 -- Train Train2 Try to depart to track Beta-Zeta
+2019-10-07 02:39:05,128 Time : 4 Updating Graph
+2019-10-07 02:39:05,779 Time : 5 Updating Graph
+2019-10-07 02:39:06,429 Time : 6 Updating Graph
+2019-10-07 02:39:07,050 Time : 7 Updating Graph
+2019-10-07 02:39:07,741 Time : 8 Updating Graph
+2019-10-07 02:39:08,400 Time : 9 Updating Graph
+2019-10-07 02:39:08,557 Time : 10.0 -- Train Train1 Travelled on track Zeta-Beta
+2019-10-07 02:39:09,058 Time : 10 Updating Graph
+2019-10-07 02:39:09,193 Time : 11.0 -- Train Train1 Wait for 1 unit time
+2019-10-07 02:39:09,694 Time : 11 Updating Graph
+2019-10-07 02:39:09,849 Time : 12.0 -- Train Train1 Wait for 1 unit time
+2019-10-07 02:39:10,349 Time : 12 Updating Graph
+2019-10-07 02:39:10,539 Time : 13.0 -- Train Train1 Try to arrive at station Beta
+2019-10-07 02:39:11,039 Time : 13 Updating Graph
+2019-10-07 02:39:11,689 Time : 14 Updating Graph
