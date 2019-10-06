@@ -1,0 +1,8 @@
+Alpha 5
+Beta 1
+Gamma 2
+Delta 3
+Zeta 1
+A 6
+B 2
+C 1
