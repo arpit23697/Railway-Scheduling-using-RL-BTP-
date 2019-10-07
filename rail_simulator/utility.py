@@ -259,7 +259,7 @@ def create_state_for_deadlock (N , trains):
 
     for p, t in enumerate(trains):
         #Train is running
-        if (t.running or (t.done == False and t.resouce is not None) ):
+        if (t.running or (t.done == False and t.resource is not None) ):
 
             #See if the current is station or track 
             current = t.current
