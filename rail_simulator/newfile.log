@@ -1,27 +1,73 @@
-2019-10-07 22:00:07,273 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-07 22:00:07,400 Time : 0 -- Train Train1 initiating
-2019-10-07 22:00:07,400 Time : 0 -- Train Train2 initiating
-2019-10-07 22:00:07,901 Time : 1 Updating Graph
-2019-10-07 22:00:07,924 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-07 22:00:07,995 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-07 22:00:08,083 Time : 1 -- Train Train1 initiated.
-2019-10-07 22:00:08,083 Time : 1 -- Train Train2 initiated.
-2019-10-07 22:00:08,083 Time : 2.0 -- Train Train1 Wait for 1 unit time
-2019-10-07 22:00:08,083 Time : 2.0 -- Train Train2 Try to depart to track Beta-Zeta
-2019-10-07 22:00:08,584 Time : 2 Updating Graph
-2019-10-07 22:00:08,738 Time : 2.0 -- Train Train2 On track Beta-Zeta
-2019-10-07 22:00:08,738 Time : 3.0 -- Train Train1 Try to depart to track Zeta-Beta
-2019-10-07 22:00:09,239 Time : 3 Updating Graph
-2019-10-07 22:00:09,863 Time : 4 Updating Graph
-2019-10-07 22:00:10,511 Time : 5 Updating Graph
-2019-10-07 22:00:11,131 Time : 6 Updating Graph
-2019-10-07 22:00:11,782 Time : 7 Updating Graph
-2019-10-07 22:00:12,438 Time : 8 Updating Graph
-2019-10-07 22:00:13,093 Time : 9 Updating Graph
-2019-10-07 22:00:13,244 Time : 10.0 -- Train Train2 Travelled on track Beta-Zeta
-2019-10-07 22:00:13,745 Time : 10 Updating Graph
-2019-10-07 22:00:13,866 Time : 11.0 -- Train Train2 Try to arrive at station Zeta
-2019-10-07 22:00:14,367 Time : 11 Updating Graph
-2019-10-07 22:00:14,990 Time : 12 Updating Graph
-2019-10-07 22:00:15,643 Time : 13 Updating Graph
-2019-10-07 22:00:16,290 Time : 14 Updating Graph
+2019-10-08 01:49:26,973 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-08 01:49:27,086 Time : 0 -- Train Train1 initiating
+2019-10-08 01:49:27,086 Time : 0 -- Train Train2 initiating
+2019-10-08 01:49:27,086 Time : 0 -- Train Shatabdi initiating
+2019-10-08 01:49:27,086 Time : 0 -- Train MalGaddi initiating
+2019-10-08 01:49:27,086 Time : 0 -- Train Intercity initiating
+2019-10-08 01:49:27,086 Time : 0 -- Train Express initiating
+2019-10-08 01:49:27,587 Time : 1 Updating Graph
+2019-10-08 01:49:27,616 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-08 01:49:27,661 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-08 01:49:27,749 Time : 1 -- Train Train1 initiated.
+2019-10-08 01:49:27,749 Time : 1 -- Train Train2 initiated.
+2019-10-08 01:49:27,750 Time : 2.0 -- Train Train1 Wait for 1 unit time
+2019-10-08 01:49:27,750 Time : 2.0 -- Train Train2 Wait for 1 unit time
+2019-10-08 01:49:28,251 Time : 2 Updating Graph
+2019-10-08 01:49:28,416 Time : 3.0 -- Train Train1 Wait for 1 unit time
+2019-10-08 01:49:28,416 Time : 3.0 -- Train Train2 Try to depart to track Beta-Zeta
+2019-10-08 01:49:28,917 Time : 3 Updating Graph
+2019-10-08 01:49:29,068 Time : 3.0 -- Train Train2 On track Beta-Zeta
+2019-10-08 01:49:29,068 Time : 4.0 -- Train Train1 Wait for 1 unit time
+2019-10-08 01:49:29,569 Time : 4 Updating Graph
+2019-10-08 01:49:29,721 Time : 5.0 -- Train Train1 Wait for 1 unit time
+2019-10-08 01:49:30,222 Time : 5 Updating Graph
+2019-10-08 01:49:30,376 Time : 6.0 -- Train Train1 Try to depart to track Zeta-Beta
+2019-10-08 01:49:30,877 Time : 6 Updating Graph
+2019-10-08 01:49:31,531 Time : 7 Updating Graph
+2019-10-08 01:49:31,709 Time : 7 -- Train MalGaddi initiated.
+2019-10-08 01:49:31,709 Time : 8.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-08 01:49:32,210 Time : 8 Updating Graph
+2019-10-08 01:49:32,360 Time : 9.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-08 01:49:32,860 Time : 9 Updating Graph
+2019-10-08 01:49:33,009 Time : 10.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-08 01:49:33,510 Time : 10 Updating Graph
+2019-10-08 01:49:33,657 Time : 10 -- Train Shatabdi initiated.
+2019-10-08 01:49:33,657 Time : 11.0 -- Train MalGaddi Try to depart to track Alpha-Beta
+2019-10-08 01:49:33,657 Time : 11.0 -- Train Shatabdi Try to depart to track Alpha-Beta
+2019-10-08 01:49:33,657 Time : 11.0 -- Train Train2 Travelled on track Beta-Zeta
+2019-10-08 01:49:34,158 Time : 11 Updating Graph
+2019-10-08 01:49:34,325 Time : 11.0 -- Train MalGaddi On track Alpha-Beta
+2019-10-08 01:49:34,326 Time : 11.0 -- Train Shatabdi On track Alpha-Beta
+2019-10-08 01:49:34,326 Time : 12.0 -- Train Train2 Try to arrive at station Zeta
+2019-10-08 01:49:34,826 Time : 12 Updating Graph
+2019-10-08 01:49:35,039 Time : 12 -- Train Intercity initiated.
+2019-10-08 01:49:35,040 Time : 12 -- Train Express initiated.
+2019-10-08 01:49:35,040 Time : 13.0 -- Train Intercity Try to depart to track Alpha-Delta
+2019-10-08 01:49:35,041 Time : 13.0 -- Train Express Try to depart to track A-B
+2019-10-08 01:49:35,541 Time : 13 Updating Graph
+2019-10-08 01:49:35,778 Time : 13.0 -- Train Intercity On track Alpha-Delta
+2019-10-08 01:49:35,778 Time : 13.0 -- Train Express On track A-B
+2019-10-08 01:49:36,279 Time : 14 Updating Graph
+2019-10-08 01:49:36,520 Time : 15.0 -- Train MalGaddi Travelled on track Alpha-Beta
+2019-10-08 01:49:36,520 Time : 15.0 -- Train Shatabdi Travelled on track Alpha-Beta
+2019-10-08 01:49:37,021 Time : 15 Updating Graph
+2019-10-08 01:49:37,176 Time : 16.0 -- Train MalGaddi Wait for 1 unit time
+2019-10-08 01:49:37,176 Time : 16.0 -- Train Shatabdi Try to arrive at station Beta
+2019-10-08 01:49:37,677 Time : 16 Updating Graph
+2019-10-08 01:49:37,833 Time : 16.0 -- Train Shatabdi Arrived at station Beta
+2019-10-08 01:49:37,833 Time : 17.0 -- Train MalGaddi Try to arrive at station Beta
+2019-10-08 01:49:37,834 Time : 17.0 -- Train Shatabdi Wait for 1 unit time
+2019-10-08 01:49:38,335 Time : 17 Updating Graph
+2019-10-08 01:49:38,487 Time : 18.0 -- Train Shatabdi Wait for 1 unit time
+2019-10-08 01:49:38,988 Time : 18 Updating Graph
+2019-10-08 01:49:39,110 Time : 19.0 -- Train Shatabdi Try to depart to track Beta-Gamma
+2019-10-08 01:49:39,110 Time : 19.0 -- Train Intercity Travelled on track Alpha-Delta
+2019-10-08 01:49:39,611 Time : 19 Updating Graph
+2019-10-08 01:49:39,768 Time : 19.0 -- Train Shatabdi On track Beta-Gamma
+2019-10-08 01:49:39,768 Time : 19.0 -- Train MalGaddi Arrived at station Beta
+2019-10-08 01:49:39,768 Time : 20.0 -- Train Intercity Try to arrive at station Delta
+2019-10-08 01:49:39,769 Time : 20.0 -- Train MalGaddi Try to depart to track Beta-Gamma
+2019-10-08 01:49:39,769 Time : 20 Checking Deadlock
+2019-10-08 01:49:40,270 Time : 20 Updating Graph
+2019-10-08 01:49:40,421 Time : 20.0 -- Train Intercity Arrived at station Delta
+2019-10-08 01:49:40,421 Time : 21.0 Terminating Simulation. Deadlock detected
