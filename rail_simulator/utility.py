@@ -32,7 +32,7 @@ def create_resource_usage_graph (trains , N):
 
     for t in trains:
         #If the train is currently running or reached the destination but not freed the resource 
-        if (t.running or (t.done == False and t.resouce is not None) ):
+        if (t.running or (t.done == False and t.resource is not None) ):
 
 
             current = t.current

@@ -1,0 +1,67 @@
+2019-10-31 20:17:59,281 Time : 0 -- Train Shatabdi Put in the network
+2019-10-31 20:17:59,431 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-31 20:18:00,045 Time : 1 Updating Graph
+2019-10-31 20:18:00,075 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-31 20:18:00,118 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-10-31 20:18:00,742 Time : 2 Updating Graph
+2019-10-31 20:18:01,399 Time : 3 Updating Graph
+2019-10-31 20:18:02,058 Time : 4 Updating Graph
+2019-10-31 20:18:02,717 Time : 5 Updating Graph
+2019-10-31 20:18:03,417 Time : 6 Updating Graph
+2019-10-31 20:18:04,070 Time : 7 Updating Graph
+2019-10-31 20:18:04,720 Time : 8 Updating Graph
+2019-10-31 20:18:05,341 Time : 9 Updating Graph
+2019-10-31 20:18:05,494 Time : 10 -- Train Shatabdi Can be put in the network
+2019-10-31 20:18:05,995 Time : 10 Updating Graph
+2019-10-31 20:18:06,142 time 10 : len 1
+2019-10-31 20:18:06,142 time 10 : len 0
+2019-10-31 20:18:06,142 Time : 10 -- Train Shatabdi initiating
+2019-10-31 20:18:06,142 Time : 10 -- Train Shatabdi initiated. On Track Alpha
+2019-10-31 20:18:06,643 Time : 11 Updating Graph
+2019-10-31 20:18:06,764 time 11 : len 1
+2019-10-31 20:18:06,764 time 11 : len 0
+2019-10-31 20:18:06,764 Time : 11 -- Train Shatabdi Try to depart to track Alpha-Beta
+2019-10-31 20:18:06,765 Time : 11 -- Train Shatabdi On track Alpha-Beta
+2019-10-31 20:18:07,265 Time : 12 Updating Graph
+2019-10-31 20:18:07,921 Time : 13 Updating Graph
+2019-10-31 20:18:08,545 Time : 14 Updating Graph
+2019-10-31 20:18:08,688 Time : 15.0 -- Train Shatabdi Travelled on track Alpha-Beta
+2019-10-31 20:18:09,190 Time : 15 Updating Graph
+2019-10-31 20:18:09,813 Time : 16 Updating Graph
+2019-10-31 20:18:09,933 time 16 : len 1
+2019-10-31 20:18:09,933 time 16 : len 0
+2019-10-31 20:18:09,933 Time : 16 -- Train Shatabdi Wait for 1 unit time
+2019-10-31 20:18:10,435 Time : 17 Updating Graph
+2019-10-31 20:18:11,060 Time : 18 Updating Graph
+2019-10-31 20:18:11,179 time 18 : len 1
+2019-10-31 20:18:11,179 time 18 : len 0
+2019-10-31 20:18:11,179 Time : 18 -- Train Shatabdi Wait for 1 unit time
+2019-10-31 20:18:11,680 Time : 19 Updating Graph
+2019-10-31 20:18:11,834 Time : 20 Checking Deadlock
+2019-10-31 20:18:12,336 Time : 20 Updating Graph
+2019-10-31 20:18:12,461 time 20 : len 1
+2019-10-31 20:18:12,461 time 20 : len 0
+2019-10-31 20:18:12,461 Time : 20 -- Train Shatabdi Wait for 1 unit time
+2019-10-31 20:18:12,962 Time : 21 Updating Graph
+2019-10-31 20:18:13,588 Time : 22 Updating Graph
+2019-10-31 20:18:13,711 time 22 : len 1
+2019-10-31 20:18:13,711 time 22 : len 0
+2019-10-31 20:18:13,711 Time : 22 -- Train Shatabdi Wait for 1 unit time
+2019-10-31 20:18:14,212 Time : 23 Updating Graph
+2019-10-31 20:18:14,868 Time : 24 Updating Graph
+2019-10-31 20:18:15,013 time 24 : len 1
+2019-10-31 20:18:15,013 time 24 : len 0
+2019-10-31 20:18:15,013 Time : 24 -- Train Shatabdi Wait for 1 unit time
+2019-10-31 20:18:15,515 Time : 25 Updating Graph
+2019-10-31 20:18:16,137 Time : 26 Updating Graph
+2019-10-31 20:18:16,256 time 26 : len 1
+2019-10-31 20:18:16,256 time 26 : len 0
+2019-10-31 20:18:16,256 Time : 26 -- Train Shatabdi Try to arrive at station Beta
+2019-10-31 20:18:16,256 Time : 26 -- Train Shatabdi Arrived at station Beta
+2019-10-31 20:18:16,757 Time : 27 Updating Graph
+2019-10-31 20:18:16,899 time 27 : len 1
+2019-10-31 20:18:16,899 time 27 : len 0
+2019-10-31 20:18:16,899 Time : 27 -- Train Shatabdi Try to depart to track Beta-Gamma
+2019-10-31 20:18:16,899 Time : 27 -- Train Shatabdi On track Beta-Gamma
+2019-10-31 20:18:17,400 Time : 28 Updating Graph
+2019-10-31 20:18:18,023 Time : 29 Updating Graph
