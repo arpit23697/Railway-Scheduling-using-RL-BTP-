@@ -1,5 +1,5 @@
 Shatabdi 1 3 4
-Alpha 10
-Beta 15
-Gamma 27
-Zeta 32
+Alpha 10 11
+Beta 15 17
+Gamma 27 32
+Zeta 34 45
