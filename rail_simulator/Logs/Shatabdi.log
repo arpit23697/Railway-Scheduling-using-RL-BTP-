@@ -1,27 +1,183 @@
-2019-11-01 18:25:04,839 INFO Time : 0 -- Train Shatabdi Putting in the network
-2019-11-01 18:25:04,848 INFO Time : 10 -- Train Shatabdi Can be put in the network
-2019-11-01 18:25:04,848 INFO Time : 10 -- Acting for train Shatabdi
-2019-11-01 18:25:04,849 INFO Time : 10 -- Train Shatabdi Wait for 1 unit time
-2019-11-01 18:25:04,851 INFO Time : 11 -- Acting for train Shatabdi
-2019-11-01 18:25:04,851 INFO Time : 11 -- Train Shatabdi initiating
-2019-11-01 18:25:04,851 INFO Time : 11 -- Train Shatabdi initiated. On Track Alpha
-2019-11-01 18:25:04,852 INFO Time : 11 -- Acting for train Shatabdi
-2019-11-01 18:25:04,852 INFO Time : 11 -- Train Shatabdi Try to depart to track Alpha-Beta
-2019-11-01 18:25:04,853 INFO Time : 11 -- Train Shatabdi On track Alpha-Beta
-2019-11-01 18:25:04,864 INFO Time : 15.0 -- Train Shatabdi Travelled on track Alpha-Beta
-2019-11-01 18:25:04,865 INFO Time : 15 -- Acting for train Shatabdi
-2019-11-01 18:25:04,865 INFO Time : 15 -- Train Shatabdi Wait for 1 unit time
-2019-11-01 18:25:04,869 INFO Time : 16 -- Acting for train Shatabdi
-2019-11-01 18:25:04,869 INFO Time : 16 -- Train Shatabdi Wait for 1 unit time
-2019-11-01 18:25:04,871 INFO Time : 17 -- Acting for train Shatabdi
-2019-11-01 18:25:04,872 INFO Time : 17 -- Train Shatabdi Try to arrive at station Beta
-2019-11-01 18:25:04,875 INFO Time : 19 -- Train Shatabdi Arrived at station Beta
-2019-11-01 18:25:04,876 INFO Time : 19 -- Acting for train Shatabdi
-2019-11-01 18:25:04,876 INFO Time : 19 -- Train Shatabdi Try to depart to track Beta-Gamma
-2019-11-01 18:25:04,885 INFO Time : 23 -- Train Shatabdi On track Beta-Gamma
-2019-11-01 18:25:04,891 INFO Time : 27.0 -- Train Shatabdi Travelled on track Beta-Gamma
-2019-11-01 18:25:04,892 INFO Time : 27 -- Acting for train Shatabdi
-2019-11-01 18:25:04,892 INFO Time : 27 -- Train Shatabdi Try to arrive at station Gamma
-2019-11-01 18:25:04,892 INFO Time : 27 -- Train Shatabdi Arrived at station Gamma
-2019-11-01 18:25:04,892 INFO Time : 27 -- Acting for train Shatabdi
-2019-11-01 18:25:04,893 INFO Time : 27 -- Train Shatabdi Try to depart to track Gamma-Zeta
+2019-11-01 19:14:28,752 INFO Time : 0 -- Train Shatabdi Putting in the network
+2019-11-01 19:14:28,755 INFO Time : 10 -- Train Shatabdi Can be put in the network
+2019-11-01 19:14:28,755 INFO Time : 10 -- Acting for train Shatabdi
+2019-11-01 19:14:28,755 INFO Time : 10 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,756 INFO Time : 11 -- Acting for train Shatabdi
+2019-11-01 19:14:28,756 INFO Time : 11 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,757 INFO Time : 12 -- Acting for train Shatabdi
+2019-11-01 19:14:28,757 INFO Time : 12 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,758 INFO Time : 13 -- Acting for train Shatabdi
+2019-11-01 19:14:28,758 INFO Time : 13 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,759 INFO Time : 14 -- Acting for train Shatabdi
+2019-11-01 19:14:28,759 INFO Time : 14 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,760 INFO Time : 15 -- Acting for train Shatabdi
+2019-11-01 19:14:28,760 INFO Time : 15 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,761 INFO Time : 16 -- Acting for train Shatabdi
+2019-11-01 19:14:28,761 INFO Time : 16 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,762 INFO Time : 17 -- Acting for train Shatabdi
+2019-11-01 19:14:28,763 INFO Time : 17 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,763 INFO Time : 18 -- Acting for train Shatabdi
+2019-11-01 19:14:28,764 INFO Time : 18 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,764 INFO Time : 19 -- Acting for train Shatabdi
+2019-11-01 19:14:28,764 INFO Time : 19 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,766 INFO Time : 20 -- Acting for train Shatabdi
+2019-11-01 19:14:28,766 INFO Time : 20 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,767 INFO Time : 21 -- Acting for train Shatabdi
+2019-11-01 19:14:28,767 INFO Time : 21 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,768 INFO Time : 22 -- Acting for train Shatabdi
+2019-11-01 19:14:28,768 INFO Time : 22 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,770 INFO Time : 23 -- Acting for train Shatabdi
+2019-11-01 19:14:28,770 INFO Time : 23 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,771 INFO Time : 24 -- Acting for train Shatabdi
+2019-11-01 19:14:28,771 INFO Time : 24 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,772 INFO Time : 25 -- Acting for train Shatabdi
+2019-11-01 19:14:28,772 INFO Time : 25 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,773 INFO Time : 26 -- Acting for train Shatabdi
+2019-11-01 19:14:28,773 INFO Time : 26 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,775 INFO Time : 27 -- Acting for train Shatabdi
+2019-11-01 19:14:28,775 INFO Time : 27 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,776 INFO Time : 28 -- Acting for train Shatabdi
+2019-11-01 19:14:28,776 INFO Time : 28 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,777 INFO Time : 29 -- Acting for train Shatabdi
+2019-11-01 19:14:28,777 INFO Time : 29 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,779 INFO Time : 30 -- Acting for train Shatabdi
+2019-11-01 19:14:28,779 INFO Time : 30 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,780 INFO Time : 31 -- Acting for train Shatabdi
+2019-11-01 19:14:28,780 INFO Time : 31 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,782 INFO Time : 32 -- Acting for train Shatabdi
+2019-11-01 19:14:28,782 INFO Time : 32 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,783 INFO Time : 33 -- Acting for train Shatabdi
+2019-11-01 19:14:28,783 INFO Time : 33 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,785 INFO Time : 34 -- Acting for train Shatabdi
+2019-11-01 19:14:28,785 INFO Time : 34 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,786 INFO Time : 35 -- Acting for train Shatabdi
+2019-11-01 19:14:28,786 INFO Time : 35 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,787 INFO Time : 36 -- Acting for train Shatabdi
+2019-11-01 19:14:28,787 INFO Time : 36 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,789 INFO Time : 37 -- Acting for train Shatabdi
+2019-11-01 19:14:28,789 INFO Time : 37 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,790 INFO Time : 38 -- Acting for train Shatabdi
+2019-11-01 19:14:28,790 INFO Time : 38 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,791 INFO Time : 39 -- Acting for train Shatabdi
+2019-11-01 19:14:28,791 INFO Time : 39 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,793 INFO Time : 40 -- Acting for train Shatabdi
+2019-11-01 19:14:28,793 INFO Time : 40 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,794 INFO Time : 41 -- Acting for train Shatabdi
+2019-11-01 19:14:28,794 INFO Time : 41 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,795 INFO Time : 42 -- Acting for train Shatabdi
+2019-11-01 19:14:28,795 INFO Time : 42 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,796 INFO Time : 43 -- Acting for train Shatabdi
+2019-11-01 19:14:28,796 INFO Time : 43 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,798 INFO Time : 44 -- Acting for train Shatabdi
+2019-11-01 19:14:28,798 INFO Time : 44 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,799 INFO Time : 45 -- Acting for train Shatabdi
+2019-11-01 19:14:28,799 INFO Time : 45 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,800 INFO Time : 46 -- Acting for train Shatabdi
+2019-11-01 19:14:28,800 INFO Time : 46 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,802 INFO Time : 47 -- Acting for train Shatabdi
+2019-11-01 19:14:28,802 INFO Time : 47 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,803 INFO Time : 48 -- Acting for train Shatabdi
+2019-11-01 19:14:28,803 INFO Time : 48 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,804 INFO Time : 49 -- Acting for train Shatabdi
+2019-11-01 19:14:28,804 INFO Time : 49 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,805 INFO Time : 50 -- Acting for train Shatabdi
+2019-11-01 19:14:28,805 INFO Time : 50 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,807 INFO Time : 51 -- Acting for train Shatabdi
+2019-11-01 19:14:28,807 INFO Time : 51 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,808 INFO Time : 52 -- Acting for train Shatabdi
+2019-11-01 19:14:28,808 INFO Time : 52 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,810 INFO Time : 53 -- Acting for train Shatabdi
+2019-11-01 19:14:28,810 INFO Time : 53 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,811 INFO Time : 54 -- Acting for train Shatabdi
+2019-11-01 19:14:28,811 INFO Time : 54 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,812 INFO Time : 55 -- Acting for train Shatabdi
+2019-11-01 19:14:28,812 INFO Time : 55 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,813 INFO Time : 56 -- Acting for train Shatabdi
+2019-11-01 19:14:28,813 INFO Time : 56 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,815 INFO Time : 57 -- Acting for train Shatabdi
+2019-11-01 19:14:28,815 INFO Time : 57 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,816 INFO Time : 58 -- Acting for train Shatabdi
+2019-11-01 19:14:28,816 INFO Time : 58 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,817 INFO Time : 59 -- Acting for train Shatabdi
+2019-11-01 19:14:28,817 INFO Time : 59 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,818 INFO Time : 60 -- Acting for train Shatabdi
+2019-11-01 19:14:28,819 INFO Time : 60 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,820 INFO Time : 61 -- Acting for train Shatabdi
+2019-11-01 19:14:28,820 INFO Time : 61 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,821 INFO Time : 62 -- Acting for train Shatabdi
+2019-11-01 19:14:28,821 INFO Time : 62 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,822 INFO Time : 63 -- Acting for train Shatabdi
+2019-11-01 19:14:28,822 INFO Time : 63 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,824 INFO Time : 64 -- Acting for train Shatabdi
+2019-11-01 19:14:28,824 INFO Time : 64 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,825 INFO Time : 65 -- Acting for train Shatabdi
+2019-11-01 19:14:28,825 INFO Time : 65 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,826 INFO Time : 66 -- Acting for train Shatabdi
+2019-11-01 19:14:28,826 INFO Time : 66 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,827 INFO Time : 67 -- Acting for train Shatabdi
+2019-11-01 19:14:28,827 INFO Time : 67 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,829 INFO Time : 68 -- Acting for train Shatabdi
+2019-11-01 19:14:28,829 INFO Time : 68 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,830 INFO Time : 69 -- Acting for train Shatabdi
+2019-11-01 19:14:28,830 INFO Time : 69 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,831 INFO Time : 70 -- Acting for train Shatabdi
+2019-11-01 19:14:28,831 INFO Time : 70 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,832 INFO Time : 71 -- Acting for train Shatabdi
+2019-11-01 19:14:28,832 INFO Time : 71 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,834 INFO Time : 72 -- Acting for train Shatabdi
+2019-11-01 19:14:28,834 INFO Time : 72 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,835 INFO Time : 73 -- Acting for train Shatabdi
+2019-11-01 19:14:28,835 INFO Time : 73 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,836 INFO Time : 74 -- Acting for train Shatabdi
+2019-11-01 19:14:28,836 INFO Time : 74 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,837 INFO Time : 75 -- Acting for train Shatabdi
+2019-11-01 19:14:28,837 INFO Time : 75 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,839 INFO Time : 76 -- Acting for train Shatabdi
+2019-11-01 19:14:28,839 INFO Time : 76 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,840 INFO Time : 77 -- Acting for train Shatabdi
+2019-11-01 19:14:28,840 INFO Time : 77 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,841 INFO Time : 78 -- Acting for train Shatabdi
+2019-11-01 19:14:28,841 INFO Time : 78 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,842 INFO Time : 79 -- Acting for train Shatabdi
+2019-11-01 19:14:28,843 INFO Time : 79 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,844 INFO Time : 80 -- Acting for train Shatabdi
+2019-11-01 19:14:28,844 INFO Time : 80 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,845 INFO Time : 81 -- Acting for train Shatabdi
+2019-11-01 19:14:28,845 INFO Time : 81 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,847 INFO Time : 82 -- Acting for train Shatabdi
+2019-11-01 19:14:28,847 INFO Time : 82 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,848 INFO Time : 83 -- Acting for train Shatabdi
+2019-11-01 19:14:28,848 INFO Time : 83 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,849 INFO Time : 84 -- Acting for train Shatabdi
+2019-11-01 19:14:28,849 INFO Time : 84 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,850 INFO Time : 85 -- Acting for train Shatabdi
+2019-11-01 19:14:28,850 INFO Time : 85 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,852 INFO Time : 86 -- Acting for train Shatabdi
+2019-11-01 19:14:28,852 INFO Time : 86 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,853 INFO Time : 87 -- Acting for train Shatabdi
+2019-11-01 19:14:28,853 INFO Time : 87 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,854 INFO Time : 88 -- Acting for train Shatabdi
+2019-11-01 19:14:28,854 INFO Time : 88 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,855 INFO Time : 89 -- Acting for train Shatabdi
+2019-11-01 19:14:28,855 INFO Time : 89 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,857 INFO Time : 90 -- Acting for train Shatabdi
+2019-11-01 19:14:28,857 INFO Time : 90 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,858 INFO Time : 91 -- Acting for train Shatabdi
+2019-11-01 19:14:28,858 INFO Time : 91 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,859 INFO Time : 92 -- Acting for train Shatabdi
+2019-11-01 19:14:28,859 INFO Time : 92 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,860 INFO Time : 93 -- Acting for train Shatabdi
+2019-11-01 19:14:28,861 INFO Time : 93 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,862 INFO Time : 94 -- Acting for train Shatabdi
+2019-11-01 19:14:28,862 INFO Time : 94 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,863 INFO Time : 95 -- Acting for train Shatabdi
+2019-11-01 19:14:28,863 INFO Time : 95 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,864 INFO Time : 96 -- Acting for train Shatabdi
+2019-11-01 19:14:28,864 INFO Time : 96 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,866 INFO Time : 97 -- Acting for train Shatabdi
+2019-11-01 19:14:28,866 INFO Time : 97 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,867 INFO Time : 98 -- Acting for train Shatabdi
+2019-11-01 19:14:28,867 INFO Time : 98 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:14:28,868 INFO Time : 99 -- Acting for train Shatabdi
+2019-11-01 19:14:28,868 INFO Time : 99 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 19:18:51,156 INFO Time : 0 -- Train Shatabdi Putting in the network
