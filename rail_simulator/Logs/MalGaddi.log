@@ -1,190 +1,36 @@
-2019-11-01 19:14:28,752 INFO Time : 0 -- Train MalGaddi Putting in the network
-2019-11-01 19:14:28,753 INFO Time : 7 -- Train MalGaddi Can be put in the network
-2019-11-01 19:14:28,754 INFO Time : 7 -- Acting for train MalGaddi
-2019-11-01 19:14:28,754 INFO Time : 7 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,754 INFO Time : 8 -- Acting for train MalGaddi
-2019-11-01 19:14:28,754 INFO Time : 8 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,754 INFO Time : 9 -- Acting for train MalGaddi
-2019-11-01 19:14:28,755 INFO Time : 9 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,755 INFO Time : 10 -- Acting for train MalGaddi
-2019-11-01 19:14:28,755 INFO Time : 10 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,756 INFO Time : 11 -- Acting for train MalGaddi
-2019-11-01 19:14:28,756 INFO Time : 11 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,757 INFO Time : 12 -- Acting for train MalGaddi
-2019-11-01 19:14:28,757 INFO Time : 12 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,758 INFO Time : 13 -- Acting for train MalGaddi
-2019-11-01 19:14:28,758 INFO Time : 13 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,759 INFO Time : 14 -- Acting for train MalGaddi
-2019-11-01 19:14:28,759 INFO Time : 14 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,761 INFO Time : 15 -- Acting for train MalGaddi
-2019-11-01 19:14:28,761 INFO Time : 15 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,762 INFO Time : 16 -- Acting for train MalGaddi
-2019-11-01 19:14:28,762 INFO Time : 16 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,763 INFO Time : 17 -- Acting for train MalGaddi
-2019-11-01 19:14:28,763 INFO Time : 17 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,764 INFO Time : 18 -- Acting for train MalGaddi
-2019-11-01 19:14:28,764 INFO Time : 18 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,765 INFO Time : 19 -- Acting for train MalGaddi
-2019-11-01 19:14:28,765 INFO Time : 19 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,766 INFO Time : 20 -- Acting for train MalGaddi
-2019-11-01 19:14:28,766 INFO Time : 20 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,767 INFO Time : 21 -- Acting for train MalGaddi
-2019-11-01 19:14:28,767 INFO Time : 21 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,769 INFO Time : 22 -- Acting for train MalGaddi
-2019-11-01 19:14:28,769 INFO Time : 22 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,770 INFO Time : 23 -- Acting for train MalGaddi
-2019-11-01 19:14:28,770 INFO Time : 23 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,771 INFO Time : 24 -- Acting for train MalGaddi
-2019-11-01 19:14:28,771 INFO Time : 24 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,772 INFO Time : 25 -- Acting for train MalGaddi
-2019-11-01 19:14:28,772 INFO Time : 25 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,774 INFO Time : 26 -- Acting for train MalGaddi
-2019-11-01 19:14:28,774 INFO Time : 26 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,775 INFO Time : 27 -- Acting for train MalGaddi
-2019-11-01 19:14:28,775 INFO Time : 27 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,776 INFO Time : 28 -- Acting for train MalGaddi
-2019-11-01 19:14:28,776 INFO Time : 28 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,778 INFO Time : 29 -- Acting for train MalGaddi
-2019-11-01 19:14:28,778 INFO Time : 29 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,779 INFO Time : 30 -- Acting for train MalGaddi
-2019-11-01 19:14:28,779 INFO Time : 30 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,781 INFO Time : 31 -- Acting for train MalGaddi
-2019-11-01 19:14:28,781 INFO Time : 31 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,782 INFO Time : 32 -- Acting for train MalGaddi
-2019-11-01 19:14:28,782 INFO Time : 32 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,783 INFO Time : 33 -- Acting for train MalGaddi
-2019-11-01 19:14:28,783 INFO Time : 33 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,785 INFO Time : 34 -- Acting for train MalGaddi
-2019-11-01 19:14:28,785 INFO Time : 34 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,786 INFO Time : 35 -- Acting for train MalGaddi
-2019-11-01 19:14:28,786 INFO Time : 35 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,788 INFO Time : 36 -- Acting for train MalGaddi
-2019-11-01 19:14:28,788 INFO Time : 36 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,789 INFO Time : 37 -- Acting for train MalGaddi
-2019-11-01 19:14:28,789 INFO Time : 37 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,790 INFO Time : 38 -- Acting for train MalGaddi
-2019-11-01 19:14:28,790 INFO Time : 38 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,791 INFO Time : 39 -- Acting for train MalGaddi
-2019-11-01 19:14:28,791 INFO Time : 39 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,793 INFO Time : 40 -- Acting for train MalGaddi
-2019-11-01 19:14:28,793 INFO Time : 40 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,794 INFO Time : 41 -- Acting for train MalGaddi
-2019-11-01 19:14:28,794 INFO Time : 41 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,795 INFO Time : 42 -- Acting for train MalGaddi
-2019-11-01 19:14:28,795 INFO Time : 42 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,797 INFO Time : 43 -- Acting for train MalGaddi
-2019-11-01 19:14:28,797 INFO Time : 43 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,798 INFO Time : 44 -- Acting for train MalGaddi
-2019-11-01 19:14:28,798 INFO Time : 44 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,799 INFO Time : 45 -- Acting for train MalGaddi
-2019-11-01 19:14:28,799 INFO Time : 45 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,800 INFO Time : 46 -- Acting for train MalGaddi
-2019-11-01 19:14:28,801 INFO Time : 46 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,802 INFO Time : 47 -- Acting for train MalGaddi
-2019-11-01 19:14:28,802 INFO Time : 47 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,803 INFO Time : 48 -- Acting for train MalGaddi
-2019-11-01 19:14:28,803 INFO Time : 48 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,804 INFO Time : 49 -- Acting for train MalGaddi
-2019-11-01 19:14:28,804 INFO Time : 49 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,806 INFO Time : 50 -- Acting for train MalGaddi
-2019-11-01 19:14:28,806 INFO Time : 50 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,807 INFO Time : 51 -- Acting for train MalGaddi
-2019-11-01 19:14:28,807 INFO Time : 51 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,808 INFO Time : 52 -- Acting for train MalGaddi
-2019-11-01 19:14:28,808 INFO Time : 52 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,810 INFO Time : 53 -- Acting for train MalGaddi
-2019-11-01 19:14:28,810 INFO Time : 53 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,811 INFO Time : 54 -- Acting for train MalGaddi
-2019-11-01 19:14:28,811 INFO Time : 54 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,812 INFO Time : 55 -- Acting for train MalGaddi
-2019-11-01 19:14:28,812 INFO Time : 55 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,813 INFO Time : 56 -- Acting for train MalGaddi
-2019-11-01 19:14:28,814 INFO Time : 56 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,815 INFO Time : 57 -- Acting for train MalGaddi
-2019-11-01 19:14:28,815 INFO Time : 57 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,816 INFO Time : 58 -- Acting for train MalGaddi
-2019-11-01 19:14:28,816 INFO Time : 58 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,817 INFO Time : 59 -- Acting for train MalGaddi
-2019-11-01 19:14:28,817 INFO Time : 59 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,819 INFO Time : 60 -- Acting for train MalGaddi
-2019-11-01 19:14:28,819 INFO Time : 60 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,820 INFO Time : 61 -- Acting for train MalGaddi
-2019-11-01 19:14:28,820 INFO Time : 61 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,821 INFO Time : 62 -- Acting for train MalGaddi
-2019-11-01 19:14:28,821 INFO Time : 62 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,822 INFO Time : 63 -- Acting for train MalGaddi
-2019-11-01 19:14:28,822 INFO Time : 63 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,824 INFO Time : 64 -- Acting for train MalGaddi
-2019-11-01 19:14:28,824 INFO Time : 64 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,825 INFO Time : 65 -- Acting for train MalGaddi
-2019-11-01 19:14:28,825 INFO Time : 65 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,826 INFO Time : 66 -- Acting for train MalGaddi
-2019-11-01 19:14:28,826 INFO Time : 66 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,828 INFO Time : 67 -- Acting for train MalGaddi
-2019-11-01 19:14:28,828 INFO Time : 67 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,829 INFO Time : 68 -- Acting for train MalGaddi
-2019-11-01 19:14:28,829 INFO Time : 68 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,830 INFO Time : 69 -- Acting for train MalGaddi
-2019-11-01 19:14:28,830 INFO Time : 69 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,831 INFO Time : 70 -- Acting for train MalGaddi
-2019-11-01 19:14:28,831 INFO Time : 70 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,833 INFO Time : 71 -- Acting for train MalGaddi
-2019-11-01 19:14:28,833 INFO Time : 71 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,834 INFO Time : 72 -- Acting for train MalGaddi
-2019-11-01 19:14:28,834 INFO Time : 72 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,835 INFO Time : 73 -- Acting for train MalGaddi
-2019-11-01 19:14:28,835 INFO Time : 73 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,836 INFO Time : 74 -- Acting for train MalGaddi
-2019-11-01 19:14:28,836 INFO Time : 74 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,838 INFO Time : 75 -- Acting for train MalGaddi
-2019-11-01 19:14:28,838 INFO Time : 75 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,839 INFO Time : 76 -- Acting for train MalGaddi
-2019-11-01 19:14:28,839 INFO Time : 76 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,840 INFO Time : 77 -- Acting for train MalGaddi
-2019-11-01 19:14:28,840 INFO Time : 77 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,841 INFO Time : 78 -- Acting for train MalGaddi
-2019-11-01 19:14:28,841 INFO Time : 78 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,843 INFO Time : 79 -- Acting for train MalGaddi
-2019-11-01 19:14:28,843 INFO Time : 79 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,844 INFO Time : 80 -- Acting for train MalGaddi
-2019-11-01 19:14:28,844 INFO Time : 80 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,846 INFO Time : 81 -- Acting for train MalGaddi
-2019-11-01 19:14:28,846 INFO Time : 81 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,847 INFO Time : 82 -- Acting for train MalGaddi
-2019-11-01 19:14:28,847 INFO Time : 82 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,848 INFO Time : 83 -- Acting for train MalGaddi
-2019-11-01 19:14:28,848 INFO Time : 83 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,849 INFO Time : 84 -- Acting for train MalGaddi
-2019-11-01 19:14:28,849 INFO Time : 84 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,851 INFO Time : 85 -- Acting for train MalGaddi
-2019-11-01 19:14:28,851 INFO Time : 85 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,852 INFO Time : 86 -- Acting for train MalGaddi
-2019-11-01 19:14:28,852 INFO Time : 86 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,853 INFO Time : 87 -- Acting for train MalGaddi
-2019-11-01 19:14:28,853 INFO Time : 87 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,854 INFO Time : 88 -- Acting for train MalGaddi
-2019-11-01 19:14:28,854 INFO Time : 88 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,856 INFO Time : 89 -- Acting for train MalGaddi
-2019-11-01 19:14:28,856 INFO Time : 89 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,857 INFO Time : 90 -- Acting for train MalGaddi
-2019-11-01 19:14:28,857 INFO Time : 90 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,858 INFO Time : 91 -- Acting for train MalGaddi
-2019-11-01 19:14:28,858 INFO Time : 91 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,859 INFO Time : 92 -- Acting for train MalGaddi
-2019-11-01 19:14:28,859 INFO Time : 92 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,861 INFO Time : 93 -- Acting for train MalGaddi
-2019-11-01 19:14:28,861 INFO Time : 93 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,862 INFO Time : 94 -- Acting for train MalGaddi
-2019-11-01 19:14:28,862 INFO Time : 94 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,863 INFO Time : 95 -- Acting for train MalGaddi
-2019-11-01 19:14:28,863 INFO Time : 95 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,864 INFO Time : 96 -- Acting for train MalGaddi
-2019-11-01 19:14:28,865 INFO Time : 96 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,866 INFO Time : 97 -- Acting for train MalGaddi
-2019-11-01 19:14:28,866 INFO Time : 97 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,867 INFO Time : 98 -- Acting for train MalGaddi
-2019-11-01 19:14:28,867 INFO Time : 98 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:14:28,868 INFO Time : 99 -- Acting for train MalGaddi
-2019-11-01 19:14:28,868 INFO Time : 99 -- Train MalGaddi Wait for 1 unit time
-2019-11-01 19:18:51,157 INFO Time : 0 -- Train MalGaddi Putting in the network
-2019-11-01 19:18:51,164 INFO Time : 7 -- Train MalGaddi Can be put in the network
+2019-11-01 22:44:34,548 INFO Time : 0 -- Train MalGaddi Putting in the network
+2019-11-01 22:44:38,493 INFO Time : 7 -- Train MalGaddi Can be put in the network
+2019-11-01 22:44:39,120 INFO Time -- 7 : MalGaddi move Valid
+2019-11-01 22:44:39,120 INFO Time : 7 -- Acting for train MalGaddi
+2019-11-01 22:44:39,120 INFO Time : 7 -- Train MalGaddi initiating
+2019-11-01 22:44:39,120 INFO Time : 7 -- Train MalGaddi initiated. On Track Alpha
+2019-11-01 22:44:39,121 INFO Time -- 7 : MalGaddi move Valid
+2019-11-01 22:44:39,121 INFO Time : 7 -- Acting for train MalGaddi
+2019-11-01 22:44:39,121 INFO Time : 7 -- Train MalGaddi Try to depart to track Alpha-Beta
+2019-11-01 22:44:39,121 INFO Time : 7 -- Train MalGaddi On track Alpha-Beta
+2019-11-01 22:44:41,080 INFO Time : 11.0 -- Train MalGaddi Travelled on track Alpha-Beta
+2019-11-01 22:44:41,730 INFO Time -- 11 : MalGaddi move Valid
+2019-11-01 22:44:41,730 INFO Time : 11 -- Acting for train MalGaddi
+2019-11-01 22:44:41,730 INFO Time : 11 -- Train MalGaddi Try to arrive at station Beta
+2019-11-01 22:44:41,730 INFO Time : 11 -- Train MalGaddi Arrived at station Beta
+2019-11-01 22:44:45,601 INFO Time -- 17 : MalGaddi move Valid
+2019-11-01 22:44:45,601 INFO Time : 17 -- Acting for train MalGaddi
+2019-11-01 22:44:45,601 INFO Time : 17 -- Train MalGaddi Try to depart to track Beta-Gamma
+2019-11-01 22:44:45,601 INFO Time : 17 -- Train MalGaddi On track Beta-Gamma
+2019-11-01 22:44:47,516 INFO Time : 21.0 -- Train MalGaddi Travelled on track Beta-Gamma
+2019-11-01 22:44:48,166 INFO Time -- 21 : MalGaddi move Valid
+2019-11-01 22:44:48,166 INFO Time : 21 -- Acting for train MalGaddi
+2019-11-01 22:44:48,166 INFO Time : 21 -- Train MalGaddi Try to arrive at station Gamma
+2019-11-01 22:44:48,166 INFO Time : 21 -- Train MalGaddi Arrived at station Gamma
+2019-11-01 22:44:48,167 INFO Time -- 21 : MalGaddi move Valid
+2019-11-01 22:44:48,168 INFO Time : 21 -- Acting for train MalGaddi
+2019-11-01 22:44:48,168 INFO Time : 21 -- Train MalGaddi Try to depart to track Gamma-Zeta
+2019-11-01 22:44:48,168 INFO Time : 21 -- Train MalGaddi On track Gamma-Zeta
+2019-11-01 22:44:50,729 INFO Time : 26.0 -- Train MalGaddi Travelled on track Gamma-Zeta
+2019-11-01 22:44:51,354 INFO Time -- 26 : MalGaddi move Valid
+2019-11-01 22:44:51,354 INFO Time : 26 -- Acting for train MalGaddi
+2019-11-01 22:44:51,354 INFO Time : 26 -- Train MalGaddi Try to arrive at station Zeta
+2019-11-01 22:44:51,354 INFO Time : 26 -- Train MalGaddi Arrived at station Zeta
+2019-11-01 22:45:00,590 INFO Time -- 40 : MalGaddi move Invalid
+2019-11-01 22:45:00,590 INFO Time : 40 -- Acting for train MalGaddi
+2019-11-01 22:45:00,590 INFO Time : 40 -- Train MalGaddi Wait for 1 unit time

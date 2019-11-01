@@ -1,161 +1,47 @@
-2019-11-01 19:14:28,752 INFO Time : 0 -- Train Train1 Putting in the network
-2019-11-01 19:14:28,766 INFO Time : 21 -- Train Train1 Can be put in the network
-2019-11-01 19:14:28,766 INFO Time : 21 -- Acting for train Train1
-2019-11-01 19:14:28,766 INFO Time : 21 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,768 INFO Time : 22 -- Acting for train Train1
-2019-11-01 19:14:28,768 INFO Time : 22 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,769 INFO Time : 23 -- Acting for train Train1
-2019-11-01 19:14:28,769 INFO Time : 23 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,770 INFO Time : 24 -- Acting for train Train1
-2019-11-01 19:14:28,770 INFO Time : 24 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,771 INFO Time : 25 -- Acting for train Train1
-2019-11-01 19:14:28,771 INFO Time : 25 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,773 INFO Time : 26 -- Acting for train Train1
-2019-11-01 19:14:28,773 INFO Time : 26 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,774 INFO Time : 27 -- Acting for train Train1
-2019-11-01 19:14:28,774 INFO Time : 27 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,775 INFO Time : 28 -- Acting for train Train1
-2019-11-01 19:14:28,775 INFO Time : 28 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,777 INFO Time : 29 -- Acting for train Train1
-2019-11-01 19:14:28,777 INFO Time : 29 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,778 INFO Time : 30 -- Acting for train Train1
-2019-11-01 19:14:28,778 INFO Time : 30 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,779 INFO Time : 31 -- Acting for train Train1
-2019-11-01 19:14:28,779 INFO Time : 31 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,781 INFO Time : 32 -- Acting for train Train1
-2019-11-01 19:14:28,781 INFO Time : 32 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,782 INFO Time : 33 -- Acting for train Train1
-2019-11-01 19:14:28,782 INFO Time : 33 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,784 INFO Time : 34 -- Acting for train Train1
-2019-11-01 19:14:28,784 INFO Time : 34 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,785 INFO Time : 35 -- Acting for train Train1
-2019-11-01 19:14:28,785 INFO Time : 35 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,787 INFO Time : 36 -- Acting for train Train1
-2019-11-01 19:14:28,787 INFO Time : 36 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,788 INFO Time : 37 -- Acting for train Train1
-2019-11-01 19:14:28,788 INFO Time : 37 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,789 INFO Time : 38 -- Acting for train Train1
-2019-11-01 19:14:28,789 INFO Time : 38 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,790 INFO Time : 39 -- Acting for train Train1
-2019-11-01 19:14:28,790 INFO Time : 39 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,792 INFO Time : 40 -- Acting for train Train1
-2019-11-01 19:14:28,792 INFO Time : 40 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,793 INFO Time : 41 -- Acting for train Train1
-2019-11-01 19:14:28,793 INFO Time : 41 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,794 INFO Time : 42 -- Acting for train Train1
-2019-11-01 19:14:28,794 INFO Time : 42 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,796 INFO Time : 43 -- Acting for train Train1
-2019-11-01 19:14:28,796 INFO Time : 43 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,797 INFO Time : 44 -- Acting for train Train1
-2019-11-01 19:14:28,797 INFO Time : 44 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,798 INFO Time : 45 -- Acting for train Train1
-2019-11-01 19:14:28,798 INFO Time : 45 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,799 INFO Time : 46 -- Acting for train Train1
-2019-11-01 19:14:28,799 INFO Time : 46 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,801 INFO Time : 47 -- Acting for train Train1
-2019-11-01 19:14:28,801 INFO Time : 47 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,802 INFO Time : 48 -- Acting for train Train1
-2019-11-01 19:14:28,802 INFO Time : 48 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,803 INFO Time : 49 -- Acting for train Train1
-2019-11-01 19:14:28,803 INFO Time : 49 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,805 INFO Time : 50 -- Acting for train Train1
-2019-11-01 19:14:28,805 INFO Time : 50 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,806 INFO Time : 51 -- Acting for train Train1
-2019-11-01 19:14:28,806 INFO Time : 51 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,807 INFO Time : 52 -- Acting for train Train1
-2019-11-01 19:14:28,807 INFO Time : 52 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,809 INFO Time : 53 -- Acting for train Train1
-2019-11-01 19:14:28,809 INFO Time : 53 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,810 INFO Time : 54 -- Acting for train Train1
-2019-11-01 19:14:28,810 INFO Time : 54 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,811 INFO Time : 55 -- Acting for train Train1
-2019-11-01 19:14:28,811 INFO Time : 55 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,813 INFO Time : 56 -- Acting for train Train1
-2019-11-01 19:14:28,813 INFO Time : 56 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,814 INFO Time : 57 -- Acting for train Train1
-2019-11-01 19:14:28,814 INFO Time : 57 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,815 INFO Time : 58 -- Acting for train Train1
-2019-11-01 19:14:28,815 INFO Time : 58 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,816 INFO Time : 59 -- Acting for train Train1
-2019-11-01 19:14:28,816 INFO Time : 59 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,818 INFO Time : 60 -- Acting for train Train1
-2019-11-01 19:14:28,818 INFO Time : 60 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,819 INFO Time : 61 -- Acting for train Train1
-2019-11-01 19:14:28,819 INFO Time : 61 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,820 INFO Time : 62 -- Acting for train Train1
-2019-11-01 19:14:28,820 INFO Time : 62 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,821 INFO Time : 63 -- Acting for train Train1
-2019-11-01 19:14:28,822 INFO Time : 63 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,823 INFO Time : 64 -- Acting for train Train1
-2019-11-01 19:14:28,823 INFO Time : 64 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,824 INFO Time : 65 -- Acting for train Train1
-2019-11-01 19:14:28,824 INFO Time : 65 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,825 INFO Time : 66 -- Acting for train Train1
-2019-11-01 19:14:28,825 INFO Time : 66 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,827 INFO Time : 67 -- Acting for train Train1
-2019-11-01 19:14:28,827 INFO Time : 67 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,828 INFO Time : 68 -- Acting for train Train1
-2019-11-01 19:14:28,828 INFO Time : 68 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,829 INFO Time : 69 -- Acting for train Train1
-2019-11-01 19:14:28,829 INFO Time : 69 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,830 INFO Time : 70 -- Acting for train Train1
-2019-11-01 19:14:28,830 INFO Time : 70 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,832 INFO Time : 71 -- Acting for train Train1
-2019-11-01 19:14:28,832 INFO Time : 71 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,833 INFO Time : 72 -- Acting for train Train1
-2019-11-01 19:14:28,833 INFO Time : 72 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,834 INFO Time : 73 -- Acting for train Train1
-2019-11-01 19:14:28,834 INFO Time : 73 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,835 INFO Time : 74 -- Acting for train Train1
-2019-11-01 19:14:28,835 INFO Time : 74 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,837 INFO Time : 75 -- Acting for train Train1
-2019-11-01 19:14:28,837 INFO Time : 75 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,838 INFO Time : 76 -- Acting for train Train1
-2019-11-01 19:14:28,838 INFO Time : 76 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,839 INFO Time : 77 -- Acting for train Train1
-2019-11-01 19:14:28,839 INFO Time : 77 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,840 INFO Time : 78 -- Acting for train Train1
-2019-11-01 19:14:28,840 INFO Time : 78 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,842 INFO Time : 79 -- Acting for train Train1
-2019-11-01 19:14:28,842 INFO Time : 79 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,843 INFO Time : 80 -- Acting for train Train1
-2019-11-01 19:14:28,843 INFO Time : 80 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,844 INFO Time : 81 -- Acting for train Train1
-2019-11-01 19:14:28,844 INFO Time : 81 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,846 INFO Time : 82 -- Acting for train Train1
-2019-11-01 19:14:28,846 INFO Time : 82 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,847 INFO Time : 83 -- Acting for train Train1
-2019-11-01 19:14:28,847 INFO Time : 83 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,848 INFO Time : 84 -- Acting for train Train1
-2019-11-01 19:14:28,848 INFO Time : 84 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,850 INFO Time : 85 -- Acting for train Train1
-2019-11-01 19:14:28,850 INFO Time : 85 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,851 INFO Time : 86 -- Acting for train Train1
-2019-11-01 19:14:28,851 INFO Time : 86 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,852 INFO Time : 87 -- Acting for train Train1
-2019-11-01 19:14:28,852 INFO Time : 87 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,853 INFO Time : 88 -- Acting for train Train1
-2019-11-01 19:14:28,853 INFO Time : 88 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,855 INFO Time : 89 -- Acting for train Train1
-2019-11-01 19:14:28,855 INFO Time : 89 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,856 INFO Time : 90 -- Acting for train Train1
-2019-11-01 19:14:28,856 INFO Time : 90 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,857 INFO Time : 91 -- Acting for train Train1
-2019-11-01 19:14:28,857 INFO Time : 91 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,858 INFO Time : 92 -- Acting for train Train1
-2019-11-01 19:14:28,859 INFO Time : 92 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,860 INFO Time : 93 -- Acting for train Train1
-2019-11-01 19:14:28,860 INFO Time : 93 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,861 INFO Time : 94 -- Acting for train Train1
-2019-11-01 19:14:28,861 INFO Time : 94 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,862 INFO Time : 95 -- Acting for train Train1
-2019-11-01 19:14:28,862 INFO Time : 95 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,864 INFO Time : 96 -- Acting for train Train1
-2019-11-01 19:14:28,864 INFO Time : 96 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,865 INFO Time : 97 -- Acting for train Train1
-2019-11-01 19:14:28,865 INFO Time : 97 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,866 INFO Time : 98 -- Acting for train Train1
-2019-11-01 19:14:28,866 INFO Time : 98 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:14:28,867 INFO Time : 99 -- Acting for train Train1
-2019-11-01 19:14:28,867 INFO Time : 99 -- Train Train1 Wait for 1 unit time
-2019-11-01 19:18:51,155 INFO Time : 0 -- Train Train1 Putting in the network
+2019-11-01 22:44:34,548 INFO Time : 0 -- Train Train1 Putting in the network
+2019-11-01 22:44:47,516 INFO Time : 21 -- Train Train1 Can be put in the network
+2019-11-01 22:44:48,166 INFO Time -- 21 : Train1 move Valid
+2019-11-01 22:44:48,166 INFO Time : 21 -- Acting for train Train1
+2019-11-01 22:44:48,166 INFO Time : 21 -- Train Train1 initiating
+2019-11-01 22:44:48,166 INFO Time : 21 -- Train Train1 initiated. On Track Zeta
+2019-11-01 22:44:48,167 INFO Time -- 21 : Train1 move Valid
+2019-11-01 22:44:48,167 INFO Time : 21 -- Acting for train Train1
+2019-11-01 22:44:48,167 INFO Time : 21 -- Train Train1 Try to depart to track Zeta-Beta
+2019-11-01 22:44:48,167 INFO Time : 21 -- Train Train1 On track Zeta-Beta
+2019-11-01 22:44:52,668 INFO Time : 29.0 -- Train Train1 Travelled on track Zeta-Beta
+2019-11-01 22:44:53,325 INFO Time -- 29 : Train1 move Invalid
+2019-11-01 22:44:53,325 INFO Time : 29 -- Acting for train Train1
+2019-11-01 22:44:53,325 INFO Time : 29 -- Train Train1 Wait for 1 unit time
+2019-11-01 22:44:54,038 INFO Time -- 30 : Train1 move Invalid
+2019-11-01 22:44:54,038 INFO Time : 30 -- Acting for train Train1
+2019-11-01 22:44:54,038 INFO Time : 30 -- Train Train1 Wait for 1 unit time
+2019-11-01 22:44:54,700 INFO Time -- 31 : Train1 move Invalid
+2019-11-01 22:44:54,700 INFO Time : 31 -- Acting for train Train1
+2019-11-01 22:44:54,700 INFO Time : 31 -- Train Train1 Wait for 1 unit time
+2019-11-01 22:44:55,368 INFO Time -- 32 : Train1 move Invalid
+2019-11-01 22:44:55,368 INFO Time : 32 -- Acting for train Train1
+2019-11-01 22:44:55,368 INFO Time : 32 -- Train Train1 Wait for 1 unit time
+2019-11-01 22:44:56,028 INFO Time -- 33 : Train1 move Invalid
+2019-11-01 22:44:56,028 INFO Time : 33 -- Acting for train Train1
+2019-11-01 22:44:56,028 INFO Time : 33 -- Train Train1 Wait for 1 unit time
+2019-11-01 22:44:56,657 INFO Time -- 34 : Train1 move Invalid
+2019-11-01 22:44:56,657 INFO Time : 34 -- Acting for train Train1
+2019-11-01 22:44:56,657 INFO Time : 34 -- Train Train1 Wait for 1 unit time
+2019-11-01 22:44:57,327 INFO Time -- 35 : Train1 move Invalid
+2019-11-01 22:44:57,327 INFO Time : 35 -- Acting for train Train1
+2019-11-01 22:44:57,327 INFO Time : 35 -- Train Train1 Wait for 1 unit time
+2019-11-01 22:44:57,983 INFO Time -- 36 : Train1 move Invalid
+2019-11-01 22:44:57,983 INFO Time : 36 -- Acting for train Train1
+2019-11-01 22:44:57,983 INFO Time : 36 -- Train Train1 Wait for 1 unit time
+2019-11-01 22:44:58,648 INFO Time -- 37 : Train1 move Invalid
+2019-11-01 22:44:58,648 INFO Time : 37 -- Acting for train Train1
+2019-11-01 22:44:58,648 INFO Time : 37 -- Train Train1 Wait for 1 unit time
+2019-11-01 22:44:59,310 INFO Time -- 38 : Train1 move Invalid
+2019-11-01 22:44:59,310 INFO Time : 38 -- Acting for train Train1
+2019-11-01 22:44:59,310 INFO Time : 38 -- Train Train1 Wait for 1 unit time
+2019-11-01 22:44:59,967 INFO Time -- 39 : Train1 move Invalid
+2019-11-01 22:44:59,967 INFO Time : 39 -- Acting for train Train1
+2019-11-01 22:44:59,967 INFO Time : 39 -- Train Train1 Wait for 1 unit time
+2019-11-01 22:45:00,590 INFO Time -- 40 : Train1 move Invalid
+2019-11-01 22:45:00,590 INFO Time : 40 -- Acting for train Train1
+2019-11-01 22:45:00,590 INFO Time : 40 -- Train Train1 Wait for 1 unit time
