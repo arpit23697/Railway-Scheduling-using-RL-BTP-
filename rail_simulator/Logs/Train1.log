@@ -1,0 +1,13 @@
+2019-11-01 17:18:34,945 INFO Time : 0 -- Train Train1 Putting in the network
+2019-11-01 17:18:34,955 INFO Time : 21 -- Train Train1 Can be put in the network
+2019-11-01 17:18:34,955 INFO Time : 21 -- Acting for train Train1
+2019-11-01 17:18:34,955 INFO Time : 21 -- Train Train1 Wait for 1 unit time
+2019-11-01 17:18:34,957 INFO Time : 22 -- Acting for train Train1
+2019-11-01 17:18:34,957 INFO Time : 22 -- Train Train1 initiating
+2019-11-01 17:18:34,957 INFO Time : 22 -- Train Train1 initiated. On Track Zeta
+2019-11-01 17:18:34,958 INFO Time : 22 -- Acting for train Train1
+2019-11-01 17:18:34,958 INFO Time : 22 -- Train Train1 Wait for 1 unit time
+2019-11-01 17:18:34,959 INFO Time : 23 -- Acting for train Train1
+2019-11-01 17:18:34,959 INFO Time : 23 -- Train Train1 Wait for 1 unit time
+2019-11-01 17:18:34,960 INFO Time : 24 -- Acting for train Train1
+2019-11-01 17:18:34,960 INFO Time : 24 -- Train Train1 Try to depart to track Zeta-Beta

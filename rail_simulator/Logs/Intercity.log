@@ -1,0 +1,34 @@
+2019-11-01 17:18:34,945 INFO Time : 0 -- Train Intercity Putting in the network
+2019-11-01 17:18:34,949 INFO Time : 12 -- Train Intercity Can be put in the network
+2019-11-01 17:18:34,949 INFO Time : 12 -- Acting for train Intercity
+2019-11-01 17:18:34,949 INFO Time : 12 -- Train Intercity initiating
+2019-11-01 17:18:34,950 INFO Time : 12 -- Train Intercity initiated. On Track Alpha
+2019-11-01 17:18:34,950 INFO Time : 12 -- Acting for train Intercity
+2019-11-01 17:18:34,950 INFO Time : 12 -- Train Intercity Wait for 1 unit time
+2019-11-01 17:18:34,951 INFO Time : 13 -- Acting for train Intercity
+2019-11-01 17:18:34,951 INFO Time : 13 -- Train Intercity Wait for 1 unit time
+2019-11-01 17:18:34,952 INFO Time : 14 -- Acting for train Intercity
+2019-11-01 17:18:34,952 INFO Time : 14 -- Train Intercity Wait for 1 unit time
+2019-11-01 17:18:34,952 INFO Time : 15 -- Acting for train Intercity
+2019-11-01 17:18:34,953 INFO Time : 15 -- Train Intercity Wait for 1 unit time
+2019-11-01 17:18:34,953 INFO Time : 16 -- Acting for train Intercity
+2019-11-01 17:18:34,953 INFO Time : 16 -- Train Intercity Wait for 1 unit time
+2019-11-01 17:18:34,954 INFO Time : 17 -- Acting for train Intercity
+2019-11-01 17:18:34,954 INFO Time : 17 -- Train Intercity Try to depart to track Alpha-Delta
+2019-11-01 17:18:34,954 INFO Time : 17 -- Train Intercity On track Alpha-Delta
+2019-11-01 17:18:34,958 INFO Time : 23.0 -- Train Intercity Travelled on track Alpha-Delta
+2019-11-01 17:18:34,958 INFO Time : 23 -- Acting for train Intercity
+2019-11-01 17:18:34,958 INFO Time : 23 -- Train Intercity Wait for 1 unit time
+2019-11-01 17:18:34,959 INFO Time : 24 -- Acting for train Intercity
+2019-11-01 17:18:34,959 INFO Time : 24 -- Train Intercity Try to arrive at station Delta
+2019-11-01 17:18:34,960 INFO Time : 24 -- Train Intercity Arrived at station Delta
+2019-11-01 17:18:34,960 INFO Time : 24 -- Acting for train Intercity
+2019-11-01 17:18:34,960 INFO Time : 24 -- Train Intercity Try to depart to track Delta-A
+2019-11-01 17:18:34,961 INFO Time : 24 -- Train Intercity On track Delta-A
+2019-11-01 17:18:34,969 INFO Time : 35.0 -- Train Intercity Travelled on track Delta-A
+2019-11-01 17:18:34,970 INFO Time : 35 -- Acting for train Intercity
+2019-11-01 17:18:34,970 INFO Time : 35 -- Train Intercity Try to arrive at station A
+2019-11-01 17:18:34,970 INFO Time : 35 -- Train Intercity Arrived at station A
+2019-11-01 17:18:34,970 INFO Time : 35 -- Acting for train Intercity
+2019-11-01 17:18:34,970 INFO Time : 35 -- Train Intercity Try to depart to track A-B
+2019-11-01 17:18:34,971 INFO Time : 35 -- Train Intercity On track A-B
