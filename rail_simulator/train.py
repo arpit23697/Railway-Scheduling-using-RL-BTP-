@@ -439,7 +439,8 @@ class Train:
             #If the resource is not free return False
             else:
                 self.waiting = start_station
-                self.create_log("Time -- {} : {} move Invalid".format(env.now , self.name))
+                self.create_log("Time -- {} : {} move Invalid. Waiting for {}".format(env.now ,
+                                                                 self.name , start_station))
                 return False
 
         #Train is running
@@ -464,7 +465,8 @@ class Train:
                 #If resource is free
                 else:
                     self.waiting = (current_station , next_station)
-                    self.create_log("Time -- {} : {} move Invalid".format(env.now , self.name))
+                    self.create_log("Time -- {} : {} move Invalid. Waiting for {} - {}".format(env.now 
+                                                            , self.name , current_station , next_station))
                     return False
             #Train is on the track so get the next station and 
             #see if the resource is free on that station or not
@@ -480,7 +482,8 @@ class Train:
                 #If the resource is not free return False
                 else:
                     self.waiting = station_y
-                    self.create_log("Time -- {} : {} move Invalid".format(env.now , self.name))
+                    self.create_log("Time -- {} : {} move Invalid. Waiting for {}".format(env.now , 
+                                                            self.name , station_y))
                     return False
 
 

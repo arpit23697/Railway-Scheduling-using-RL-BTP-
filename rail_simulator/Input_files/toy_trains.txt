@@ -1,0 +1,36 @@
+Train001 1 1 4
+Alpha 0 1
+Bravo 2 3
+Charlie 4 5
+Delta 6 7
+*************************************
+Train002 1 1 4
+Alpha 0 1
+Bravo 2 3
+Charlie 4 5
+Delta 6 7
+*************************************
+Train003 1 1 4
+Alpha 0 1
+Bravo 2 3
+Charlie 4 5
+Delta 6 7
+*************************************
+Train011 1 1 4
+Delta 0 1
+Charlie 2 3
+Bravo 4 5
+Alpha 6 7
+*************************************
+Train012 1 1 4
+Delta 0 1
+Charlie 2 3
+Bravo 4 5
+Alpha 6 7
+*************************************
+Train013 1 1 4
+Delta 0 1
+Charlie 2 3
+Bravo 4 5
+Alpha 6 7
+*************************************

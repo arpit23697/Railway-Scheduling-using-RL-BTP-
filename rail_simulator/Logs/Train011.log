@@ -1,0 +1,69 @@
+2019-11-02 00:24:30,278 INFO Time : 0 -- Train Train011 Putting in the network
+2019-11-02 00:24:30,278 INFO Time : 0 -- Train Train011 Can be put in the network
+2019-11-02 00:24:30,280 INFO Time -- 0 : Train011 move Valid
+2019-11-02 00:24:30,280 INFO Time : 0 -- Acting for train Train011
+2019-11-02 00:24:30,280 INFO Time : 0 -- Train Train011 initiating
+2019-11-02 00:24:30,280 INFO Time : 0 -- Train Train011 initiated. On Track Delta
+2019-11-02 00:24:30,872 INFO Time -- 1 : Train011 move Valid
+2019-11-02 00:24:30,872 INFO Time : 1 -- Acting for train Train011
+2019-11-02 00:24:30,872 INFO Time : 1 -- Train Train011 Try to depart to track Delta-Charlie
+2019-11-02 00:24:30,872 INFO Time : 1 -- Train Train011 On track Delta-Charlie
+2019-11-02 00:24:31,455 INFO Time : 2.0 -- Train Train011 Travelled on track Delta-Charlie
+2019-11-02 00:24:31,456 INFO Time -- 2 : Train011 move Valid
+2019-11-02 00:24:31,456 INFO Time : 2 -- Acting for train Train011
+2019-11-02 00:24:31,456 INFO Time : 2 -- Train Train011 Try to arrive at station Charlie
+2019-11-02 00:24:31,456 INFO Time : 2 -- Train Train011 Arrived at station Charlie
+2019-11-02 00:24:32,040 INFO Time -- 3 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:32,040 INFO Time : 3 -- Acting for train Train011
+2019-11-02 00:24:32,040 INFO Time : 3 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:32,625 INFO Time -- 4 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:32,625 INFO Time : 4 -- Acting for train Train011
+2019-11-02 00:24:32,625 INFO Time : 4 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:33,209 INFO Time -- 5 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:33,209 INFO Time : 5 -- Acting for train Train011
+2019-11-02 00:24:33,209 INFO Time : 5 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:33,794 INFO Time -- 6 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:33,794 INFO Time : 6 -- Acting for train Train011
+2019-11-02 00:24:33,794 INFO Time : 6 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:34,378 INFO Time -- 7 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:34,378 INFO Time : 7 -- Acting for train Train011
+2019-11-02 00:24:34,378 INFO Time : 7 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:34,962 INFO Time -- 8 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:34,962 INFO Time : 8 -- Acting for train Train011
+2019-11-02 00:24:34,962 INFO Time : 8 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:35,544 INFO Time -- 9 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:35,544 INFO Time : 9 -- Acting for train Train011
+2019-11-02 00:24:35,544 INFO Time : 9 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:36,126 INFO Time -- 10 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:36,126 INFO Time : 10 -- Acting for train Train011
+2019-11-02 00:24:36,126 INFO Time : 10 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:36,713 INFO Time -- 11 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:36,713 INFO Time : 11 -- Acting for train Train011
+2019-11-02 00:24:36,713 INFO Time : 11 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:37,295 INFO Time -- 12 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:37,295 INFO Time : 12 -- Acting for train Train011
+2019-11-02 00:24:37,295 INFO Time : 12 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:37,877 INFO Time -- 13 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:37,877 INFO Time : 13 -- Acting for train Train011
+2019-11-02 00:24:37,878 INFO Time : 13 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:38,460 INFO Time -- 14 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:38,460 INFO Time : 14 -- Acting for train Train011
+2019-11-02 00:24:38,460 INFO Time : 14 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:39,041 INFO Time -- 15 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:39,041 INFO Time : 15 -- Acting for train Train011
+2019-11-02 00:24:39,041 INFO Time : 15 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:39,623 INFO Time -- 16 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:39,623 INFO Time : 16 -- Acting for train Train011
+2019-11-02 00:24:39,624 INFO Time : 16 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:40,206 INFO Time -- 17 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:40,206 INFO Time : 17 -- Acting for train Train011
+2019-11-02 00:24:40,206 INFO Time : 17 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:40,789 INFO Time -- 18 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:40,789 INFO Time : 18 -- Acting for train Train011
+2019-11-02 00:24:40,789 INFO Time : 18 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:41,380 INFO Time -- 19 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:41,380 INFO Time : 19 -- Acting for train Train011
+2019-11-02 00:24:41,380 INFO Time : 19 -- Train Train011 Wait for 1 unit time
+2019-11-02 00:24:41,964 INFO Time -- 20 : Train011 move Invalid. Waiting for Charlie - Bravo
+2019-11-02 00:24:41,964 INFO Time : 20 -- Acting for train Train011
+2019-11-02 00:24:41,965 INFO Time : 20 -- Train Train011 Wait for 1 unit time
