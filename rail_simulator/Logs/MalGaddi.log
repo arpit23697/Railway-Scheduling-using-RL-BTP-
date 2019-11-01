@@ -1,36 +1,36 @@
-2019-11-01 22:44:34,548 INFO Time : 0 -- Train MalGaddi Putting in the network
-2019-11-01 22:44:38,493 INFO Time : 7 -- Train MalGaddi Can be put in the network
-2019-11-01 22:44:39,120 INFO Time -- 7 : MalGaddi move Valid
-2019-11-01 22:44:39,120 INFO Time : 7 -- Acting for train MalGaddi
-2019-11-01 22:44:39,120 INFO Time : 7 -- Train MalGaddi initiating
-2019-11-01 22:44:39,120 INFO Time : 7 -- Train MalGaddi initiated. On Track Alpha
-2019-11-01 22:44:39,121 INFO Time -- 7 : MalGaddi move Valid
-2019-11-01 22:44:39,121 INFO Time : 7 -- Acting for train MalGaddi
-2019-11-01 22:44:39,121 INFO Time : 7 -- Train MalGaddi Try to depart to track Alpha-Beta
-2019-11-01 22:44:39,121 INFO Time : 7 -- Train MalGaddi On track Alpha-Beta
-2019-11-01 22:44:41,080 INFO Time : 11.0 -- Train MalGaddi Travelled on track Alpha-Beta
-2019-11-01 22:44:41,730 INFO Time -- 11 : MalGaddi move Valid
-2019-11-01 22:44:41,730 INFO Time : 11 -- Acting for train MalGaddi
-2019-11-01 22:44:41,730 INFO Time : 11 -- Train MalGaddi Try to arrive at station Beta
-2019-11-01 22:44:41,730 INFO Time : 11 -- Train MalGaddi Arrived at station Beta
-2019-11-01 22:44:45,601 INFO Time -- 17 : MalGaddi move Valid
-2019-11-01 22:44:45,601 INFO Time : 17 -- Acting for train MalGaddi
-2019-11-01 22:44:45,601 INFO Time : 17 -- Train MalGaddi Try to depart to track Beta-Gamma
-2019-11-01 22:44:45,601 INFO Time : 17 -- Train MalGaddi On track Beta-Gamma
-2019-11-01 22:44:47,516 INFO Time : 21.0 -- Train MalGaddi Travelled on track Beta-Gamma
-2019-11-01 22:44:48,166 INFO Time -- 21 : MalGaddi move Valid
-2019-11-01 22:44:48,166 INFO Time : 21 -- Acting for train MalGaddi
-2019-11-01 22:44:48,166 INFO Time : 21 -- Train MalGaddi Try to arrive at station Gamma
-2019-11-01 22:44:48,166 INFO Time : 21 -- Train MalGaddi Arrived at station Gamma
-2019-11-01 22:44:48,167 INFO Time -- 21 : MalGaddi move Valid
-2019-11-01 22:44:48,168 INFO Time : 21 -- Acting for train MalGaddi
-2019-11-01 22:44:48,168 INFO Time : 21 -- Train MalGaddi Try to depart to track Gamma-Zeta
-2019-11-01 22:44:48,168 INFO Time : 21 -- Train MalGaddi On track Gamma-Zeta
-2019-11-01 22:44:50,729 INFO Time : 26.0 -- Train MalGaddi Travelled on track Gamma-Zeta
-2019-11-01 22:44:51,354 INFO Time -- 26 : MalGaddi move Valid
-2019-11-01 22:44:51,354 INFO Time : 26 -- Acting for train MalGaddi
-2019-11-01 22:44:51,354 INFO Time : 26 -- Train MalGaddi Try to arrive at station Zeta
-2019-11-01 22:44:51,354 INFO Time : 26 -- Train MalGaddi Arrived at station Zeta
-2019-11-01 22:45:00,590 INFO Time -- 40 : MalGaddi move Invalid
-2019-11-01 22:45:00,590 INFO Time : 40 -- Acting for train MalGaddi
-2019-11-01 22:45:00,590 INFO Time : 40 -- Train MalGaddi Wait for 1 unit time
+2019-11-01 23:47:44,435 INFO Time : 0 -- Train MalGaddi Putting in the network
+2019-11-01 23:47:48,187 INFO Time : 7 -- Train MalGaddi Can be put in the network
+2019-11-01 23:47:48,804 INFO Time -- 7 : MalGaddi move Valid
+2019-11-01 23:47:48,804 INFO Time : 7 -- Acting for train MalGaddi
+2019-11-01 23:47:48,804 INFO Time : 7 -- Train MalGaddi initiating
+2019-11-01 23:47:48,804 INFO Time : 7 -- Train MalGaddi initiated. On Track Alpha
+2019-11-01 23:47:48,804 INFO Time -- 7 : MalGaddi move Valid
+2019-11-01 23:47:48,804 INFO Time : 7 -- Acting for train MalGaddi
+2019-11-01 23:47:48,805 INFO Time : 7 -- Train MalGaddi Try to depart to track Alpha-Beta
+2019-11-01 23:47:48,805 INFO Time : 7 -- Train MalGaddi On track Alpha-Beta
+2019-11-01 23:47:50,714 INFO Time : 11.0 -- Train MalGaddi Travelled on track Alpha-Beta
+2019-11-01 23:47:51,360 INFO Time -- 11 : MalGaddi move Valid
+2019-11-01 23:47:51,360 INFO Time : 11 -- Acting for train MalGaddi
+2019-11-01 23:47:51,360 INFO Time : 11 -- Train MalGaddi Try to arrive at station Beta
+2019-11-01 23:47:51,360 INFO Time : 11 -- Train MalGaddi Arrived at station Beta
+2019-11-01 23:47:55,145 INFO Time -- 17 : MalGaddi move Valid
+2019-11-01 23:47:55,145 INFO Time : 17 -- Acting for train MalGaddi
+2019-11-01 23:47:55,145 INFO Time : 17 -- Train MalGaddi Try to depart to track Beta-Gamma
+2019-11-01 23:47:55,145 INFO Time : 17 -- Train MalGaddi On track Beta-Gamma
+2019-11-01 23:47:57,096 INFO Time : 21.0 -- Train MalGaddi Travelled on track Beta-Gamma
+2019-11-01 23:47:57,743 INFO Time -- 21 : MalGaddi move Valid
+2019-11-01 23:47:57,743 INFO Time : 21 -- Acting for train MalGaddi
+2019-11-01 23:47:57,744 INFO Time : 21 -- Train MalGaddi Try to arrive at station Gamma
+2019-11-01 23:47:57,744 INFO Time : 21 -- Train MalGaddi Arrived at station Gamma
+2019-11-01 23:47:57,745 INFO Time -- 21 : MalGaddi move Valid
+2019-11-01 23:47:57,745 INFO Time : 21 -- Acting for train MalGaddi
+2019-11-01 23:47:57,745 INFO Time : 21 -- Train MalGaddi Try to depart to track Gamma-Zeta
+2019-11-01 23:47:57,745 INFO Time : 21 -- Train MalGaddi On track Gamma-Zeta
+2019-11-01 23:48:00,289 INFO Time : 26.0 -- Train MalGaddi Travelled on track Gamma-Zeta
+2019-11-01 23:48:00,905 INFO Time -- 26 : MalGaddi move Valid
+2019-11-01 23:48:00,905 INFO Time : 26 -- Acting for train MalGaddi
+2019-11-01 23:48:00,905 INFO Time : 26 -- Train MalGaddi Try to arrive at station Zeta
+2019-11-01 23:48:00,905 INFO Time : 26 -- Train MalGaddi Arrived at station Zeta
+2019-11-01 23:48:09,576 INFO Time -- 40 : MalGaddi move Invalid
+2019-11-01 23:48:09,576 INFO Time : 40 -- Acting for train MalGaddi
+2019-11-01 23:48:09,576 INFO Time : 40 -- Train MalGaddi Wait for 1 unit time

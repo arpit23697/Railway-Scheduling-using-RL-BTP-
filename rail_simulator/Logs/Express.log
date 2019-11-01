@@ -1,28 +1,28 @@
-2019-11-01 22:44:34,548 INFO Time : 0 -- Train Express Putting in the network
-2019-11-01 22:44:41,730 INFO Time : 12 -- Train Express Can be put in the network
-2019-11-01 22:44:42,385 INFO Time -- 12 : Express move Valid
-2019-11-01 22:44:42,385 INFO Time : 12 -- Acting for train Express
-2019-11-01 22:44:42,385 INFO Time : 12 -- Train Express initiating
-2019-11-01 22:44:42,385 INFO Time : 12 -- Train Express initiated. On Track A
-2019-11-01 22:44:42,386 INFO Time -- 12 : Express move Valid
-2019-11-01 22:44:42,386 INFO Time : 12 -- Acting for train Express
-2019-11-01 22:44:42,386 INFO Time : 12 -- Train Express Try to depart to track A-B
-2019-11-01 22:44:42,386 INFO Time : 12 -- Train Express On track A-B
-2019-11-01 22:44:48,824 INFO Time : 23.0 -- Train Express Travelled on track A-B
-2019-11-01 22:44:49,479 INFO Time -- 23 : Express move Valid
-2019-11-01 22:44:49,479 INFO Time : 23 -- Acting for train Express
-2019-11-01 22:44:49,479 INFO Time : 23 -- Train Express Try to arrive at station B
-2019-11-01 22:44:49,479 INFO Time : 23 -- Train Express Arrived at station B
-2019-11-01 22:44:49,480 INFO Time -- 23 : Express move Valid
-2019-11-01 22:44:49,480 INFO Time : 23 -- Acting for train Express
-2019-11-01 22:44:49,480 INFO Time : 23 -- Train Express Try to depart to track B-C
-2019-11-01 22:44:49,480 INFO Time : 23 -- Train Express On track B-C
-2019-11-01 22:44:52,668 INFO Time : 29.0 -- Train Express Travelled on track B-C
-2019-11-01 22:44:53,325 INFO Time -- 29 : Express move Valid
-2019-11-01 22:44:53,326 INFO Time : 29 -- Acting for train Express
-2019-11-01 22:44:53,326 INFO Time : 29 -- Train Express Try to arrive at station C
-2019-11-01 22:44:53,326 INFO Time : 29 -- Train Express Arrived at station C
-2019-11-01 22:44:53,326 INFO Time : 29 -- Train Express On last Station.
-2019-11-01 22:44:54,039 INFO Time -- 30 : Express move Valid
-2019-11-01 22:44:54,039 INFO Time : 30 -- Acting for train Express
-2019-11-01 22:44:54,039 INFO Time : 30 -- Train :Express Completed Journey : Released all the resources 
+2019-11-01 23:47:44,435 INFO Time : 0 -- Train Express Putting in the network
+2019-11-01 23:47:51,360 INFO Time : 12 -- Train Express Can be put in the network
+2019-11-01 23:47:51,978 INFO Time -- 12 : Express move Valid
+2019-11-01 23:47:51,978 INFO Time : 12 -- Acting for train Express
+2019-11-01 23:47:51,978 INFO Time : 12 -- Train Express initiating
+2019-11-01 23:47:51,978 INFO Time : 12 -- Train Express initiated. On Track A
+2019-11-01 23:47:51,978 INFO Time -- 12 : Express move Valid
+2019-11-01 23:47:51,978 INFO Time : 12 -- Acting for train Express
+2019-11-01 23:47:51,979 INFO Time : 12 -- Train Express Try to depart to track A-B
+2019-11-01 23:47:51,979 INFO Time : 12 -- Train Express On track A-B
+2019-11-01 23:47:58,393 INFO Time : 23.0 -- Train Express Travelled on track A-B
+2019-11-01 23:47:59,020 INFO Time -- 23 : Express move Valid
+2019-11-01 23:47:59,020 INFO Time : 23 -- Acting for train Express
+2019-11-01 23:47:59,020 INFO Time : 23 -- Train Express Try to arrive at station B
+2019-11-01 23:47:59,020 INFO Time : 23 -- Train Express Arrived at station B
+2019-11-01 23:47:59,020 INFO Time -- 23 : Express move Valid
+2019-11-01 23:47:59,020 INFO Time : 23 -- Acting for train Express
+2019-11-01 23:47:59,020 INFO Time : 23 -- Train Express Try to depart to track B-C
+2019-11-01 23:47:59,021 INFO Time : 23 -- Train Express On track B-C
+2019-11-01 23:48:02,143 INFO Time : 29.0 -- Train Express Travelled on track B-C
+2019-11-01 23:48:02,762 INFO Time -- 29 : Express move Valid
+2019-11-01 23:48:02,762 INFO Time : 29 -- Acting for train Express
+2019-11-01 23:48:02,762 INFO Time : 29 -- Train Express Try to arrive at station C
+2019-11-01 23:48:02,762 INFO Time : 29 -- Train Express Arrived at station C
+2019-11-01 23:48:02,762 INFO Time : 29 -- Train Express On last Station.
+2019-11-01 23:48:03,384 INFO Time -- 30 : Express move Valid
+2019-11-01 23:48:03,384 INFO Time : 30 -- Acting for train Express
+2019-11-01 23:48:03,384 INFO Time : 30 -- Train :Express Completed Journey : Released all the resources 

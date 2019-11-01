@@ -5,6 +5,7 @@ import matplotlib
 import random
 import time
 from network import *
+from config import *
 import simpy
 import logging
 
