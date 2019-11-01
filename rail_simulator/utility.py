@@ -34,7 +34,6 @@ def create_resource_usage_graph (trains , N):
         #If the train is currently running or reached the destination but not freed the resource 
         if (t.running or (t.done == False and t.resource is not None) ):
 
-
             current = t.current
             #Check if the resource is track, then have the tuple in ascending order
             train_nodes.add(t.name)
@@ -52,20 +51,20 @@ def create_resource_usage_graph (trains , N):
 
 
 
-        #If the train is waiting for some resource
-        if not t.waiting == '-':
-            waiting = t.waiting
+            #If the train is waiting for some resource
+            if not t.waiting == '-':
+                waiting = t.waiting
 
-            #Check if the resource is track or station
-            if type(t.waiting) is not str:
+                #Check if the resource is track or station
+                if type(t.waiting) is not str:
 
-                if not (t.waiting[0] < t.waiting[1]):
-                    waiting = (t.waiting[1] , t.waiting[0])
-                track_nodes.add(waiting)
-            else:
-                station_nodes.add(waiting)
-            #Add the edge
-            G.add_edge (t.name , waiting)
+                    if not (t.waiting[0] < t.waiting[1]):
+                        waiting = (t.waiting[1] , t.waiting[0])
+                    track_nodes.add(waiting)
+                else:
+                    station_nodes.add(waiting)
+                #Add the edge
+                G.add_edge (t.name , waiting)
 
     return G,train_nodes , station_nodes , track_nodes
 
@@ -96,7 +95,7 @@ def draw_network_usage_graph(G , train_nodes , station_nodes , track_nodes , N ,
             node_size.append(300)
             node_color.append('pink')
 
-        #If node is station
+        #If node is station node
         elif n in station_nodes:
             s = N.G.nodes[n]['details']
             labels[n] = "{}\n{}/{}".format(n , s.total_free ,s.n_parallel_tracks)
@@ -271,19 +270,19 @@ def create_state_for_deadlock (N , trains):
             index = resource_int_map[current]
             allot[p][index] = 1
 
-        if not t.waiting == '-':
-            waiting = t.waiting
-
-            #Check if the resource is track or station
-            if type(t.waiting) is not str:
-
-                if not (t.waiting[0] < t.waiting[1]):
-                    waiting = (t.waiting[1] , t.waiting[0])
-
-            #get the index and request for the corresponding resource to train p
-            index = resource_int_map[waiting]
-            req[p][index] = 1
+            if not t.waiting == '-':
+                waiting = t.waiting
     
+                #Check if the resource is track or station
+                if type(t.waiting) is not str:
+                
+                    if not (t.waiting[0] < t.waiting[1]):
+                        waiting = (t.waiting[1] , t.waiting[0])
+    
+                #get the index and request for the corresponding resource to train p
+                index = resource_int_map[waiting]
+                req[p][index] = 1
+        
     return available , allot , req
 
 def deadlock_detection (N , trains):

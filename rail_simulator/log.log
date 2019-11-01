@@ -1,34 +1,32 @@
-2019-10-31 23:12:48,654 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-31 23:12:48,771 Time : 0 -- Train Shatabdi Putting in the network
-2019-10-31 23:12:49,284 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=8.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-31 23:12:49,318 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
-2019-10-31 23:12:54,568 Time : 10 -- Train Shatabdi Can be put in the network
-2019-10-31 23:12:54,568 Time : 10 -- Acting for train Shatabdi
-2019-10-31 23:12:54,568 Time : 10 -- Train Shatabdi initiating
-2019-10-31 23:12:55,189 Time : 10 -- Train Shatabdi initiated. On Track Alpha
-2019-10-31 23:12:55,812 Time : 11 -- Acting for train Shatabdi
-2019-10-31 23:12:55,812 Time : 11 -- Train Shatabdi Try to depart to track Alpha-Beta
-2019-10-31 23:12:55,812 Time : 11 -- Train Shatabdi On track Alpha-Beta
-2019-10-31 23:12:57,701 Time : 15.0 -- Train Shatabdi Travelled on track Alpha-Beta
-2019-10-31 23:12:58,325 Time : 15.0 -- Acting for train Shatabdi
-2019-10-31 23:12:58,325 Time : 15.0 -- Train Shatabdi Try to arrive at station Beta
-2019-10-31 23:12:58,325 Time : 15.0 -- Train Shatabdi Arrived at station Beta
-2019-10-31 23:12:59,604 Time : 17.0 -- Acting for train Shatabdi
-2019-10-31 23:12:59,604 Time : 17.0 -- Train Shatabdi Try to depart to track Beta-Gamma
-2019-10-31 23:12:59,604 Time : 17.0 -- Train Shatabdi On track Beta-Gamma
-2019-10-31 23:13:00,885 Time : 20 Checking Deadlock
-2019-10-31 23:13:01,511 Time : 21.0 -- Train Shatabdi Travelled on track Beta-Gamma
-2019-10-31 23:13:02,135 Time : 21.0 -- Acting for train Shatabdi
-2019-10-31 23:13:02,135 Time : 21.0 -- Train Shatabdi Try to arrive at station Gamma
-2019-10-31 23:13:02,135 Time : 21.0 -- Train Shatabdi Arrived at station Gamma
-2019-10-31 23:13:09,111 Time : 32.0 -- Acting for train Shatabdi
-2019-10-31 23:13:09,112 Time : 32.0 -- Train Shatabdi Try to depart to track Gamma-Zeta
-2019-10-31 23:13:09,112 Time : 32.0 -- Train Shatabdi On track Gamma-Zeta
-2019-10-31 23:13:11,653 Time : 37.0 -- Train Shatabdi Travelled on track Gamma-Zeta
-2019-10-31 23:13:12,280 Time : 37.0 -- Acting for train Shatabdi
-2019-10-31 23:13:12,280 Time : 37.0 -- Train Shatabdi Try to arrive at station Zeta
-2019-10-31 23:13:12,280 Time : 37.0 -- Train Shatabdi Arrived at station Zeta
-2019-10-31 23:13:12,280 Time : 37.0 -- Train Shatabdi On last Station.
-2019-10-31 23:13:13,592 Time : 40 Checking Deadlock
-2019-10-31 23:13:17,444 Time : 45.0 -- Acting for train Shatabdi
-2019-10-31 23:13:17,444 Time : 45.0 -- Train :Shatabdi Completed Journey : Released all the resources 
+2019-11-01 16:00:57,073 Time : 0 -- Train Shatabdi Putting in the network
+2019-11-01 16:00:57,075 Time : 10 -- Train Shatabdi Can be put in the network
+2019-11-01 16:00:57,076 Time : 10 -- Acting for train Shatabdi
+2019-11-01 16:00:57,076 Time : 10 -- Train Shatabdi initiating
+2019-11-01 16:00:57,076 Time : 10 -- Train Shatabdi initiated. On Track Alpha
+2019-11-01 16:00:57,077 Time : 11 -- Acting for train Shatabdi
+2019-11-01 16:00:57,077 Time : 11 -- Train Shatabdi Try to depart to track Alpha-Beta
+2019-11-01 16:00:57,078 Time : 11 -- Train Shatabdi On track Alpha-Beta
+2019-11-01 16:00:57,078 Time : 15.0 -- Train Shatabdi Travelled on track Alpha-Beta
+2019-11-01 16:00:57,079 Time : 15 -- Acting for train Shatabdi
+2019-11-01 16:00:57,079 Time : 15 -- Train Shatabdi Try to arrive at station Beta
+2019-11-01 16:00:57,080 Time : 15 -- Train Shatabdi Arrived at station Beta
+2019-11-01 16:00:57,080 Time : 17 -- Acting for train Shatabdi
+2019-11-01 16:00:57,081 Time : 17 -- Train Shatabdi Try to depart to track Beta-Gamma
+2019-11-01 16:00:57,082 Time : 17 -- Train Shatabdi On track Beta-Gamma
+2019-11-01 16:00:57,083 Time : 20 Checking Deadlock
+2019-11-01 16:00:57,083 Time : 21.0 -- Train Shatabdi Travelled on track Beta-Gamma
+2019-11-01 16:00:57,084 Time : 21 -- Acting for train Shatabdi
+2019-11-01 16:00:57,084 Time : 21 -- Train Shatabdi Try to arrive at station Gamma
+2019-11-01 16:00:57,085 Time : 21 -- Train Shatabdi Arrived at station Gamma
+2019-11-01 16:00:57,086 Time : 32 -- Acting for train Shatabdi
+2019-11-01 16:00:57,086 Time : 32 -- Train Shatabdi Try to depart to track Gamma-Zeta
+2019-11-01 16:00:57,087 Time : 32 -- Train Shatabdi On track Gamma-Zeta
+2019-11-01 16:00:57,088 Time : 37.0 -- Train Shatabdi Travelled on track Gamma-Zeta
+2019-11-01 16:00:57,088 Time : 37 -- Acting for train Shatabdi
+2019-11-01 16:00:57,088 Time : 37 -- Train Shatabdi Try to arrive at station Zeta
+2019-11-01 16:00:57,089 Time : 37 -- Train Shatabdi Arrived at station Zeta
+2019-11-01 16:00:57,089 Time : 37 -- Train Shatabdi On last Station.
+2019-11-01 16:00:57,089 Time : 40 Checking Deadlock
+2019-11-01 16:00:57,091 Time : 45 -- Acting for train Shatabdi
+2019-11-01 16:00:57,091 Time : 45 -- Train :Shatabdi Completed Journey : Released all the resources 
+2019-11-01 16:00:58,120 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
