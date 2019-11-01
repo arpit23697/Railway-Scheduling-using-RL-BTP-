@@ -1,24 +1,30 @@
-2019-11-01 17:18:34,945 INFO Time : 0 -- Train Express Putting in the network
-2019-11-01 17:18:34,949 INFO Time : 12 -- Train Express Can be put in the network
-2019-11-01 17:18:34,950 INFO Time : 12 -- Acting for train Express
-2019-11-01 17:18:34,950 INFO Time : 12 -- Train Express initiating
-2019-11-01 17:18:34,950 INFO Time : 12 -- Train Express initiated. On Track A
-2019-11-01 17:18:34,951 INFO Time : 12 -- Acting for train Express
-2019-11-01 17:18:34,951 INFO Time : 12 -- Train Express Wait for 1 unit time
-2019-11-01 17:18:34,952 INFO Time : 13 -- Acting for train Express
-2019-11-01 17:18:34,952 INFO Time : 13 -- Train Express Try to depart to track A-B
-2019-11-01 17:18:34,952 INFO Time : 13 -- Train Express On track A-B
-2019-11-01 17:18:34,959 INFO Time : 24.0 -- Train Express Travelled on track A-B
-2019-11-01 17:18:34,959 INFO Time : 24 -- Acting for train Express
-2019-11-01 17:18:34,959 INFO Time : 24 -- Train Express Try to arrive at station B
-2019-11-01 17:18:34,959 INFO Time : 24 -- Train Express Arrived at station B
-2019-11-01 17:18:34,960 INFO Time : 24 -- Acting for train Express
-2019-11-01 17:18:34,960 INFO Time : 24 -- Train Express Try to depart to track B-C
-2019-11-01 17:18:34,960 INFO Time : 24 -- Train Express On track B-C
-2019-11-01 17:18:34,965 INFO Time : 30.0 -- Train Express Travelled on track B-C
-2019-11-01 17:18:34,965 INFO Time : 30 -- Acting for train Express
-2019-11-01 17:18:34,966 INFO Time : 30 -- Train Express Try to arrive at station C
-2019-11-01 17:18:34,966 INFO Time : 30 -- Train Express Arrived at station C
-2019-11-01 17:18:34,966 INFO Time : 30 -- Train Express On last Station.
-2019-11-01 17:18:34,966 INFO Time : 30 -- Acting for train Express
-2019-11-01 17:18:34,966 INFO Time : 30 -- Train :Express Completed Journey : Released all the resources 
+2019-11-01 18:25:04,840 INFO Time : 0 -- Train Express Putting in the network
+2019-11-01 18:25:04,854 INFO Time : 12 -- Train Express Can be put in the network
+2019-11-01 18:25:04,855 INFO Time : 12 -- Acting for train Express
+2019-11-01 18:25:04,856 INFO Time : 12 -- Train Express Wait for 1 unit time
+2019-11-01 18:25:04,858 INFO Time : 13 -- Acting for train Express
+2019-11-01 18:25:04,858 INFO Time : 13 -- Train Express initiating
+2019-11-01 18:25:04,858 INFO Time : 13 -- Train Express initiated. On Track A
+2019-11-01 18:25:04,859 INFO Time : 13 -- Acting for train Express
+2019-11-01 18:25:04,859 INFO Time : 13 -- Train Express Wait for 1 unit time
+2019-11-01 18:25:04,863 INFO Time : 14 -- Acting for train Express
+2019-11-01 18:25:04,863 INFO Time : 14 -- Train Express Try to depart to track A-B
+2019-11-01 18:25:04,864 INFO Time : 14 -- Train Express On track A-B
+2019-11-01 18:25:04,889 INFO Time : 25.0 -- Train Express Travelled on track A-B
+2019-11-01 18:25:04,889 INFO Time : 25 -- Acting for train Express
+2019-11-01 18:25:04,890 INFO Time : 25 -- Train Express Try to arrive at station B
+2019-11-01 18:25:04,890 INFO Time : 25 -- Train Express Arrived at station B
+2019-11-01 18:25:04,890 INFO Time : 25 -- Acting for train Express
+2019-11-01 18:25:04,890 INFO Time : 25 -- Train Express Wait for 1 unit time
+2019-11-01 18:25:04,891 INFO Time : 26 -- Acting for train Express
+2019-11-01 18:25:04,891 INFO Time : 26 -- Train Express Try to depart to track B-C
+2019-11-01 18:25:04,891 INFO Time : 26 -- Train Express On track B-C
+2019-11-01 18:25:04,894 INFO Time : 32.0 -- Train Express Travelled on track B-C
+2019-11-01 18:25:04,895 INFO Time : 32 -- Acting for train Express
+2019-11-01 18:25:04,895 INFO Time : 32 -- Train Express Wait for 1 unit time
+2019-11-01 18:25:04,895 INFO Time : 33 -- Acting for train Express
+2019-11-01 18:25:04,895 INFO Time : 33 -- Train Express Try to arrive at station C
+2019-11-01 18:25:04,895 INFO Time : 33 -- Train Express Arrived at station C
+2019-11-01 18:25:04,895 INFO Time : 33 -- Train Express On last Station.
+2019-11-01 18:25:04,896 INFO Time : 33 -- Acting for train Express
+2019-11-01 18:25:04,896 INFO Time : 33 -- Train :Express Completed Journey : Released all the resources 

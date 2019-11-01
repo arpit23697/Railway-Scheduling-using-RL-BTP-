@@ -1,3 +1,3 @@
-2019-11-01 17:18:34,955 INFO Time : 20 Checking Deadlock
-2019-11-01 17:18:34,972 INFO Time : 40 Checking Deadlock
-2019-11-01 17:18:34,972 WARNING Time : 41.0 Terminating Simulation. Deadlock detected
+2019-11-01 18:25:04,877 INFO Time : 20 Checking Deadlock
+2019-11-01 18:25:04,898 INFO Time : 40 Checking Deadlock
+2019-11-01 18:25:04,898 WARNING Time : 41.0 Terminating Simulation. Deadlock detected

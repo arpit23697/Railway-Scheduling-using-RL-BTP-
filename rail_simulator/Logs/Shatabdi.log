@@ -1,33 +1,27 @@
-2019-11-01 17:18:34,945 INFO Time : 0 -- Train Shatabdi Putting in the network
-2019-11-01 17:18:34,948 INFO Time : 10 -- Train Shatabdi Can be put in the network
-2019-11-01 17:18:34,948 INFO Time : 10 -- Acting for train Shatabdi
-2019-11-01 17:18:34,948 INFO Time : 10 -- Train Shatabdi Wait for 1 unit time
-2019-11-01 17:18:34,949 INFO Time : 11 -- Acting for train Shatabdi
-2019-11-01 17:18:34,949 INFO Time : 11 -- Train Shatabdi initiating
-2019-11-01 17:18:34,949 INFO Time : 11 -- Train Shatabdi initiated. On Track Alpha
-2019-11-01 17:18:34,949 INFO Time : 11 -- Acting for train Shatabdi
-2019-11-01 17:18:34,949 INFO Time : 11 -- Train Shatabdi Wait for 1 unit time
-2019-11-01 17:18:34,950 INFO Time : 12 -- Acting for train Shatabdi
-2019-11-01 17:18:34,950 INFO Time : 12 -- Train Shatabdi Try to depart to track Alpha-Beta
-2019-11-01 17:18:34,950 INFO Time : 12 -- Train Shatabdi On track Alpha-Beta
-2019-11-01 17:18:34,953 INFO Time : 16.0 -- Train Shatabdi Travelled on track Alpha-Beta
-2019-11-01 17:18:34,953 INFO Time : 16 -- Acting for train Shatabdi
-2019-11-01 17:18:34,953 INFO Time : 16 -- Train Shatabdi Try to arrive at station Beta
-2019-11-01 17:18:34,954 INFO Time : 17 -- Train Shatabdi Arrived at station Beta
-2019-11-01 17:18:34,954 INFO Time : 17 -- Acting for train Shatabdi
-2019-11-01 17:18:34,954 INFO Time : 17 -- Train Shatabdi Try to depart to track Beta-Gamma
-2019-11-01 17:18:34,956 INFO Time : 21 -- Train Shatabdi On track Beta-Gamma
-2019-11-01 17:18:34,961 INFO Time : 25.0 -- Train Shatabdi Travelled on track Beta-Gamma
-2019-11-01 17:18:34,961 INFO Time : 25 -- Acting for train Shatabdi
-2019-11-01 17:18:34,961 INFO Time : 25 -- Train Shatabdi Wait for 1 unit time
-2019-11-01 17:18:34,962 INFO Time : 26 -- Acting for train Shatabdi
-2019-11-01 17:18:34,962 INFO Time : 26 -- Train Shatabdi Wait for 1 unit time
-2019-11-01 17:18:34,962 INFO Time : 27 -- Acting for train Shatabdi
-2019-11-01 17:18:34,962 INFO Time : 27 -- Train Shatabdi Wait for 1 unit time
-2019-11-01 17:18:34,963 INFO Time : 28 -- Acting for train Shatabdi
-2019-11-01 17:18:34,963 INFO Time : 28 -- Train Shatabdi Try to arrive at station Gamma
-2019-11-01 17:18:34,963 INFO Time : 28 -- Train Shatabdi Arrived at station Gamma
-2019-11-01 17:18:34,963 INFO Time : 28 -- Acting for train Shatabdi
-2019-11-01 17:18:34,963 INFO Time : 28 -- Train Shatabdi Wait for 1 unit time
-2019-11-01 17:18:34,965 INFO Time : 29 -- Acting for train Shatabdi
-2019-11-01 17:18:34,965 INFO Time : 29 -- Train Shatabdi Try to depart to track Gamma-Zeta
+2019-11-01 18:25:04,839 INFO Time : 0 -- Train Shatabdi Putting in the network
+2019-11-01 18:25:04,848 INFO Time : 10 -- Train Shatabdi Can be put in the network
+2019-11-01 18:25:04,848 INFO Time : 10 -- Acting for train Shatabdi
+2019-11-01 18:25:04,849 INFO Time : 10 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 18:25:04,851 INFO Time : 11 -- Acting for train Shatabdi
+2019-11-01 18:25:04,851 INFO Time : 11 -- Train Shatabdi initiating
+2019-11-01 18:25:04,851 INFO Time : 11 -- Train Shatabdi initiated. On Track Alpha
+2019-11-01 18:25:04,852 INFO Time : 11 -- Acting for train Shatabdi
+2019-11-01 18:25:04,852 INFO Time : 11 -- Train Shatabdi Try to depart to track Alpha-Beta
+2019-11-01 18:25:04,853 INFO Time : 11 -- Train Shatabdi On track Alpha-Beta
+2019-11-01 18:25:04,864 INFO Time : 15.0 -- Train Shatabdi Travelled on track Alpha-Beta
+2019-11-01 18:25:04,865 INFO Time : 15 -- Acting for train Shatabdi
+2019-11-01 18:25:04,865 INFO Time : 15 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 18:25:04,869 INFO Time : 16 -- Acting for train Shatabdi
+2019-11-01 18:25:04,869 INFO Time : 16 -- Train Shatabdi Wait for 1 unit time
+2019-11-01 18:25:04,871 INFO Time : 17 -- Acting for train Shatabdi
+2019-11-01 18:25:04,872 INFO Time : 17 -- Train Shatabdi Try to arrive at station Beta
+2019-11-01 18:25:04,875 INFO Time : 19 -- Train Shatabdi Arrived at station Beta
+2019-11-01 18:25:04,876 INFO Time : 19 -- Acting for train Shatabdi
+2019-11-01 18:25:04,876 INFO Time : 19 -- Train Shatabdi Try to depart to track Beta-Gamma
+2019-11-01 18:25:04,885 INFO Time : 23 -- Train Shatabdi On track Beta-Gamma
+2019-11-01 18:25:04,891 INFO Time : 27.0 -- Train Shatabdi Travelled on track Beta-Gamma
+2019-11-01 18:25:04,892 INFO Time : 27 -- Acting for train Shatabdi
+2019-11-01 18:25:04,892 INFO Time : 27 -- Train Shatabdi Try to arrive at station Gamma
+2019-11-01 18:25:04,892 INFO Time : 27 -- Train Shatabdi Arrived at station Gamma
+2019-11-01 18:25:04,892 INFO Time : 27 -- Acting for train Shatabdi
+2019-11-01 18:25:04,893 INFO Time : 27 -- Train Shatabdi Try to depart to track Gamma-Zeta
