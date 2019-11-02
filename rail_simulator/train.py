@@ -245,6 +245,10 @@ class Train:
         
         self.create_log("Time : {} -- Train {} initiated. On Track {}".format(env.now , self.name , start_station) )
         
+        #wait for the halt time : depart_time - start_time
+        wait = depart_time - start_time
+        yield env.timeout(wait)
+
         #waiting on the track till the depart time, then only we can take the action for the train
         wait = max (0 , depart_time - env.now)
         yield env.timeout(wait)
@@ -371,7 +375,13 @@ class Train:
                 self.running = False
             
             #wait If reached the station before the depart time
-            _ , _ , depart_time = self.route[self.current_index]
+            _ , start_time , depart_time = self.route[self.current_index]
+            
+            #wait for the halt time : depart_time - start_time
+            wait = depart_time - start_time
+            yield env.timeout(wait)
+            
+            #dont depart before time.
             wait = max(0 , depart_time - env.now)
             yield env.timeout (wait)
             
@@ -515,7 +525,7 @@ class Train:
         #train has completed the journey but the resource is not freed
         elif (self.done == True and self.resource is not None):
             return "Completed_resource_not_freed"
-            
+
         #train has completed the journey and freed all the resource.
         else:
             return "Completed"

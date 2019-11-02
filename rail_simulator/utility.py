@@ -444,6 +444,3 @@ def pick_most_suitable_action (name_train_map , N , env):
 
     # time , name = TRAINS_NEEDING_ACTION[0]
     return env.now, final_train
-    
-    
-    
