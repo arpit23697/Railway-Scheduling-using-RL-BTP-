@@ -499,6 +499,27 @@ class Train:
             self.create_log('Time : {} -- {} Move Invalid. Journey is completed the journey'.format(env.now , self.name))
             return True
         
+    def status (self):
+        '''
+        Returns the status of each train.
+        
+        '''
+        #Train is not yet started
+        if (self.done == False and self.running == False):
+            return "not_yet_started"
+
+        #Train is running
+        elif (self.running == True):
+            return "running"
+        
+        #train has completed the journey but the resource is not freed
+        elif (self.done == True and self.resource is not None):
+            return "Completed_resource_not_freed"
+            
+        #train has completed the journey and freed all the resource.
+        else:
+            return "Completed"
+        
     
     def print_details (self):
         '''

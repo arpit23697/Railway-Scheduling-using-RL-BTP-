@@ -8,6 +8,7 @@ from network import *
 from config import *
 import simpy
 import logging
+import copy
 
 
 def create_resource_usage_graph (trains , N):
@@ -52,20 +53,20 @@ def create_resource_usage_graph (trains , N):
 
 
 
-            #If the train is waiting for some resource
-            if not t.waiting == '-':
-                waiting = t.waiting
+        #If the train is waiting for some resource
+        if not t.waiting == '-':
+            waiting = t.waiting
 
-                #Check if the resource is track or station
-                if type(t.waiting) is not str:
+            #Check if the resource is track or station
+            if type(t.waiting) is not str:
 
-                    if not (t.waiting[0] < t.waiting[1]):
-                        waiting = (t.waiting[1] , t.waiting[0])
-                    track_nodes.add(waiting)
-                else:
-                    station_nodes.add(waiting)
-                #Add the edge
-                G.add_edge (t.name , waiting)
+                if not (t.waiting[0] < t.waiting[1]):
+                    waiting = (t.waiting[1] , t.waiting[0])
+                track_nodes.add(waiting)
+            else:
+                station_nodes.add(waiting)
+            #Add the edge
+            G.add_edge (t.name , waiting)
 
     return G,train_nodes , station_nodes , track_nodes
 
@@ -271,18 +272,18 @@ def create_state_for_deadlock (N , trains):
             index = resource_int_map[current]
             allot[p][index] = 1
 
-            if not t.waiting == '-':
-                waiting = t.waiting
-    
-                #Check if the resource is track or station
-                if type(t.waiting) is not str:
-                
-                    if not (t.waiting[0] < t.waiting[1]):
-                        waiting = (t.waiting[1] , t.waiting[0])
-    
-                #get the index and request for the corresponding resource to train p
-                index = resource_int_map[waiting]
-                req[p][index] = 1
+        if not t.waiting == '-':
+            waiting = t.waiting
+
+            #Check if the resource is track or station
+            if type(t.waiting) is not str:
+            
+                if not (t.waiting[0] < t.waiting[1]):
+                    waiting = (t.waiting[1] , t.waiting[0])
+
+            #get the index and request for the corresponding resource to train p
+            index = resource_int_map[waiting]
+            req[p][index] = 1
         
     return available , allot , req
 
@@ -296,3 +297,117 @@ def deadlock_detection (N , trains):
     available , allocated , requested = create_state_for_deadlock (N , trains)
     safe , deadlock_processes= isSafe(available , allocated + requested ,allocated )
     return safe , deadlock_processes
+
+def pick_most_suitable_action (name_train_map , N , env):
+    '''
+    If multiple events are to
+    be processed at the same time stamp, they are handled sequen-
+    tially. This sequence is decided by a deadlock-avoidance
+    heuristic from prior literature [20]. Intuitively, the sequence of
+    events is ordered in such a way as to process trains in the most
+    congested resources first. The lower the number of free tracks
+    in a resource, the higher the congestion, and the earlier the
+    processing of a train occupying that resource
+    
+    
+    This function breaks the tie between the trains that need the action at the same time.
+    This function break the tie in such a way that avoids deadlock.
+    
+    @Parameters:
+    name_train_map               : A map that maps the name of the train to its instance.
+    N                            : network on which the trains are running.
+    env                          : simpy environment under which runs the simulation
+    TRAINS_NEEDING_ACTION        : List of trains that need action at that time. Each element is the tuple.
+                                    First is time at which they need action and second is train that needs action 
+    
+    @return 
+    name of the train on which the action can be taken.
+    
+    '''
+    global TRAINS_NEEDING_ACTION
+    
+    #Create the list of trains that need action at this time
+    #remove the trains that don't need the action at the current time.
+    trains_need_action = [name_train_map[name] for time , name in TRAINS_NEEDING_ACTION if time == env.now]
+
+    #Find the status of each train
+    #remove those trains that have completed journey and freed resource
+    
+    temp = trains_need_action[:]
+
+    for train in temp:
+        status = train.status()
+        if (status == 'Completed'):
+            trains_need_action.remove(train)
+        
+    #if any train have status : Completed_resource_not_freed, then schedule it first
+    #If there are multiple trains, then all of them will be done ony by one.
+    for train in trains_need_action:
+        status = train.status()
+        if (status == 'Completed_resource_not_freed'):
+            return env.now , train.name
+
+    #If any train have status : not_yet_started , then schedule it.
+    for train in trains_need_action:
+        status = train.status()
+        if (status == 'not_yet_started'):
+            return env.now , train.name
+
+    #Now all the trains are running.
+    #create list : each element is a 4 tuple
+            #First element : name of the train
+            #second : resurce it is occupying
+            #congestion on that resource : given by free tracks on the resource
+            #priority of the resource : given by priority of the trains on the resource
+             
+    #Note : lower priority means higher preference
+    train_and_resource_info = []
+    for train in trains_need_action:
+        #If the resource is track or station
+        if (train.station_or_not):
+
+            #get the resource
+            current = train.current
+            station = N.G.nodes[current]['details']
+
+            #free track on the resource
+            free_tracks = station.total_free
+
+            #priority of the node
+            priority = 1000
+            for train_running in station.train_running:
+                if not (train_running == '_'):
+                    priority = min (priority , name_train_map[train_running].priority )
+
+            #fill the info
+            train_and_resource_info.append((train.name , current , free_tracks , priority))
+        
+        else :
+            
+            #get resource
+            current = train.current
+            if not (train.current[0] < train.current[1]):
+                    current = (train.current[1] , train.current[0])
+
+            track = N.G[current[0]][current[1]]['details']
+
+            #free track on the resource
+            free_tracks = track.total_free
+
+            #priority
+            priority = 1000
+            for train_running in track.train_running:
+                if not (train_running == '_'):
+                    priority = min(priority , name_train_map[train_running].priority)
+
+            #fill the info
+            train_and_resource_info.append((train.name , current , free_tracks , priority))
+
+    print(train_and_resource_info)
+
+
+    time , name = TRAINS_NEEDING_ACTION[0]
+    return env.now, name
+    
+    
+    

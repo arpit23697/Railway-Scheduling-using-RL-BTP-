@@ -1,6 +1,6 @@
-STATIONS_FILENAME = 'Input_files/toy_stations.txt'
-RAILWAY_FILENAME = 'Input_files/toy_railway.txt'
-TRAINS_FILENAME = 'Input_files/toy_trains.txt'
+STATIONS_FILENAME = 'Input_files/toy_stations2.txt'
+RAILWAY_FILENAME = 'Input_files/toy_railway2.txt'
+TRAINS_FILENAME = 'Input_files/toy_trains2.txt'
 
 #GLOBAL VARIABLES
 TOTAL_SIMULATION_TIME = 30
