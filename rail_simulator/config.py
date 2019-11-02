@@ -12,3 +12,5 @@ TRAINS_NEEDING_ACTION = []                 #A list containing trains that need a
 #DEADLOCK 
 DEADLOCK = True                          #Indicate wether the system is in deadlock or not
 
+#ALL TRAINS_COMPLETED JOURNEY
+TRAINS_COMPLETED_JOURNEY = False
