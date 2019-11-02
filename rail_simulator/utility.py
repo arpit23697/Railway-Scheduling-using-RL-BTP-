@@ -359,7 +359,7 @@ def pick_most_suitable_action (name_train_map , N , env):
             #second : resurce it is occupying
             #congestion on that resource : given by free tracks on the resource
             #priority of the resource : given by priority of the trains on the resource
-             
+            #Priority of the train 
     #Note : lower priority means higher preference
     train_and_resource_info = []
     for train in trains_need_action:
@@ -380,7 +380,8 @@ def pick_most_suitable_action (name_train_map , N , env):
                     priority = min (priority , name_train_map[train_running].priority )
 
             #fill the info
-            train_and_resource_info.append((train.name , current , free_tracks , priority))
+            train_and_resource_info.append((train.name , current , 
+                                                free_tracks , priority , train.priority))
         
         else :
             
@@ -401,13 +402,48 @@ def pick_most_suitable_action (name_train_map , N , env):
                     priority = min(priority , name_train_map[train_running].priority)
 
             #fill the info
-            train_and_resource_info.append((train.name , current , free_tracks , priority))
+            train_and_resource_info.append((train.name , current , 
+                                                free_tracks , priority , train.priority))
 
-    print(train_and_resource_info)
+    #find the minimum Free_tracks, minimum resource priority and then minimum train priority
+    most_congested , min_resource_priority , min_train_priority = 10000, 10000, 10000
+    for name , resource, free_tracks , res_priority , train_priority in train_and_resource_info:
+        #pick the one with most congested resource
 
+        if (free_tracks < most_congested):
+            most_congested = free_tracks 
+            min_resource_priority = res_priority
+            min_train_priority = train_priority
+        
+        #If congestion is same see priority of node
+        elif (free_tracks == most_congested):
 
-    time , name = TRAINS_NEEDING_ACTION[0]
-    return env.now, name
+            #resource priority
+            if (res_priority < min_resource_priority):
+                most_congested = free_tracks 
+                min_resource_priority = res_priority
+                min_train_priority = train_priority
+
+            elif (res_priority == min_resource_priority):
+
+                #train priority
+                if (train_priority < min_train_priority ):
+                    most_congested = free_tracks 
+                    min_resource_priority = res_priority
+                    min_train_priority = train_priority
+
+    #collect all the best trains that need action
+    best_choices = []
+    for name , resource, free_tracks , res_priority , train_priority in train_and_resource_info:
+        if (free_tracks == most_congested and res_priority == min_resource_priority 
+                and train_priority == min_train_priority ):
+                best_choices.append(name)
+
+    #choose one at random and send
+    final_train = random.choice(best_choices)
+
+    # time , name = TRAINS_NEEDING_ACTION[0]
+    return env.now, final_train
     
     
     
