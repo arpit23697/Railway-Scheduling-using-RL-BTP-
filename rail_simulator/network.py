@@ -3,6 +3,8 @@ import networkx as nx
 import simpy
 import random
 import time
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 
 
 
@@ -299,8 +301,9 @@ class Network:
         t = self.G[node_x][node_y]['details']
         return t.free_track_line(index)
     
-    def draw_railway_network(self ,ax = None ,suppress_label = False , suppress_station_info = False , 
-                            suppress_track_info = False , suppress_edge_label = False ):
+    def draw_railway_network(self ,ax = None ,suppress_label = False ,
+                             suppress_station_info = False , suppress_track_info = False
+                              , suppress_edge_label = False , train_to_color = None):
         
         #clear the diagram
         ax.clear()
@@ -311,7 +314,7 @@ class Network:
         #draw the labels
         if not suppress_label:
             labels = {}
-            # nx.draw_networkx_labels(self.G , pos , labels = labels , font_size=20 , font_color='red' , ax = ax)
+            
             for i, n in enumerate(list(self.G.nodes)):
                 s = self.G.nodes[n]['details']
 
@@ -322,10 +325,14 @@ class Network:
             nx.draw_networkx_labels(self.G , pos , labels = labels , font_size=8 , font_color='red' , ax = ax)
         
         #draw the nodes
+
+
+
+
         if suppress_station_info:
             nx.draw_networkx_nodes(self.G, pos ,  node_size = 500,
                                    node_color='lightblue' , ax =ax)
-        else:
+        elif train_to_color is None and suppress_station_info == False:
             for i , n in enumerate(list(self.G.nodes)):
                 s = self.G.nodes[n]['details']
 
@@ -341,14 +348,33 @@ class Network:
                                    linewidths=current_width , alpha= 1,
                                    edgecolors=color , ax= ax )
                     current_width -= width
-                    
-        
+
+        elif train_to_color is not None and suppress_station_info == False:
+            for i , n in enumerate(list(self.G.nodes)):
+
+                s = self.G.nodes[n]['details']
+                
+                width = 2
+                total_tracks = s.n_parallel_tracks
+                current_width = width * total_tracks
+
+                for index in range(total_tracks):
+                    color = 'greenyellow'
+                    if s.train_running[index] == '_':
+                        color = 'greenyellow'
+                    else:
+                        color = train_to_color[s.train_running[index]]
+
+                    nx.draw_networkx_nodes(self.G, pos ,  node_size = 500, nodelist = [n], node_color='lightblue',
+                                   linewidths=current_width , alpha= 1,
+                                   edgecolors=color , ax= ax )
+                    current_width -= width
 
         #draw the edges   
         if (suppress_track_info):
             nx.draw_networkx_edges(self.G, pos, edgelist=self.G.edges,
                                        width = 5 ,edge_color='lightblue', arrows=False , ax = ax)
-        else:
+        elif suppress_track_info == False and train_to_color is None:
             for e_x , e_y in self.G.edges:
                 t = self.G[e_x][e_y]['details']
 
@@ -362,6 +388,25 @@ class Network:
                         color = 'greenyellow'
 
                     nx.draw_networkx_edges(self.G, pos, edgelist=[(e_x , e_y)],
+                                           width = current_width ,edge_color=color, arrows=False ,ax = ax)
+                    current_width -= width
+
+        elif suppress_track_info == False and train_to_color is not None:
+            for e_x , e_y in self.G.edges:
+                t = self.G[e_x][e_y]['details']
+
+                width = 2;
+                total_tracks = t.n_parallel_track
+                current_width = width * total_tracks
+
+                for index in range(total_tracks):
+                    color = 'greenyellow'
+                    if t.train_running[index] == '_':
+                        color = 'greenyellow'
+                    else:
+                        color = train_to_color[t.train_running[index]]
+                    
+                    nx.draw_networkx_edges(self.G , pos, edgelist=[(e_x , e_y)],
                                            width = current_width ,edge_color=color, arrows=False ,ax = ax)
                     current_width -= width
 
@@ -379,6 +424,17 @@ class Network:
             nx.draw_networkx_edge_labels(self.G , pos , edge_labels=label , font_color='red',
                                         font_size = 8 ,ax =ax)
 
+        
+                
+        handles =[]
+        # Shrink current axis by 20%
+        box = ax.get_position()
+        ax.set_position([box.x0, box.y0, box.width * 1.0, box.height])
+
+        if train_to_color is not None and suppress_station_info == False and suppress_track_info == False:
+            for name , color in train_to_color.items():
+                handles.append(mpatches.Patch(color= color , label=name ))
+            ax.legend(handles=handles , loc='center left', bbox_to_anchor=(0.85, 0.85) )
     
     def print_details (self):
         
