@@ -6,3 +6,15 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Mapping train location and direction of movement to resource status, relative to the \IeC {\textquoteleft }current train\IeC {\textquoteright } \cite {ARTICLE:1}. }}{5}{figure.3.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Flow chart summarizing the implementation of railway simulator. }}{9}{figure.5.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Railway Network framework }}{12}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Train Variables and methods }}{13}{figure.6.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Network with trains color coded. }}{16}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Network showing just what all resources are free. }}{16}{figure.7.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Resource usage in the network. }}{17}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Deadlock near station Charlie. }}{18}{figure.8.2}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

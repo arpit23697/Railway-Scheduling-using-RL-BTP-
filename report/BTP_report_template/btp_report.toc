@@ -1,4 +1,4 @@
-\contentsline {chapter}{List of Figures}{2}{chapter*.1}
+\contentsline {chapter}{List of Figures}{3}{chapter*.1}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Problem Statement}{1}{chapter.2}
 \contentsline {section}{\numberline {2.1}Indian Railways}{1}{section.2.1}
@@ -14,9 +14,26 @@
 \contentsline {subsection}{\numberline {3.3.1}State Space Representation}{5}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Action And Policy Definition}{6}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Objective Function}{6}{section.3.4}
-\contentsline {chapter}{\numberline {4}Implementation}{7}{chapter.4}
+\contentsline {chapter}{\numberline {4}Implementation Overview}{7}{chapter.4}
 \contentsline {section}{\numberline {4.1}Railway simulator}{7}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Requirement}{7}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Implementation}{7}{subsection.4.1.2}
-\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{9}{chapter.5}
-\contentsline {chapter}{References}{10}{chapter.5}
+\contentsline {chapter}{\numberline {5}Implementation Details}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}Modules and its components}{10}{section.5.1}
+\contentsline {chapter}{\numberline {6}Rail Network and Train}{11}{chapter.6}
+\contentsline {section}{\numberline {6.1}Mathematical model}{11}{section.6.1}
+\contentsline {section}{\numberline {6.2}Railway Network}{12}{section.6.2}
+\contentsline {section}{\numberline {6.3}Trains}{12}{section.6.3}
+\contentsline {chapter}{\numberline {7}Statistical Analysis and Graph}{15}{chapter.7}
+\contentsline {section}{\numberline {7.1}Log generatotion}{15}{section.7.1}
+\contentsline {section}{\numberline {7.2}Graphs for visulalization}{15}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Details of the image}{15}{subsection.7.2.1}
+\contentsline {chapter}{\numberline {8}Resource Usage}{17}{chapter.8}
+\contentsline {section}{\numberline {8.1}Resource usage graph}{17}{section.8.1}
+\contentsline {section}{\numberline {8.2}Deadlock detection}{18}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Banker's algorithm}{18}{subsection.8.2.1}
+\contentsline {section}{\numberline {8.3}Deadlock avoidance heuristic}{20}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Algorithm}{20}{subsection.8.3.1}
+\contentsline {chapter}{\numberline {9}Simulator}{21}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion and Future Work}{23}{chapter.10}
+\contentsline {chapter}{References}{24}{chapter.10}

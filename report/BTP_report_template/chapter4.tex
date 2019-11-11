@@ -1,4 +1,4 @@
-\chapter{Implementation}
+\chapter{Implementation Overview}
 
 As for now, we are focussing on how to implement the first approach 
 and then move onto the second approach. The integrated reinforcement learning algorithm is driven
@@ -25,6 +25,7 @@ which it corresponds, the resource where the train is currently
 located, the last observed state-action pair for the train (empty
 if the train is yet to start), and the direction of the train journey. 
 
+\vspace{\baselineskip}
 At each step, the algorithm moves the simulation clock to
 the earliest time stamp in the event list. If multiple events are to
 be processed at the same time stamp, they are handled sequentially. We are for now 
@@ -51,3 +52,6 @@ model the movement of trains using this package. We yield events when the train 
 the train reaches the next station, event is yielded and then we can process accordingly. So whole simulation is done 
 by generating events at points where the algorithm is supposed to take action.
 
+\vspace{\baselineskip}
+Once the railway network is created, train class is used to create different instances
+of the trains running over the network.

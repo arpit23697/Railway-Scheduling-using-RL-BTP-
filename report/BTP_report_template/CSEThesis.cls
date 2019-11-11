@@ -29,7 +29,7 @@
     {\markatright{\QED}\end{trivlist}}
 
 %------------------------------------------------------------------------
-\setlength{\parindent}{0.5cm} 
+\setlength{\parindent}{0.0  cm} 
 %\`setlength'{\textheight}{10.0in}
 %\setlength{\textwidth}{6.500in}
 %\setlength{\topmargin}{-0.900in}

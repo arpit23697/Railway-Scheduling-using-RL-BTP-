@@ -1,0 +1,79 @@
+\chapter{Simulator}
+
+This module is responsible for carrying out the whole simulation and
+ putting all the components in place. The way it does this is by creating
+ processes that interact with each other and runs the simulation.
+ This module is implemented with the help 
+ of simpy that helps to create different processes. SimPy is a discrete-event simulation 
+ library. The behavior of active components (like trains, deadlock detection or creating graphs) 
+ is modeled with processes. All processes live in an environment. They interact with the environment 
+ and with each other via events (which is created by this module). Note all the processes are 
+ running \textbf{concurrently}. At last, Simpy is using priority queue to 
+ order the events. There is a clock in the environment and it is the simulator that runs the clock, 
+ esentially running the simulation. 
+
+\vspace{0.25cm}
+
+Simulator module first create the network (with the help of railway network component) and then
+the \textbf{environment} under which the simulation is carried out. Then it creates 
+various processes that runs in this environment. The processes are : 
+\begin{enumerate}
+\item \textbf{Trains}
+
+There are multiple trains which are running in the network. Each train is an instance of 
+train class implemented in the train component. Simulator creates each train as a process. These
+trains are running over the same resource pool (railway network) and simulator helps in scheduling and 
+running each train. Each train have two actions, either to move or to wait and these 
+actions are implemented using \textbf{choose action} process.
+
+\item \textbf{Choose action}
+
+This process always runs and take actions for each train in the network.
+Initially there are no trains in the network. Simulator puts them at the initial station at approriate time 
+(depending on the schedule train is following). Once the train is put in the network, each train is either to move to the next resource
+(station or track) or wait for some time at the current resource (predefined to 1 unit time, can be altered). These actions
+help the train to complete it's journey from source to destination.
+There can be multiple trains that need action at the same time.
+TRAINS\_NEEDING\_ACTION is a global variable, that keeps track of the trains that need action at current simulation
+time. So there are two tasks at hand :
+\begin{itemize}
+\item Choose a train from TRAINS\_NEEDING\_ACTION for taking an action. In this simulator, we are 
+    using deadlock detection heuristic based on \cite{ARTICLE:2} for picking the train. Essentially this heuristic breaks
+    the tie when multiple trains are waiting for taking the action.
+    \vspace{2.5cm}
+    \item Next step is to take the action, either to move or to wait. Choice of action depends on the state
+    space of the train (discussed in detail in Algorithm section). We can also randomize this process by 
+    choosing the action randomly with fixed probabilities.
+\end{itemize}
+\item \textbf{Deadlock detection}
+
+
+This process is invoked after every predefined time (20 units) and checks if the network is in deadlock 
+or not.\textbf{ Banker's Algorithm} is used as the deadlock detection algorithm (discussed in detail in 
+resource usage module). If the network is in deadlock, then 
+simulation of the current episode terminates.
+
+\item \textbf{Create Statistics}
+
+This process is invoked after every predefined time (20 units) and generates statistics about the current 
+state of the network in the main log file (look at log generation component). The statistics include :
+\begin{itemize}
+\item Number of trains not yet started. 
+\item Number of trains currently running in the network.
+\item Number of trains that have completed their journey but the resource is not freed.
+\item Number of trains the have completed their journey and all the resources are freed.    
+\end{itemize}
+If all the trains have completed their journey and all resources are freed then the simulation is terminated.
+More statistics about the state of the network can be added in future.  
+
+\item \textbf{Update Graph}
+
+This process is responsible for creating the running GIF of the railway network and the trains running on
+the network. It's purpose is only visualization that further helps in debugging and analysis.
+\end{enumerate}
+
+All these processes are run by the simulator. In future, more processes can be added with different 
+functionality. All one has to do is to create a component and then the simulator will create a process
+that runs the component.
+
+

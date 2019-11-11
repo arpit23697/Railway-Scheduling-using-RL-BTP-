@@ -1,58 +1,34 @@
-2019-11-04 23:13:19,648 INFO Time : 0 -- Train Train011 Putting in the network
-2019-11-04 23:13:19,649 INFO Time : 0 -- Train Train011 Can be put in the network
-2019-11-04 23:13:19,650 INFO Time -- 0 : Train011 move Valid
-2019-11-04 23:13:19,650 INFO Time : 0 -- Acting for train Train011
-2019-11-04 23:13:19,650 INFO Time : 0 -- Train Train011 initiating
-2019-11-04 23:13:19,651 INFO Time : 0 -- Train Train011 initiated. On Track Echo
-2019-11-04 23:13:20,802 INFO Time -- 1 : Train011 move Invalid. Waiting for Echo - Delta
-2019-11-04 23:13:20,802 INFO Time : 1 -- Acting for train Train011
-2019-11-04 23:13:20,802 INFO Time : 1 -- Train Train011 Wait for 1 unit time
-2019-11-04 23:13:21,916 INFO Time -- 2 : Train011 move Invalid. Waiting for Echo - Delta
-2019-11-04 23:13:21,916 INFO Time : 2 -- Acting for train Train011
-2019-11-04 23:13:21,916 INFO Time : 2 -- Train Train011 Wait for 1 unit time
-2019-11-04 23:13:23,062 INFO Time -- 3 : Train011 move Invalid. Waiting for Echo - Delta
-2019-11-04 23:13:23,062 INFO Time : 3 -- Acting for train Train011
-2019-11-04 23:13:23,062 INFO Time : 3 -- Train Train011 Wait for 1 unit time
-2019-11-04 23:13:24,176 INFO Time -- 4 : Train011 move Valid
-2019-11-04 23:13:24,176 INFO Time : 4 -- Acting for train Train011
-2019-11-04 23:13:24,176 INFO Time : 4 -- Train Train011 Try to depart to track Echo-Delta
-2019-11-04 23:13:24,176 INFO Time : 4 -- Train Train011 On track Echo-Delta
-2019-11-04 23:13:25,318 INFO Time : 5.0 -- Train Train011 Travelled on track Echo-Delta
-2019-11-04 23:13:25,319 INFO Time -- 5 : Train011 move Valid
-2019-11-04 23:13:25,319 INFO Time : 5 -- Acting for train Train011
-2019-11-04 23:13:25,319 INFO Time : 5 -- Train Train011 Try to arrive at station Delta
-2019-11-04 23:13:25,319 INFO Time : 5 -- Train Train011 Arrived at station Delta
-2019-11-04 23:13:26,436 INFO Time -- 6 : Train011 move Valid
-2019-11-04 23:13:26,436 INFO Time : 6 -- Acting for train Train011
-2019-11-04 23:13:26,436 INFO Time : 6 -- Train Train011 Try to depart to track Delta-Charlie
-2019-11-04 23:13:26,436 INFO Time : 6 -- Train Train011 On track Delta-Charlie
-2019-11-04 23:13:27,582 INFO Time : 7.0 -- Train Train011 Travelled on track Delta-Charlie
-2019-11-04 23:13:27,582 INFO Time -- 7 : Train011 move Valid
-2019-11-04 23:13:27,583 INFO Time : 7 -- Acting for train Train011
-2019-11-04 23:13:27,583 INFO Time : 7 -- Train Train011 Try to arrive at station Charlie
-2019-11-04 23:13:27,583 INFO Time : 7 -- Train Train011 Arrived at station Charlie
-2019-11-04 23:13:28,702 INFO Time -- 8 : Train011 move Invalid. Waiting for Charlie - Bravo
-2019-11-04 23:13:28,702 INFO Time : 8 -- Acting for train Train011
-2019-11-04 23:13:28,702 INFO Time : 8 -- Train Train011 Wait for 1 unit time
-2019-11-04 23:13:29,845 INFO Time -- 9 : Train011 move Valid
-2019-11-04 23:13:29,845 INFO Time : 9 -- Acting for train Train011
-2019-11-04 23:13:29,845 INFO Time : 9 -- Train Train011 Try to depart to track Charlie-Bravo
-2019-11-04 23:13:29,845 INFO Time : 9 -- Train Train011 On track Charlie-Bravo
-2019-11-04 23:13:30,988 INFO Time : 10.0 -- Train Train011 Travelled on track Charlie-Bravo
-2019-11-04 23:13:30,989 INFO Time -- 10 : Train011 move Valid
-2019-11-04 23:13:30,989 INFO Time : 10 -- Acting for train Train011
-2019-11-04 23:13:30,989 INFO Time : 10 -- Train Train011 Try to arrive at station Bravo
-2019-11-04 23:13:30,989 INFO Time : 10 -- Train Train011 Arrived at station Bravo
-2019-11-04 23:13:32,106 INFO Time -- 11 : Train011 move Valid
-2019-11-04 23:13:32,106 INFO Time : 11 -- Acting for train Train011
-2019-11-04 23:13:32,106 INFO Time : 11 -- Train Train011 Try to depart to track Bravo-Alpha
-2019-11-04 23:13:32,106 INFO Time : 11 -- Train Train011 On track Bravo-Alpha
-2019-11-04 23:13:33,248 INFO Time : 12.0 -- Train Train011 Travelled on track Bravo-Alpha
-2019-11-04 23:13:33,249 INFO Time -- 12 : Train011 move Valid
-2019-11-04 23:13:33,249 INFO Time : 12 -- Acting for train Train011
-2019-11-04 23:13:33,249 INFO Time : 12 -- Train Train011 Try to arrive at station Alpha
-2019-11-04 23:13:33,249 INFO Time : 12 -- Train Train011 Arrived at station Alpha
-2019-11-04 23:13:33,249 INFO Time : 12 -- Train Train011 On last Station.
-2019-11-04 23:13:34,392 INFO Time -- 13 : Train011 move Valid
-2019-11-04 23:13:34,392 INFO Time : 13 -- Acting for train Train011
-2019-11-04 23:13:34,392 INFO Time : 13 -- Train :Train011 Completed Journey : Released all the resources 
+2019-11-10 14:06:02,299 INFO Time : 0 -- Train Train011 Putting in the network
+2019-11-10 14:06:02,300 INFO Time : 0 -- Train Train011 Can be put in the network
+2019-11-10 14:06:02,301 INFO Time : 0 -- Acting for train Train011
+2019-11-10 14:06:02,301 INFO Time : 0 -- Train Train011 Wait for 1 unit time
+2019-11-10 14:06:03,457 INFO Time : 1 -- Acting for train Train011
+2019-11-10 14:06:03,457 INFO Time : 1 -- Train Train011 initiating
+2019-11-10 14:06:03,457 INFO Time : 1 -- Train Train011 initiated. On Track Echo
+2019-11-10 14:06:04,601 INFO Time : 2 -- Acting for train Train011
+2019-11-10 14:06:04,601 INFO Time : 2 -- Train Train011 Wait for 1 unit time
+2019-11-10 14:06:05,741 INFO Time : 3 -- Acting for train Train011
+2019-11-10 14:06:05,741 INFO Time : 3 -- Train Train011 Wait for 1 unit time
+2019-11-10 14:06:06,851 INFO Time : 4 -- Acting for train Train011
+2019-11-10 14:06:06,851 INFO Time : 4 -- Train Train011 Wait for 1 unit time
+2019-11-10 14:06:07,990 INFO Time : 5 -- Acting for train Train011
+2019-11-10 14:06:07,990 INFO Time : 5 -- Train Train011 Wait for 1 unit time
+2019-11-10 14:06:09,132 INFO Time : 6 -- Acting for train Train011
+2019-11-10 14:06:09,132 INFO Time : 6 -- Train Train011 Wait for 1 unit time
+2019-11-10 14:06:10,246 INFO Time : 7 -- Acting for train Train011
+2019-11-10 14:06:10,246 INFO Time : 7 -- Train Train011 Wait for 1 unit time
+2019-11-10 14:06:11,388 INFO Time : 8 -- Acting for train Train011
+2019-11-10 14:06:11,388 INFO Time : 8 -- Train Train011 Wait for 1 unit time
+2019-11-10 14:06:12,506 INFO Time : 9 -- Acting for train Train011
+2019-11-10 14:06:12,506 INFO Time : 9 -- Train Train011 Try to depart to track Echo-Delta
+2019-11-10 14:06:13,621 INFO Time : 10 -- Train Train011 On track Echo-Delta
+2019-11-10 14:06:14,760 INFO Time : 11.0 -- Train Train011 Travelled on track Echo-Delta
+2019-11-10 14:06:14,760 INFO Time : 11 -- Acting for train Train011
+2019-11-10 14:06:14,761 INFO Time : 11 -- Train Train011 Try to arrive at station Delta
+2019-11-10 14:06:14,761 INFO Time : 11 -- Train Train011 Arrived at station Delta
+2019-11-10 14:06:15,904 INFO Time : 12 -- Acting for train Train011
+2019-11-10 14:06:15,904 INFO Time : 12 -- Train Train011 Try to depart to track Delta-Charlie
+2019-11-10 14:06:15,905 INFO Time : 12 -- Train Train011 On track Delta-Charlie
+2019-11-10 14:06:17,053 INFO Time : 13.0 -- Train Train011 Travelled on track Delta-Charlie
+2019-11-10 14:06:17,054 INFO Time : 13 -- Acting for train Train011
+2019-11-10 14:06:17,054 INFO Time : 13 -- Train Train011 Try to arrive at station Charlie

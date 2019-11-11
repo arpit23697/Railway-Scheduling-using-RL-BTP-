@@ -1,14 +1,31 @@
 \chapter{Conclusion and Future Work}
 
-So far, focus is to fully understand the problem statement, what are the variations of the 
-problem and then how RL algorithms can be used to solve this problem. The report discusses
-two approach, to solve the problem. Currently the focus is to implement the prior approach and
-see how good it is working, how good it is scaling to real life problem instances, how good it is 
-performing compared to the present approaches and how to improve upon it. For the implementation of the 
-algorithm, we need to implement the discrete railway simulator. For that, I have gone through the NetworkX and SimPy 
-packages of standard python. The future plan is to complete the implementation of the simulator and then test 
-our proposed method on the simulator.
+For implementing the RL algorithms to learn schedules, we need a discrete event simulator 
+that drives the algorithm. So far, focus is to implement the simulator. Simulator is organised into different modules 
+and these modules work together to create the whole system. Railway network and train module implements 
+the underlying railway network and trains that run over these networks. Statistical analysis and graph module 
+creates graphs for visualisation and generates log for analysis and debugging. More components 
+will be added in future for more analysis as per the need. Resource usage module 
+keeps track of the resources (station and track) in the network. It generates Resource usage graph, 
+implements deadlock detection algorithm for detecting deadlock in the network and deadlock avoidance heuristic for choosing action when multiple
+trains need action at the same time. Algorithm module forms the backbone of the whole simulator and contains 
+implementation of RL algorithms (Q-learning and Deep Q-Learning) for learning the 
+schedule. Finally simulator module, puts each piece together by creating each important 
+component as process. Each train in the network is treated as process and runs simultaneously.
+Other processes are also created for detecting deadlock, generating graph for visualisation,
+checking status of the network (number of trains in the network and there status) and choosing 
+action for trains that need action. 
 
+\vspace{\baselineskip}
+Now the future focus is on the algorithm module that will contain implementation of 
+prior as well as proposed approach. The report discusses
+two approaches, to solve the problem. Once the prior approach is implemented, we can
+see how good it is working, how good it is scaling to real life problem instances, how good it is 
+performing compared to the present approaches and how to improve upon it. Next step is to 
+improve on this algorithm and add deep learning to it for learning the state space. Finally, 
+we drive towards the proposed approach and improve upon it.  
+
+\vspace{\baselineskip}
 Since we are tackling blocking version of the JSSP problem, so the approach that we will 
 develop can be used to solve the JSSP problem with reasonable approximation. So the future plan is also 
 to use the developed approaches on other similar problems as well.

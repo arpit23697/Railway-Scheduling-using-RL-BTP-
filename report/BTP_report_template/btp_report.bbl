@@ -41,4 +41,12 @@ H.~Khadilkar, ``A scalable reinforcement learning algorithm for scheduling
 \bibitem{WEBSITE:5}
 \url{https://simpy.readthedocs.io/en/latest/contents.html}.
 
+\bibitem{WEBSITE:6}
+\url{https://github.com/arpit23697/Railway-Scheduling-using-RL-BTP-}.
+
+\bibitem{ARTICLE:2}
+H.~Khadilkar, ``Scheduling of vehicle movement in resource-constrained
+  transportation networks using a capacity-aware heuristic,'' \emph{Proc. Amer.
+  Control Conf.}, May 2017.
+
 \end{thebibliography}

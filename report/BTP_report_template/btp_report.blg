@@ -6,6 +6,11 @@ A level-1 auxiliary file: chapter1.aux
 A level-1 auxiliary file: chapter2.aux
 A level-1 auxiliary file: chapter3.aux
 A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: detailed_implementation.aux
+A level-1 auxiliary file: rail_train.aux
+A level-1 auxiliary file: stats.aux
+A level-1 auxiliary file: resource.aux
+A level-1 auxiliary file: simulator.aux
 A level-1 auxiliary file: futurework.aux
 The style file: IEEEtran.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -19,44 +24,44 @@ Database file #1: btp.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 6 entries,
+You've used 8 entries,
             4024 wiz_defined-function locations,
-            839 strings with 7798 characters,
-and the built_in function-call counts, 1674 in all, are:
-= -- 94
-> -- 12
+            852 strings with 8121 characters,
+and the built_in function-call counts, 2233 in all, are:
+= -- 131
+> -- 17
 < -- 0
-+ -- 8
-- -- 2
-* -- 46
-:= -- 274
-add.period$ -- 8
-call.type$ -- 6
-change.case$ -- 2
++ -- 11
+- -- 3
+* -- 59
+:= -- 371
+add.period$ -- 11
+call.type$ -- 8
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 165
-empty$ -- 198
-format.name$ -- 2
-if$ -- 351
+cite$ -- 8
+duplicate$ -- 223
+empty$ -- 264
+format.name$ -- 3
+if$ -- 473
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 36
-newline$ -- 41
-num.names$ -- 2
-pop$ -- 115
+int.to.str$ -- 8
+missing$ -- 47
+newline$ -- 47
+num.names$ -- 3
+pop$ -- 149
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 145
+skip$ -- 195
 stack$ -- 0
-substring$ -- 2
-swap$ -- 72
+substring$ -- 3
+swap$ -- 97
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 6
+type$ -- 8
 warning$ -- 0
-while$ -- 2
-width$ -- 7
-write$ -- 58
+while$ -- 3
+width$ -- 9
+write$ -- 71
