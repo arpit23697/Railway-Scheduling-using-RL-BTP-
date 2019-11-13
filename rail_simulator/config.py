@@ -1,3 +1,10 @@
+#For the Normal case
+# STATIONS_FILENAME = 'Input_files/stations.txt'
+# RAILWAY_FILENAME = 'Input_files/railway.txt'
+# TRAINS_FILENAME = 'Input_files/trains.txt'
+
+
+#For the deadlock case
 STATIONS_FILENAME = 'Input_files/toy_stations2.txt'
 RAILWAY_FILENAME = 'Input_files/toy_railway2.txt'
 TRAINS_FILENAME = 'Input_files/toy_trains2.txt'

@@ -1,0 +1,64 @@
+2019-11-13 16:54:49,436 INFO Time : 0 -- Train Shatabdi Putting in the network
+2019-11-13 16:54:55,215 INFO Time : 10 -- Train Shatabdi Can be put in the network
+2019-11-13 16:54:55,846 INFO Time -- 10 : Shatabdi move Valid
+2019-11-13 16:54:55,847 INFO Time : 10 -- Acting for train Shatabdi
+2019-11-13 16:54:55,847 INFO Time : 10 -- Train Shatabdi initiating
+2019-11-13 16:54:55,847 INFO Time : 10 -- Train Shatabdi initiated. On Track Alpha
+2019-11-13 16:54:55,847 INFO Time -- 10 : Shatabdi move Valid
+2019-11-13 16:54:55,847 INFO Time : 10 -- Acting for train Shatabdi
+2019-11-13 16:54:55,847 INFO Time : 10 -- Train Shatabdi Try to depart to track Alpha-Beta
+2019-11-13 16:54:55,847 INFO Time : 10 -- Train Shatabdi On track Alpha-Beta
+2019-11-13 16:54:57,812 INFO Time : 14.0 -- Train Shatabdi Travelled on track Alpha-Beta
+2019-11-13 16:54:58,438 INFO Time -- 14 : Shatabdi move Valid
+2019-11-13 16:54:58,438 INFO Time : 14 -- Acting for train Shatabdi
+2019-11-13 16:54:58,438 INFO Time : 14 -- Train Shatabdi Try to arrive at station Beta
+2019-11-13 16:54:58,438 INFO Time : 14 -- Train Shatabdi Arrived at station Beta
+2019-11-13 16:54:59,069 INFO Time -- 15 : Shatabdi move Valid
+2019-11-13 16:54:59,069 INFO Time : 15 -- Acting for train Shatabdi
+2019-11-13 16:54:59,069 INFO Time : 15 -- Train Shatabdi Try to depart to track Beta-Gamma
+2019-11-13 16:54:59,070 INFO Time : 15 -- Train Shatabdi On track Beta-Gamma
+2019-11-13 16:55:00,958 INFO Time : 19.0 -- Train Shatabdi Travelled on track Beta-Gamma
+2019-11-13 16:55:01,586 INFO Time -- 19 : Shatabdi move Valid
+2019-11-13 16:55:01,586 INFO Time : 19 -- Acting for train Shatabdi
+2019-11-13 16:55:01,586 INFO Time : 19 -- Train Shatabdi Try to arrive at station Gamma
+2019-11-13 16:55:01,586 INFO Time : 19 -- Train Shatabdi Arrived at station Gamma
+2019-11-13 16:55:06,773 INFO Time -- 27 : Shatabdi move Invalid. Waiting for Gamma - Zeta
+2019-11-13 16:55:06,773 INFO Time : 27 -- Acting for train Shatabdi
+2019-11-13 16:55:06,773 INFO Time : 27 -- Train Shatabdi Wait for 1 unit time
+2019-11-13 16:55:07,404 INFO Time -- 28 : Shatabdi move Invalid. Waiting for Gamma - Zeta
+2019-11-13 16:55:07,404 INFO Time : 28 -- Acting for train Shatabdi
+2019-11-13 16:55:07,404 INFO Time : 28 -- Train Shatabdi Wait for 1 unit time
+2019-11-13 16:55:08,037 INFO Time -- 29 : Shatabdi move Invalid. Waiting for Gamma - Zeta
+2019-11-13 16:55:08,037 INFO Time : 29 -- Acting for train Shatabdi
+2019-11-13 16:55:08,037 INFO Time : 29 -- Train Shatabdi Wait for 1 unit time
+2019-11-13 16:55:08,669 INFO Time -- 30 : Shatabdi move Invalid. Waiting for Gamma - Zeta
+2019-11-13 16:55:08,670 INFO Time : 30 -- Acting for train Shatabdi
+2019-11-13 16:55:08,670 INFO Time : 30 -- Train Shatabdi Wait for 1 unit time
+2019-11-13 16:55:09,305 INFO Time -- 31 : Shatabdi move Invalid. Waiting for Gamma - Zeta
+2019-11-13 16:55:09,305 INFO Time : 31 -- Acting for train Shatabdi
+2019-11-13 16:55:09,305 INFO Time : 31 -- Train Shatabdi Wait for 1 unit time
+2019-11-13 16:55:09,969 INFO Time -- 32 : Shatabdi move Invalid. Waiting for Gamma - Zeta
+2019-11-13 16:55:09,969 INFO Time : 32 -- Acting for train Shatabdi
+2019-11-13 16:55:09,969 INFO Time : 32 -- Train Shatabdi Wait for 1 unit time
+2019-11-13 16:55:10,626 INFO Time -- 33 : Shatabdi move Invalid. Waiting for Gamma - Zeta
+2019-11-13 16:55:10,626 INFO Time : 33 -- Acting for train Shatabdi
+2019-11-13 16:55:10,626 INFO Time : 33 -- Train Shatabdi Wait for 1 unit time
+2019-11-13 16:55:11,257 INFO Time -- 34 : Shatabdi move Invalid. Waiting for Gamma - Zeta
+2019-11-13 16:55:11,258 INFO Time : 34 -- Acting for train Shatabdi
+2019-11-13 16:55:11,258 INFO Time : 34 -- Train Shatabdi Wait for 1 unit time
+2019-11-13 16:55:11,918 INFO Time -- 35 : Shatabdi move Invalid. Waiting for Gamma - Zeta
+2019-11-13 16:55:11,918 INFO Time : 35 -- Acting for train Shatabdi
+2019-11-13 16:55:11,919 INFO Time : 35 -- Train Shatabdi Wait for 1 unit time
+2019-11-13 16:55:12,546 INFO Time -- 36 : Shatabdi move Valid
+2019-11-13 16:55:12,546 INFO Time : 36 -- Acting for train Shatabdi
+2019-11-13 16:55:12,546 INFO Time : 36 -- Train Shatabdi Try to depart to track Gamma-Zeta
+2019-11-13 16:55:12,546 INFO Time : 36 -- Train Shatabdi On track Gamma-Zeta
+2019-11-13 16:55:15,130 INFO Time : 41.0 -- Train Shatabdi Travelled on track Gamma-Zeta
+2019-11-13 16:55:15,764 INFO Time -- 41 : Shatabdi move Valid
+2019-11-13 16:55:15,764 INFO Time : 41 -- Acting for train Shatabdi
+2019-11-13 16:55:15,764 INFO Time : 41 -- Train Shatabdi Try to arrive at station Zeta
+2019-11-13 16:55:15,764 INFO Time : 41 -- Train Shatabdi Arrived at station Zeta
+2019-11-13 16:55:15,764 INFO Time : 41 -- Train Shatabdi On last Station.
+2019-11-13 16:55:15,765 INFO Time -- 41 : Shatabdi move Valid
+2019-11-13 16:55:15,765 INFO Time : 41 -- Acting for train Shatabdi
+2019-11-13 16:55:15,765 INFO Time : 41 -- Train :Shatabdi Completed Journey : Released all the resources 

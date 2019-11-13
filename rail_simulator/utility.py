@@ -569,8 +569,6 @@ def choose_action (env ,N ,name_train_map):
             if not (t.is_move_valid(env)):
                 action = 'wait'
                 
-            
-            
             #Create the process that completes the action
             env.process(t.act_simulate(env , action))
             
