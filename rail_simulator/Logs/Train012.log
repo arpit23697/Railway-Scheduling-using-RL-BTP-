@@ -1,52 +1,24 @@
-2019-11-13 16:57:56,490 INFO Time : 0 -- Train Train012 Putting in the network
-2019-11-13 16:57:56,490 INFO Time : 0 -- Train Train012 Can be put in the network
-2019-11-13 16:57:56,493 INFO Time -- 0 : Train012 move Valid
-2019-11-13 16:57:56,493 INFO Time : 0 -- Acting for train Train012
-2019-11-13 16:57:56,493 INFO Time : 0 -- Train Train012 initiating
-2019-11-13 16:57:56,493 INFO Time : 0 -- Train Train012 initiated. On Track Echo
-2019-11-13 16:57:57,117 INFO Time -- 1 : Train012 move Invalid. Waiting for Echo - Delta
-2019-11-13 16:57:57,117 INFO Time : 1 -- Acting for train Train012
-2019-11-13 16:57:57,117 INFO Time : 1 -- Train Train012 Wait for 1 unit time
-2019-11-13 16:57:57,769 INFO Time -- 2 : Train012 move Valid
-2019-11-13 16:57:57,769 INFO Time : 2 -- Acting for train Train012
-2019-11-13 16:57:57,769 INFO Time : 2 -- Train Train012 Try to depart to track Echo-Delta
-2019-11-13 16:57:57,769 INFO Time : 2 -- Train Train012 On track Echo-Delta
-2019-11-13 16:57:58,433 INFO Time : 3.0 -- Train Train012 Travelled on track Echo-Delta
-2019-11-13 16:57:58,433 INFO Time -- 3 : Train012 move Valid
-2019-11-13 16:57:58,434 INFO Time : 3 -- Acting for train Train012
-2019-11-13 16:57:58,434 INFO Time : 3 -- Train Train012 Try to arrive at station Delta
-2019-11-13 16:57:58,434 INFO Time : 3 -- Train Train012 Arrived at station Delta
-2019-11-13 16:57:59,054 INFO Time -- 4 : Train012 move Valid
-2019-11-13 16:57:59,054 INFO Time : 4 -- Acting for train Train012
-2019-11-13 16:57:59,054 INFO Time : 4 -- Train Train012 Try to depart to track Delta-Charlie
-2019-11-13 16:57:59,054 INFO Time : 4 -- Train Train012 On track Delta-Charlie
-2019-11-13 16:57:59,668 INFO Time : 5.0 -- Train Train012 Travelled on track Delta-Charlie
-2019-11-13 16:57:59,669 INFO Time -- 5 : Train012 move Valid
-2019-11-13 16:57:59,669 INFO Time : 5 -- Acting for train Train012
-2019-11-13 16:57:59,669 INFO Time : 5 -- Train Train012 Try to arrive at station Charlie
-2019-11-13 16:57:59,669 INFO Time : 5 -- Train Train012 Arrived at station Charlie
-2019-11-13 16:58:00,319 INFO Time -- 6 : Train012 move Invalid. Waiting for Charlie - Bravo
-2019-11-13 16:58:00,319 INFO Time : 6 -- Acting for train Train012
-2019-11-13 16:58:00,319 INFO Time : 6 -- Train Train012 Wait for 1 unit time
-2019-11-13 16:58:00,939 INFO Time -- 7 : Train012 move Valid
-2019-11-13 16:58:00,939 INFO Time : 7 -- Acting for train Train012
-2019-11-13 16:58:00,939 INFO Time : 7 -- Train Train012 Try to depart to track Charlie-Bravo
-2019-11-13 16:58:00,939 INFO Time : 7 -- Train Train012 On track Charlie-Bravo
-2019-11-13 16:58:01,591 INFO Time : 8.0 -- Train Train012 Travelled on track Charlie-Bravo
-2019-11-13 16:58:01,592 INFO Time -- 8 : Train012 move Valid
-2019-11-13 16:58:01,592 INFO Time : 8 -- Acting for train Train012
-2019-11-13 16:58:01,592 INFO Time : 8 -- Train Train012 Try to arrive at station Bravo
-2019-11-13 16:58:01,592 INFO Time : 8 -- Train Train012 Arrived at station Bravo
-2019-11-13 16:58:02,211 INFO Time -- 9 : Train012 move Valid
-2019-11-13 16:58:02,211 INFO Time : 9 -- Acting for train Train012
-2019-11-13 16:58:02,211 INFO Time : 9 -- Train Train012 Try to depart to track Bravo-Alpha
-2019-11-13 16:58:02,211 INFO Time : 9 -- Train Train012 On track Bravo-Alpha
-2019-11-13 16:58:02,832 INFO Time : 10.0 -- Train Train012 Travelled on track Bravo-Alpha
-2019-11-13 16:58:02,834 INFO Time -- 10 : Train012 move Valid
-2019-11-13 16:58:02,834 INFO Time : 10 -- Acting for train Train012
-2019-11-13 16:58:02,834 INFO Time : 10 -- Train Train012 Try to arrive at station Alpha
-2019-11-13 16:58:02,834 INFO Time : 10 -- Train Train012 Arrived at station Alpha
-2019-11-13 16:58:02,834 INFO Time : 10 -- Train Train012 On last Station.
-2019-11-13 16:58:03,484 INFO Time -- 11 : Train012 move Valid
-2019-11-13 16:58:03,484 INFO Time : 11 -- Acting for train Train012
-2019-11-13 16:58:03,484 INFO Time : 11 -- Train :Train012 Completed Journey : Released all the resources 
+2020-01-02 18:35:17,616 INFO Time : 0 -- Train Train012 Putting in the network
+2020-01-02 18:35:17,616 INFO Time : 0 -- Train Train012 Can be put in the network
+2020-01-02 18:35:17,618 INFO Time -- 0 : Train012 move Valid
+2020-01-02 18:35:17,618 INFO Time : 0 -- Acting for train Train012
+2020-01-02 18:35:17,618 INFO Time : 0 -- Train Train012 initiating
+2020-01-02 18:35:17,618 INFO Time : 0 -- Train Train012 initiated. On Track Echo
+2020-01-02 18:35:18,271 INFO Time -- 1 : Train012 move Valid
+2020-01-02 18:35:18,271 INFO Time : 1 -- Acting for train Train012
+2020-01-02 18:35:18,271 INFO Time : 1 -- Train Train012 Try to depart to track Echo-Delta
+2020-01-02 18:35:18,271 INFO Time : 1 -- Train Train012 On track Echo-Delta
+2020-01-02 18:35:18,908 INFO Time : 2.0 -- Train Train012 Travelled on track Echo-Delta
+2020-01-02 18:35:18,909 INFO Time -- 2 : Train012 move Valid
+2020-01-02 18:35:18,909 INFO Time : 2 -- Acting for train Train012
+2020-01-02 18:35:18,909 INFO Time : 2 -- Train Train012 Try to arrive at station Delta
+2020-01-02 18:35:18,909 INFO Time : 2 -- Train Train012 Arrived at station Delta
+2020-01-02 18:35:19,553 INFO Time -- 3 : Train012 move Valid
+2020-01-02 18:35:19,553 INFO Time : 3 -- Acting for train Train012
+2020-01-02 18:35:19,553 INFO Time : 3 -- Train Train012 Try to depart to track Delta-Charlie
+2020-01-02 18:35:19,554 INFO Time : 3 -- Train Train012 On track Delta-Charlie
+2020-01-02 18:35:20,201 INFO Time : 4.0 -- Train Train012 Travelled on track Delta-Charlie
+2020-01-02 18:35:20,202 INFO Time -- 4 : Train012 move Valid
+2020-01-02 18:35:20,202 INFO Time : 4 -- Acting for train Train012
+2020-01-02 18:35:20,202 INFO Time : 4 -- Train Train012 Try to arrive at station Charlie
+2020-01-02 18:35:20,203 INFO Time : 4 -- Train Train012 Arrived at station Charlie

@@ -1,6 +1,0 @@
-2019-11-13 16:58:08,501 INFO Time : 20 Checking Deadlock
-2019-11-13 16:58:08,501 INFO Time : 20 Number of trains not yet started - 0
-2019-11-13 16:58:08,501 INFO Time : 20 Number of running trains - 0
-2019-11-13 16:58:08,501 INFO Time : 20 Number of trains Completed but resource not freed - 0
-2019-11-13 16:58:08,501 INFO Time : 20 Number of trains which have Completed journey - 8
-2019-11-13 16:58:09,146 INFO Time : 21.0 All trains completed journey. Terminating Simulation

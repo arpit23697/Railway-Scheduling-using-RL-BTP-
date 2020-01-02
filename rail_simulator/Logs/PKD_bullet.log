@@ -1,46 +1,46 @@
-2019-11-13 16:54:49,436 INFO Time : 0 -- Train PKD_bullet Putting in the network
-2019-11-13 16:54:50,073 INFO Time : 1 -- Train PKD_bullet Can be put in the network
-2019-11-13 16:54:50,074 INFO Time -- 1 : PKD_bullet move Valid
-2019-11-13 16:54:50,074 INFO Time : 1 -- Acting for train PKD_bullet
-2019-11-13 16:54:50,074 INFO Time : 1 -- Train PKD_bullet initiating
-2019-11-13 16:54:50,074 INFO Time : 1 -- Train PKD_bullet initiated. On Track Delta
-2019-11-13 16:54:50,074 INFO Time -- 1 : PKD_bullet move Valid
-2019-11-13 16:54:50,074 INFO Time : 1 -- Acting for train PKD_bullet
-2019-11-13 16:54:50,074 INFO Time : 1 -- Train PKD_bullet Try to depart to track Delta-Alpha
-2019-11-13 16:54:50,074 INFO Time : 1 -- Train PKD_bullet On track Delta-Alpha
-2019-11-13 16:54:53,237 INFO Time : 7.0 -- Train PKD_bullet Travelled on track Delta-Alpha
-2019-11-13 16:54:53,896 INFO Time -- 7 : PKD_bullet move Valid
-2019-11-13 16:54:53,896 INFO Time : 7 -- Acting for train PKD_bullet
-2019-11-13 16:54:53,896 INFO Time : 7 -- Train PKD_bullet Try to arrive at station Alpha
-2019-11-13 16:54:53,896 INFO Time : 7 -- Train PKD_bullet Arrived at station Alpha
-2019-11-13 16:54:57,184 INFO Time -- 12 : PKD_bullet move Valid
-2019-11-13 16:54:57,184 INFO Time : 12 -- Acting for train PKD_bullet
-2019-11-13 16:54:57,184 INFO Time : 12 -- Train PKD_bullet Try to depart to track Alpha-Beta
-2019-11-13 16:54:57,184 INFO Time : 12 -- Train PKD_bullet On track Alpha-Beta
-2019-11-13 16:54:59,070 INFO Time : 16.0 -- Train PKD_bullet Travelled on track Alpha-Beta
-2019-11-13 16:54:59,698 INFO Time -- 16 : PKD_bullet move Valid
-2019-11-13 16:54:59,698 INFO Time : 16 -- Acting for train PKD_bullet
-2019-11-13 16:54:59,698 INFO Time : 16 -- Train PKD_bullet Try to arrive at station Beta
-2019-11-13 16:54:59,698 INFO Time : 16 -- Train PKD_bullet Arrived at station Beta
-2019-11-13 16:55:01,587 INFO Time -- 19 : PKD_bullet move Valid
-2019-11-13 16:55:01,587 INFO Time : 19 -- Acting for train PKD_bullet
-2019-11-13 16:55:01,587 INFO Time : 19 -- Train PKD_bullet Try to depart to track Beta-Gamma
-2019-11-13 16:55:01,587 INFO Time : 19 -- Train PKD_bullet On track Beta-Gamma
-2019-11-13 16:55:03,543 INFO Time : 23.0 -- Train PKD_bullet Travelled on track Beta-Gamma
-2019-11-13 16:55:04,206 INFO Time -- 23 : PKD_bullet move Valid
-2019-11-13 16:55:04,206 INFO Time : 23 -- Acting for train PKD_bullet
-2019-11-13 16:55:04,206 INFO Time : 23 -- Train PKD_bullet Try to arrive at station Gamma
-2019-11-13 16:55:04,206 INFO Time : 23 -- Train PKD_bullet Arrived at station Gamma
-2019-11-13 16:55:06,105 INFO Time -- 26 : PKD_bullet move Valid
-2019-11-13 16:55:06,106 INFO Time : 26 -- Acting for train PKD_bullet
-2019-11-13 16:55:06,106 INFO Time : 26 -- Train PKD_bullet Try to depart to track Gamma-Zeta
-2019-11-13 16:55:06,106 INFO Time : 26 -- Train PKD_bullet On track Gamma-Zeta
-2019-11-13 16:55:08,670 INFO Time : 31.0 -- Train PKD_bullet Travelled on track Gamma-Zeta
-2019-11-13 16:55:09,304 INFO Time -- 31 : PKD_bullet move Valid
-2019-11-13 16:55:09,304 INFO Time : 31 -- Acting for train PKD_bullet
-2019-11-13 16:55:09,304 INFO Time : 31 -- Train PKD_bullet Try to arrive at station Zeta
-2019-11-13 16:55:09,304 INFO Time : 31 -- Train PKD_bullet Arrived at station Zeta
-2019-11-13 16:55:09,304 INFO Time : 31 -- Train PKD_bullet On last Station.
-2019-11-13 16:55:12,545 INFO Time -- 36 : PKD_bullet move Valid
-2019-11-13 16:55:12,545 INFO Time : 36 -- Acting for train PKD_bullet
-2019-11-13 16:55:12,545 INFO Time : 36 -- Train :PKD_bullet Completed Journey : Released all the resources 
+2019-11-14 15:36:37,906 INFO Time : 0 -- Train PKD_bullet Putting in the network
+2019-11-14 15:36:38,572 INFO Time : 1 -- Train PKD_bullet Can be put in the network
+2019-11-14 15:36:38,595 INFO Time -- 1 : PKD_bullet move Valid
+2019-11-14 15:36:38,595 INFO Time : 1 -- Acting for train PKD_bullet
+2019-11-14 15:36:38,595 INFO Time : 1 -- Train PKD_bullet initiating
+2019-11-14 15:36:38,595 INFO Time : 1 -- Train PKD_bullet initiated. On Track Delta
+2019-11-14 15:36:38,595 INFO Time -- 1 : PKD_bullet move Valid
+2019-11-14 15:36:38,595 INFO Time : 1 -- Acting for train PKD_bullet
+2019-11-14 15:36:38,595 INFO Time : 1 -- Train PKD_bullet Try to depart to track Delta-Alpha
+2019-11-14 15:36:38,596 INFO Time : 1 -- Train PKD_bullet On track Delta-Alpha
+2019-11-14 15:36:41,755 INFO Time : 7.0 -- Train PKD_bullet Travelled on track Delta-Alpha
+2019-11-14 15:36:42,381 INFO Time -- 7 : PKD_bullet move Valid
+2019-11-14 15:36:42,381 INFO Time : 7 -- Acting for train PKD_bullet
+2019-11-14 15:36:42,381 INFO Time : 7 -- Train PKD_bullet Try to arrive at station Alpha
+2019-11-14 15:36:42,381 INFO Time : 7 -- Train PKD_bullet Arrived at station Alpha
+2019-11-14 15:36:45,615 INFO Time -- 12 : PKD_bullet move Valid
+2019-11-14 15:36:45,616 INFO Time : 12 -- Acting for train PKD_bullet
+2019-11-14 15:36:45,616 INFO Time : 12 -- Train PKD_bullet Try to depart to track Alpha-Beta
+2019-11-14 15:36:45,616 INFO Time : 12 -- Train PKD_bullet On track Alpha-Beta
+2019-11-14 15:36:47,535 INFO Time : 16.0 -- Train PKD_bullet Travelled on track Alpha-Beta
+2019-11-14 15:36:48,162 INFO Time -- 16 : PKD_bullet move Valid
+2019-11-14 15:36:48,162 INFO Time : 16 -- Acting for train PKD_bullet
+2019-11-14 15:36:48,162 INFO Time : 16 -- Train PKD_bullet Try to arrive at station Beta
+2019-11-14 15:36:48,162 INFO Time : 16 -- Train PKD_bullet Arrived at station Beta
+2019-11-14 15:36:50,078 INFO Time -- 19 : PKD_bullet move Valid
+2019-11-14 15:36:50,078 INFO Time : 19 -- Acting for train PKD_bullet
+2019-11-14 15:36:50,078 INFO Time : 19 -- Train PKD_bullet Try to depart to track Beta-Gamma
+2019-11-14 15:36:50,078 INFO Time : 19 -- Train PKD_bullet On track Beta-Gamma
+2019-11-14 15:36:52,001 INFO Time : 23.0 -- Train PKD_bullet Travelled on track Beta-Gamma
+2019-11-14 15:36:52,630 INFO Time -- 23 : PKD_bullet move Valid
+2019-11-14 15:36:52,630 INFO Time : 23 -- Acting for train PKD_bullet
+2019-11-14 15:36:52,630 INFO Time : 23 -- Train PKD_bullet Try to arrive at station Gamma
+2019-11-14 15:36:52,630 INFO Time : 23 -- Train PKD_bullet Arrived at station Gamma
+2019-11-14 15:36:54,517 INFO Time -- 26 : PKD_bullet move Valid
+2019-11-14 15:36:54,517 INFO Time : 26 -- Acting for train PKD_bullet
+2019-11-14 15:36:54,517 INFO Time : 26 -- Train PKD_bullet Try to depart to track Gamma-Zeta
+2019-11-14 15:36:54,517 INFO Time : 26 -- Train PKD_bullet On track Gamma-Zeta
+2019-11-14 15:36:57,054 INFO Time : 31.0 -- Train PKD_bullet Travelled on track Gamma-Zeta
+2019-11-14 15:36:57,709 INFO Time -- 31 : PKD_bullet move Valid
+2019-11-14 15:36:57,709 INFO Time : 31 -- Acting for train PKD_bullet
+2019-11-14 15:36:57,710 INFO Time : 31 -- Train PKD_bullet Try to arrive at station Zeta
+2019-11-14 15:36:57,710 INFO Time : 31 -- Train PKD_bullet Arrived at station Zeta
+2019-11-14 15:36:57,710 INFO Time : 31 -- Train PKD_bullet On last Station.
+2019-11-14 15:37:00,995 INFO Time -- 36 : PKD_bullet move Valid
+2019-11-14 15:37:00,995 INFO Time : 36 -- Acting for train PKD_bullet
+2019-11-14 15:37:00,995 INFO Time : 36 -- Train :PKD_bullet Completed Journey : Released all the resources 

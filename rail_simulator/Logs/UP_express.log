@@ -1,28 +1,28 @@
-2019-11-13 16:54:49,436 INFO Time : 0 -- Train UP_express Putting in the network
-2019-11-13 16:54:56,526 INFO Time : 12 -- Train UP_express Can be put in the network
-2019-11-13 16:54:57,183 INFO Time -- 12 : UP_express move Valid
-2019-11-13 16:54:57,183 INFO Time : 12 -- Acting for train UP_express
-2019-11-13 16:54:57,183 INFO Time : 12 -- Train UP_express initiating
-2019-11-13 16:54:57,183 INFO Time : 12 -- Train UP_express initiated. On Track A
-2019-11-13 16:54:57,184 INFO Time -- 12 : UP_express move Valid
-2019-11-13 16:54:57,184 INFO Time : 12 -- Acting for train UP_express
-2019-11-13 16:54:57,184 INFO Time : 12 -- Train UP_express Try to depart to track A-B
-2019-11-13 16:54:57,184 INFO Time : 12 -- Train UP_express On track A-B
-2019-11-13 16:55:03,543 INFO Time : 23.0 -- Train UP_express Travelled on track A-B
-2019-11-13 16:55:04,207 INFO Time -- 23 : UP_express move Valid
-2019-11-13 16:55:04,207 INFO Time : 23 -- Acting for train UP_express
-2019-11-13 16:55:04,207 INFO Time : 23 -- Train UP_express Try to arrive at station B
-2019-11-13 16:55:04,207 INFO Time : 23 -- Train UP_express Arrived at station B
-2019-11-13 16:55:04,207 INFO Time -- 23 : UP_express move Valid
-2019-11-13 16:55:04,207 INFO Time : 23 -- Acting for train UP_express
-2019-11-13 16:55:04,207 INFO Time : 23 -- Train UP_express Try to depart to track B-C
-2019-11-13 16:55:04,208 INFO Time : 23 -- Train UP_express On track B-C
-2019-11-13 16:55:07,404 INFO Time : 29.0 -- Train UP_express Travelled on track B-C
-2019-11-13 16:55:08,037 INFO Time -- 29 : UP_express move Valid
-2019-11-13 16:55:08,038 INFO Time : 29 -- Acting for train UP_express
-2019-11-13 16:55:08,038 INFO Time : 29 -- Train UP_express Try to arrive at station C
-2019-11-13 16:55:08,038 INFO Time : 29 -- Train UP_express Arrived at station C
-2019-11-13 16:55:08,038 INFO Time : 29 -- Train UP_express On last Station.
-2019-11-13 16:55:08,669 INFO Time -- 30 : UP_express move Valid
-2019-11-13 16:55:08,669 INFO Time : 30 -- Acting for train UP_express
-2019-11-13 16:55:08,669 INFO Time : 30 -- Train :UP_express Completed Journey : Released all the resources 
+2019-11-14 15:36:37,906 INFO Time : 0 -- Train UP_express Putting in the network
+2019-11-14 15:36:44,988 INFO Time : 12 -- Train UP_express Can be put in the network
+2019-11-14 15:36:45,615 INFO Time -- 12 : UP_express move Valid
+2019-11-14 15:36:45,615 INFO Time : 12 -- Acting for train UP_express
+2019-11-14 15:36:45,615 INFO Time : 12 -- Train UP_express initiating
+2019-11-14 15:36:45,615 INFO Time : 12 -- Train UP_express initiated. On Track A
+2019-11-14 15:36:45,616 INFO Time -- 12 : UP_express move Valid
+2019-11-14 15:36:45,616 INFO Time : 12 -- Acting for train UP_express
+2019-11-14 15:36:45,616 INFO Time : 12 -- Train UP_express Try to depart to track A-B
+2019-11-14 15:36:45,617 INFO Time : 12 -- Train UP_express On track A-B
+2019-11-14 15:36:52,001 INFO Time : 23.0 -- Train UP_express Travelled on track A-B
+2019-11-14 15:36:52,631 INFO Time -- 23 : UP_express move Valid
+2019-11-14 15:36:52,631 INFO Time : 23 -- Acting for train UP_express
+2019-11-14 15:36:52,631 INFO Time : 23 -- Train UP_express Try to arrive at station B
+2019-11-14 15:36:52,631 INFO Time : 23 -- Train UP_express Arrived at station B
+2019-11-14 15:36:52,631 INFO Time -- 23 : UP_express move Valid
+2019-11-14 15:36:52,631 INFO Time : 23 -- Acting for train UP_express
+2019-11-14 15:36:52,631 INFO Time : 23 -- Train UP_express Try to depart to track B-C
+2019-11-14 15:36:52,631 INFO Time : 23 -- Train UP_express On track B-C
+2019-11-14 15:36:55,796 INFO Time : 29.0 -- Train UP_express Travelled on track B-C
+2019-11-14 15:36:56,424 INFO Time -- 29 : UP_express move Valid
+2019-11-14 15:36:56,424 INFO Time : 29 -- Acting for train UP_express
+2019-11-14 15:36:56,424 INFO Time : 29 -- Train UP_express Try to arrive at station C
+2019-11-14 15:36:56,425 INFO Time : 29 -- Train UP_express Arrived at station C
+2019-11-14 15:36:56,425 INFO Time : 29 -- Train UP_express On last Station.
+2019-11-14 15:36:57,053 INFO Time -- 30 : UP_express move Valid
+2019-11-14 15:36:57,053 INFO Time : 30 -- Acting for train UP_express
+2019-11-14 15:36:57,054 INFO Time : 30 -- Train :UP_express Completed Journey : Released all the resources 

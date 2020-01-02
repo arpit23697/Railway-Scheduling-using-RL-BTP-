@@ -137,10 +137,7 @@ class Train:
         
         finish_journey_process = env.process (self.finish_journey_simulate(self.env))
         yield finish_journey_process
-                
     
-
-        
     def act_simulate (self , env , action):
         '''
         Depending on the action given the train will either move or stop
@@ -200,7 +197,6 @@ class Train:
             #Put the train in the list
             TRAINS_NEEDING_ACTION.append(( env.now, self.name))
 
-    
     def initiate_train_simulate (self , env):
         '''
         This function puts the train on the track
@@ -252,10 +248,7 @@ class Train:
         #waiting on the track till the depart time, then only we can take the action for the train
         wait = max (0 , depart_time - env.now)
         yield env.timeout(wait)
-            
-
-        
-        
+              
     def move_train_one_step_simulate (self, env):
         '''
         Move the train
@@ -392,21 +385,20 @@ class Train:
     def finish_journey_simulate (self , env):
         '''
         This function is used when the train finishes it's journey.
-        Note : Instead of releasing the resource immediately, wait for the arrival time at the station
+        Note : Instead of releasing the resource immediately, wait for the departure time at the station
             and then free the resource
             
         Note : If the resource is not free, then it will wait till the resource is free.
         '''
         if (self.done == True):
             
-            #Wait for the arrival time at the station
+            #Wait for the departure time at the station
             station , arrive_time , depart_time = self.route[self.current_index]
             wait_time = max(0 , depart_time - env.now)
             yield env.timeout(wait_time)
             
             #update the log : correct depart time
             self.log[self.current_index] = (self.log[self.current_index][0] , self.log[self.current_index][1] ,  env.now) 
-            
             
             #release all the resource
             self.resource.release(self.request)
@@ -511,7 +503,7 @@ class Train:
         
     def status (self):
         '''
-        Returns the status of each train.
+        Returns the status of train.
         
         '''
         #Train is not yet started
