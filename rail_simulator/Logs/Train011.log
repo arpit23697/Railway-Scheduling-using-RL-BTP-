@@ -1,19 +1,21 @@
-2020-01-02 18:35:17,616 INFO Time : 0 -- Train Train011 Putting in the network
-2020-01-02 18:35:17,616 INFO Time : 0 -- Train Train011 Can be put in the network
-2020-01-02 18:35:17,618 INFO Time -- 0 : Train011 move Valid
-2020-01-02 18:35:17,618 INFO Time : 0 -- Acting for train Train011
-2020-01-02 18:35:17,618 INFO Time : 0 -- Train Train011 initiating
-2020-01-02 18:35:17,618 INFO Time : 0 -- Train Train011 initiated. On Track Echo
-2020-01-02 18:35:18,273 INFO Time -- 1 : Train011 move Invalid. Waiting for Echo - Delta
-2020-01-02 18:35:18,273 INFO Time : 1 -- Acting for train Train011
-2020-01-02 18:35:18,273 INFO Time : 1 -- Train Train011 Wait for 1 unit time
-2020-01-02 18:35:18,910 INFO Time -- 2 : Train011 move Invalid. Waiting for Echo - Delta
-2020-01-02 18:35:18,910 INFO Time : 2 -- Acting for train Train011
-2020-01-02 18:35:18,910 INFO Time : 2 -- Train Train011 Wait for 1 unit time
-2020-01-02 18:35:19,555 INFO Time -- 3 : Train011 move Invalid. Waiting for Echo - Delta
-2020-01-02 18:35:19,555 INFO Time : 3 -- Acting for train Train011
-2020-01-02 18:35:19,555 INFO Time : 3 -- Train Train011 Wait for 1 unit time
-2020-01-02 18:35:20,204 INFO Time -- 4 : Train011 move Valid
-2020-01-02 18:35:20,204 INFO Time : 4 -- Acting for train Train011
-2020-01-02 18:35:20,204 INFO Time : 4 -- Train Train011 Try to depart to track Echo-Delta
-2020-01-02 18:35:20,204 INFO Time : 4 -- Train Train011 On track Echo-Delta
+2020-01-03 16:12:27,999 INFO Time : 0 -- Train Train011 Putting in the network
+2020-01-03 16:12:27,999 INFO Time : 0 -- Train Train011 Can be put in the network
+2020-01-03 16:12:28,001 INFO Time -- 0 : Train011 move Valid
+2020-01-03 16:12:28,001 INFO Time : 0 -- Acting for train Train011
+2020-01-03 16:12:28,001 INFO Time : 0 -- Train Train011 initiating
+2020-01-03 16:12:28,001 INFO Time : 0 -- Train Train011 initiated. On Track Echo
+2020-01-03 16:12:28,658 INFO Time -- 1 : Train011 move Invalid. Waiting for Echo - Delta
+2020-01-03 16:12:28,658 INFO Time : 1 -- Acting for train Train011
+2020-01-03 16:12:28,658 INFO Time : 1 -- Train Train011 Wait for 1 unit time
+2020-01-03 16:12:29,305 INFO Time -- 2 : Train011 move Invalid. Waiting for Echo - Delta
+2020-01-03 16:12:29,305 INFO Time : 2 -- Acting for train Train011
+2020-01-03 16:12:29,305 INFO Time : 2 -- Train Train011 Wait for 1 unit time
+2020-01-03 16:12:29,944 INFO Time -- 3 : Train011 move Valid
+2020-01-03 16:12:29,944 INFO Time : 3 -- Acting for train Train011
+2020-01-03 16:12:29,944 INFO Time : 3 -- Train Train011 Try to depart to track Echo-Delta
+2020-01-03 16:12:29,944 INFO Time : 3 -- Train Train011 On track Echo-Delta
+2020-01-03 16:12:30,587 INFO Time : 4.0 -- Train Train011 Travelled on track Echo-Delta
+2020-01-03 16:12:30,589 INFO Time -- 4 : Train011 move Valid
+2020-01-03 16:12:30,589 INFO Time : 4 -- Acting for train Train011
+2020-01-03 16:12:30,589 INFO Time : 4 -- Train Train011 Try to arrive at station Delta
+2020-01-03 16:12:30,589 INFO Time : 4 -- Train Train011 Arrived at station Delta

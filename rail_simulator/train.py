@@ -74,6 +74,14 @@ class Train:
         #resource that the train is waiting for
         self.waiting = '-'                         #name of the station or track : train is waiting for
         
+        #All the resources that the train will acquire in it's journey
+        self.all_resources = []
+        for i in range(len(route)):
+            self.all_resources.append(route[i][0])
+            if (i + 1 < len(route)):
+                self.all_resources.append((route[i][0] , route[i+1][0]))
+
+
     def compute_time (self , distance):
         '''
         returns the time needed to travel the distance  

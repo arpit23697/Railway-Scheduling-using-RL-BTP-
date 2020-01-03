@@ -226,6 +226,13 @@ class Network:
         s = self.G.nodes[name]['details']
         return s.resource
 
+    def get_station_details (self , name):
+        '''
+        name : get the details attached to the resource
+        '''
+        assert name in self.G.nodes
+        return self.G.nodes[name]['details']
+
     def is_station_resource_free (self , name ):
         '''
         name : Check if any line is free on the station name or not
@@ -236,8 +243,6 @@ class Network:
             return False
         else:
             return True
-
-
     
     def lock_station (self , name , train_name):
         '''
@@ -268,6 +273,14 @@ class Network:
         assert (node_x , node_y) in self.G.edges
         t = self.G[node_x][node_y]['details']
         return t.resource
+
+    def get_track_details (self , node_x , node_y):
+        '''
+        Track : returns the details of the track
+        '''
+        assert (node_x , node_y) in self.G.edges
+        return self.G[node_x][node_y]['details']
+
 
     def is_track_resource_free (self , node_x , node_y ):
         '''

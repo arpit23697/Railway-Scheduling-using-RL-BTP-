@@ -1,19 +1,22 @@
-2020-01-02 18:35:17,616 INFO Time : 0 -- Train Train004 Putting in the network
-2020-01-02 18:35:17,616 INFO Time : 0 -- Train Train004 Can be put in the network
-2020-01-02 18:35:17,617 INFO Time -- 0 : Train004 move Valid
-2020-01-02 18:35:17,618 INFO Time : 0 -- Acting for train Train004
-2020-01-02 18:35:17,618 INFO Time : 0 -- Train Train004 initiating
-2020-01-02 18:35:17,618 INFO Time : 0 -- Train Train004 initiated. On Track Alpha
-2020-01-02 18:35:18,274 INFO Time -- 1 : Train004 move Invalid. Waiting for Alpha - Bravo
-2020-01-02 18:35:18,274 INFO Time : 1 -- Acting for train Train004
-2020-01-02 18:35:18,274 INFO Time : 1 -- Train Train004 Wait for 1 unit time
-2020-01-02 18:35:18,911 INFO Time -- 2 : Train004 move Invalid. Waiting for Alpha - Bravo
-2020-01-02 18:35:18,911 INFO Time : 2 -- Acting for train Train004
-2020-01-02 18:35:18,911 INFO Time : 2 -- Train Train004 Wait for 1 unit time
-2020-01-02 18:35:19,554 INFO Time -- 3 : Train004 move Invalid. Waiting for Alpha - Bravo
-2020-01-02 18:35:19,554 INFO Time : 3 -- Acting for train Train004
-2020-01-02 18:35:19,554 INFO Time : 3 -- Train Train004 Wait for 1 unit time
-2020-01-02 18:35:20,203 INFO Time -- 4 : Train004 move Valid
-2020-01-02 18:35:20,204 INFO Time : 4 -- Acting for train Train004
-2020-01-02 18:35:20,204 INFO Time : 4 -- Train Train004 Try to depart to track Alpha-Bravo
-2020-01-02 18:35:20,204 INFO Time : 4 -- Train Train004 On track Alpha-Bravo
+2020-01-03 16:12:27,999 INFO Time : 0 -- Train Train004 Putting in the network
+2020-01-03 16:12:27,999 INFO Time : 0 -- Train Train004 Can be put in the network
+2020-01-03 16:12:28,001 INFO Time -- 0 : Train004 move Valid
+2020-01-03 16:12:28,001 INFO Time : 0 -- Acting for train Train004
+2020-01-03 16:12:28,001 INFO Time : 0 -- Train Train004 initiating
+2020-01-03 16:12:28,001 INFO Time : 0 -- Train Train004 initiated. On Track Alpha
+2020-01-03 16:12:28,660 INFO Time -- 1 : Train004 move Invalid. Waiting for Alpha - Bravo
+2020-01-03 16:12:28,660 INFO Time : 1 -- Acting for train Train004
+2020-01-03 16:12:28,660 INFO Time : 1 -- Train Train004 Wait for 1 unit time
+2020-01-03 16:12:29,304 INFO Time -- 2 : Train004 move Valid
+2020-01-03 16:12:29,305 INFO Time : 2 -- Acting for train Train004
+2020-01-03 16:12:29,305 INFO Time : 2 -- Train Train004 Try to depart to track Alpha-Bravo
+2020-01-03 16:12:29,305 INFO Time : 2 -- Train Train004 On track Alpha-Bravo
+2020-01-03 16:12:29,943 INFO Time : 3.0 -- Train Train004 Travelled on track Alpha-Bravo
+2020-01-03 16:12:29,944 INFO Time -- 3 : Train004 move Valid
+2020-01-03 16:12:29,944 INFO Time : 3 -- Acting for train Train004
+2020-01-03 16:12:29,944 INFO Time : 3 -- Train Train004 Try to arrive at station Bravo
+2020-01-03 16:12:29,944 INFO Time : 3 -- Train Train004 Arrived at station Bravo
+2020-01-03 16:12:30,590 INFO Time -- 4 : Train004 move Valid
+2020-01-03 16:12:30,590 INFO Time : 4 -- Acting for train Train004
+2020-01-03 16:12:30,590 INFO Time : 4 -- Train Train004 Try to depart to track Bravo-Charlie
+2020-01-03 16:12:30,590 INFO Time : 4 -- Train Train004 On track Bravo-Charlie
