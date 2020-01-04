@@ -1,24 +1,21 @@
-2020-01-03 16:12:27,999 INFO Time : 0 -- Train Train013 Putting in the network
-2020-01-03 16:12:27,999 INFO Time : 0 -- Train Train013 Can be put in the network
-2020-01-03 16:12:28,003 INFO Time -- 0 : Train013 move Valid
-2020-01-03 16:12:28,003 INFO Time : 0 -- Acting for train Train013
-2020-01-03 16:12:28,003 INFO Time : 0 -- Train Train013 initiating
-2020-01-03 16:12:28,004 INFO Time : 0 -- Train Train013 initiated. On Track Echo
-2020-01-03 16:12:28,658 INFO Time -- 1 : Train013 move Valid
-2020-01-03 16:12:28,658 INFO Time : 1 -- Acting for train Train013
-2020-01-03 16:12:28,658 INFO Time : 1 -- Train Train013 Try to depart to track Echo-Delta
-2020-01-03 16:12:28,658 INFO Time : 1 -- Train Train013 On track Echo-Delta
-2020-01-03 16:12:29,303 INFO Time : 2.0 -- Train Train013 Travelled on track Echo-Delta
-2020-01-03 16:12:29,303 INFO Time -- 2 : Train013 move Valid
-2020-01-03 16:12:29,303 INFO Time : 2 -- Acting for train Train013
-2020-01-03 16:12:29,303 INFO Time : 2 -- Train Train013 Try to arrive at station Delta
-2020-01-03 16:12:29,303 INFO Time : 2 -- Train Train013 Arrived at station Delta
-2020-01-03 16:12:29,945 INFO Time -- 3 : Train013 move Valid
-2020-01-03 16:12:29,945 INFO Time : 3 -- Acting for train Train013
-2020-01-03 16:12:29,945 INFO Time : 3 -- Train Train013 Try to depart to track Delta-Charlie
-2020-01-03 16:12:29,945 INFO Time : 3 -- Train Train013 On track Delta-Charlie
-2020-01-03 16:12:30,588 INFO Time : 4.0 -- Train Train013 Travelled on track Delta-Charlie
-2020-01-03 16:12:30,588 INFO Time -- 4 : Train013 move Valid
-2020-01-03 16:12:30,588 INFO Time : 4 -- Acting for train Train013
-2020-01-03 16:12:30,588 INFO Time : 4 -- Train Train013 Try to arrive at station Charlie
-2020-01-03 16:12:30,588 INFO Time : 4 -- Train Train013 Arrived at station Charlie
+2020-01-04 11:30:05,282 INFO Time : 0 -- Train Train013 Putting in the network
+2020-01-04 11:30:05,283 INFO Time : 0 -- Train Train013 Can be put in the network
+2020-01-04 11:30:05,291 INFO Time -- 0 : Train013 move Valid
+2020-01-04 11:30:05,291 INFO Time : 0 -- Acting for train Train013
+2020-01-04 11:30:05,291 INFO Time : 0 -- Train Train013 initiating
+2020-01-04 11:30:05,291 INFO Time : 0 -- Train Train013 initiated. On Track Echo
+2020-01-04 11:30:05,293 INFO Time -- 1 : Train013 move Invalid. Waiting for Echo - Delta
+2020-01-04 11:30:05,294 INFO Time : 1 -- Acting for train Train013
+2020-01-04 11:30:05,294 INFO Time : 1 -- Train Train013 Wait for 1 unit time
+2020-01-04 11:30:05,300 INFO Time -- 2 : Train013 move Invalid. Waiting for Echo - Delta
+2020-01-04 11:30:05,300 INFO Time : 2 -- Acting for train Train013
+2020-01-04 11:30:05,300 INFO Time : 2 -- Train Train013 Wait for 1 unit time
+2020-01-04 11:30:05,302 INFO Time -- 3 : Train013 move Valid
+2020-01-04 11:30:05,302 INFO Time : 3 -- Acting for train Train013
+2020-01-04 11:30:05,302 INFO Time : 3 -- Train Train013 Try to depart to track Echo-Delta
+2020-01-04 11:30:05,302 INFO Time : 3 -- Train Train013 On track Echo-Delta
+2020-01-04 11:30:05,305 INFO Time : 4.0 -- Train Train013 Travelled on track Echo-Delta
+2020-01-04 11:30:05,306 INFO Time -- 4 : Train013 move Valid
+2020-01-04 11:30:05,306 INFO Time : 4 -- Acting for train Train013
+2020-01-04 11:30:05,307 INFO Time : 4 -- Train Train013 Try to arrive at station Delta
+2020-01-04 11:30:05,307 INFO Time : 4 -- Train Train013 Arrived at station Delta
