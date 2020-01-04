@@ -81,6 +81,27 @@ class Train:
             if (i + 1 < len(route)):
                 self.all_resources.append((route[i][0] , route[i+1][0]))
 
+    def reset (self , env , N):
+        ''' 
+            Resets the train and update the environment
+        '''
+        self.env = env 
+        self.network = N 
+
+        self.running = False                        #True if the train is running                        
+        self.station_or_not = False                 #True if standing on station
+        self.current = '_'                          #Current station name or the track (tuple)
+        self.current_index = -1                     #upto which point the route is travelled
+        self.current_track = -1                     #current track number on the particular station or track  
+        self.done = False                           #indicate wether the journey is complete or not
+
+        self.resource = None   
+        self.request = None
+        
+        #for storing the log
+        self.log = [(d , -1 , -1) for d,t_a , t_d in self.route]          #(station_name , arrival , departure)
+        self.waiting = '-'                         #name of the station or track : train is waiting for
+
 
     def compute_time (self , distance):
         '''

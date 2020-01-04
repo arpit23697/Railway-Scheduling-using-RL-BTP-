@@ -36,6 +36,17 @@ class Station:
         #simpy resource for the station
         self.resource = simpy.Resource(env , capacity = self.n_parallel_tracks)
 
+    def reset (self , env):
+        ''' 
+            parameter : Parameter of the new environment
+            This function will reset all the parameters of the station.
+        '''
+        self.env = env 
+        self.free = [True for _ in range(self.n_parallel_tracks)]
+        self.total_free = self.n_parallel_tracks
+        self.train_running = ['_' for _ in range(self.n_parallel_tracks)]
+        self.resource = simpy.Resource (env , capacity = self.n_parallel_tracks)
+
 
     def lock_line (self , train_name):
         '''
@@ -117,6 +128,16 @@ class Track:
         # Resource corresponding to  the track
         self.resource = simpy.Resource(env, capacity = self.n_parallel_track)
 
+    def reset (self, env):
+        '''
+            Will reset the track and assign the new environment variable
+            
+        '''
+        self.env = env 
+        self.free = [True for _ in range(self.n_parallel_track)]
+        self.total_free = self.n_parallel_track
+        self.train_running = ['_' for _ in range(self.n_parallel_track)]
+        self.resource = simpy.Resource (env , capacity = self.n_parallel_track)
 
 
     def lock_track_line (self , train_name):
@@ -217,6 +238,21 @@ class Network:
                 #adding the edge to the graph
                 t = Track(n_tracks , track_length , node_x , node_y , env)
                 self.G.add_edge(node_x , node_y , weight = np.mean(track_length) , details=t)
+
+    def reset (self , env):
+        '''
+            Reset the environment
+        '''
+        self.env = env 
+        #Reset all the stations 
+        for n in list(self.G.nodes):
+            self.G.nodes[n]['details'].reset(env)
+        
+        #print the edge details
+        for e_x , e_y in self.G.edges:
+            self.G[e_x][e_y]['details'].reset(env)
+
+
 
     def get_station_resource (self , name):
         '''
