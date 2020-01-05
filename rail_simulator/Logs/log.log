@@ -1,30 +1,60 @@
-2020-01-05 16:39:22,939 INFO Time : 20 Checking Deadlock
-2020-01-05 16:39:22,939 INFO Time : 20 Number of trains not yet started - 0
-2020-01-05 16:39:22,939 INFO Time : 20 Number of running trains - 0
-2020-01-05 16:39:22,939 INFO Time : 20 Number of trains Completed but resource not freed - 0
-2020-01-05 16:39:22,939 INFO Time : 20 Number of trains which have Completed journey - 8
-2020-01-05 16:39:22,940 INFO Time : 40.0 All trains completed journey. Terminating Simulation
-2020-01-05 16:39:23,068 INFO Time : 20 Checking Deadlock
-2020-01-05 16:39:23,069 INFO Time : 20 Number of trains not yet started - 0
-2020-01-05 16:39:23,069 INFO Time : 20 Number of running trains - 0
-2020-01-05 16:39:23,069 INFO Time : 20 Number of trains Completed but resource not freed - 0
-2020-01-05 16:39:23,069 INFO Time : 20 Number of trains which have Completed journey - 8
-2020-01-05 16:39:23,071 INFO Time : 40.0 All trains completed journey. Terminating Simulation
-2020-01-05 16:39:23,182 INFO Time : 20 Checking Deadlock
-2020-01-05 16:39:23,183 INFO Time : 20 Number of trains not yet started - 0
-2020-01-05 16:39:23,183 INFO Time : 20 Number of running trains - 0
-2020-01-05 16:39:23,183 INFO Time : 20 Number of trains Completed but resource not freed - 0
-2020-01-05 16:39:23,183 INFO Time : 20 Number of trains which have Completed journey - 8
-2020-01-05 16:39:23,184 INFO Time : 40.0 All trains completed journey. Terminating Simulation
-2020-01-05 16:39:23,310 INFO Time : 20 Checking Deadlock
-2020-01-05 16:39:23,310 INFO Time : 20 Number of trains not yet started - 0
-2020-01-05 16:39:23,310 INFO Time : 20 Number of running trains - 0
-2020-01-05 16:39:23,310 INFO Time : 20 Number of trains Completed but resource not freed - 0
-2020-01-05 16:39:23,311 INFO Time : 20 Number of trains which have Completed journey - 8
-2020-01-05 16:39:23,312 INFO Time : 40.0 All trains completed journey. Terminating Simulation
-2020-01-05 16:39:23,423 INFO Time : 20 Checking Deadlock
-2020-01-05 16:39:23,424 INFO Time : 20 Number of trains not yet started - 0
-2020-01-05 16:39:23,424 INFO Time : 20 Number of running trains - 0
-2020-01-05 16:39:23,424 INFO Time : 20 Number of trains Completed but resource not freed - 0
-2020-01-05 16:39:23,424 INFO Time : 20 Number of trains which have Completed journey - 8
-2020-01-05 16:39:23,425 INFO Time : 40.0 All trains completed journey. Terminating Simulation
+2020-01-05 19:10:56,958 INFO Time : 20 Checking Deadlock
+2020-01-05 19:10:56,958 INFO Time : 20 Number of trains not yet started - 0
+2020-01-05 19:10:56,958 INFO Time : 20 Number of running trains - 4
+2020-01-05 19:10:56,958 INFO Time : 20 Number of trains Completed but resource not freed - 1
+2020-01-05 19:10:56,958 INFO Time : 20 Number of trains which have Completed journey - 3
+2020-01-05 19:10:56,977 INFO Time : 40 Checking Deadlock
+2020-01-05 19:10:56,977 INFO Time : 40 Number of trains not yet started - 0
+2020-01-05 19:10:56,977 INFO Time : 40 Number of running trains - 0
+2020-01-05 19:10:56,977 INFO Time : 40 Number of trains Completed but resource not freed - 0
+2020-01-05 19:10:56,977 INFO Time : 40 Number of trains which have Completed journey - 8
+2020-01-05 19:10:56,979 INFO Time : 60.0 All trains completed journey. Terminating Simulation
+2020-01-05 19:10:57,107 INFO Time : 20 Checking Deadlock
+2020-01-05 19:10:57,107 INFO Time : 20 Number of trains not yet started - 0
+2020-01-05 19:10:57,107 INFO Time : 20 Number of running trains - 7
+2020-01-05 19:10:57,107 INFO Time : 20 Number of trains Completed but resource not freed - 0
+2020-01-05 19:10:57,107 INFO Time : 20 Number of trains which have Completed journey - 1
+2020-01-05 19:10:57,149 INFO Time : 40 Checking Deadlock
+2020-01-05 19:10:57,149 INFO Time : 40 Number of trains not yet started - 0
+2020-01-05 19:10:57,149 INFO Time : 40 Number of running trains - 0
+2020-01-05 19:10:57,149 INFO Time : 40 Number of trains Completed but resource not freed - 0
+2020-01-05 19:10:57,149 INFO Time : 40 Number of trains which have Completed journey - 8
+2020-01-05 19:10:57,151 INFO Time : 60.0 All trains completed journey. Terminating Simulation
+2020-01-05 19:10:57,278 INFO Time : 20 Checking Deadlock
+2020-01-05 19:10:57,278 INFO Time : 20 Number of trains not yet started - 0
+2020-01-05 19:10:57,278 INFO Time : 20 Number of running trains - 5
+2020-01-05 19:10:57,278 INFO Time : 20 Number of trains Completed but resource not freed - 1
+2020-01-05 19:10:57,278 INFO Time : 20 Number of trains which have Completed journey - 2
+2020-01-05 19:10:57,300 INFO Time : 40 Checking Deadlock
+2020-01-05 19:10:57,300 INFO Time : 40 Number of trains not yet started - 0
+2020-01-05 19:10:57,300 INFO Time : 40 Number of running trains - 0
+2020-01-05 19:10:57,300 INFO Time : 40 Number of trains Completed but resource not freed - 0
+2020-01-05 19:10:57,300 INFO Time : 40 Number of trains which have Completed journey - 8
+2020-01-05 19:10:57,301 INFO Time : 60.0 All trains completed journey. Terminating Simulation
+2020-01-05 19:10:57,435 INFO Time : 20 Checking Deadlock
+2020-01-05 19:10:57,435 INFO Time : 20 Number of trains not yet started - 0
+2020-01-05 19:10:57,435 INFO Time : 20 Number of running trains - 5
+2020-01-05 19:10:57,435 INFO Time : 20 Number of trains Completed but resource not freed - 1
+2020-01-05 19:10:57,436 INFO Time : 20 Number of trains which have Completed journey - 2
+2020-01-05 19:10:57,461 INFO Time : 40 Checking Deadlock
+2020-01-05 19:10:57,461 INFO Time : 40 Number of trains not yet started - 0
+2020-01-05 19:10:57,461 INFO Time : 40 Number of running trains - 0
+2020-01-05 19:10:57,461 INFO Time : 40 Number of trains Completed but resource not freed - 1
+2020-01-05 19:10:57,461 INFO Time : 40 Number of trains which have Completed journey - 7
+2020-01-05 19:10:57,464 INFO Time : 60 Checking Deadlock
+2020-01-05 19:10:57,464 INFO Time : 60 Number of trains not yet started - 0
+2020-01-05 19:10:57,464 INFO Time : 60 Number of running trains - 0
+2020-01-05 19:10:57,464 INFO Time : 60 Number of trains Completed but resource not freed - 0
+2020-01-05 19:10:57,464 INFO Time : 60 Number of trains which have Completed journey - 8
+2020-01-05 19:10:57,465 INFO Time : 80.0 All trains completed journey. Terminating Simulation
+2020-01-05 19:10:57,606 INFO Time : 20 Checking Deadlock
+2020-01-05 19:10:57,607 INFO Time : 20 Number of trains not yet started - 0
+2020-01-05 19:10:57,607 INFO Time : 20 Number of running trains - 5
+2020-01-05 19:10:57,607 INFO Time : 20 Number of trains Completed but resource not freed - 0
+2020-01-05 19:10:57,607 INFO Time : 20 Number of trains which have Completed journey - 3
+2020-01-05 19:10:57,626 INFO Time : 40 Checking Deadlock
+2020-01-05 19:10:57,626 INFO Time : 40 Number of trains not yet started - 0
+2020-01-05 19:10:57,626 INFO Time : 40 Number of running trains - 0
+2020-01-05 19:10:57,626 INFO Time : 40 Number of trains Completed but resource not freed - 0
+2020-01-05 19:10:57,626 INFO Time : 40 Number of trains which have Completed journey - 8
+2020-01-05 19:10:57,628 INFO Time : 60.0 All trains completed journey. Terminating Simulation

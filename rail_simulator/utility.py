@@ -5,7 +5,7 @@ import matplotlib
 import random
 import time
 from network import *
-from config import *
+import config 
 import simpy
 import logging
 import copy
@@ -370,12 +370,12 @@ def pick_most_suitable_action (name_train_map , N , env):
     name of the train on which the action can be taken.
     
     '''
-    global TRAINS_NEEDING_ACTION
+    
     
     #Create the list of trains that need action at this time
     #remove the trains that don't need the action at the current time.
     # print(TRAINS_NEEDING_ACTION)
-    trains_need_action = [name_train_map[name] for time , name in TRAINS_NEEDING_ACTION if time == env.now]
+    trains_need_action = [name_train_map[name] for time , name in config.TRAINS_NEEDING_ACTION if time == env.now]
 
     #Find the status of each train
     #remove those trains that have completed journey and freed resource
@@ -489,7 +489,7 @@ def pick_most_suitable_action (name_train_map , N , env):
     #choose one at random and send
     # final_train = random.choice(best_choices)
     final_train = best_choices[0]
-    # time , name = TRAINS_NEEDING_ACTION[0]
+    # time , name = config.TRAINS_NEEDING_ACTION[0]
     return env.now, final_train
 
 def choose_action_simulate (env , N, name_train_map ):
@@ -502,7 +502,6 @@ def choose_action_simulate (env , N, name_train_map ):
     In case of invalid moves, train will wait till the resource is freed.
     '''
     
-    global TRAINS_NEEDING_ACTION
     actions = ['move' , 'wait']
     
     while True :
@@ -513,14 +512,14 @@ def choose_action_simulate (env , N, name_train_map ):
             yield env.timeout(0)
         
         #Check if the trains need action
-        if (len(TRAINS_NEEDING_ACTION) == 0):
+        if (len(config.TRAINS_NEEDING_ACTION) == 0):
             yield env.timeout(1)
         
         else:
             
             #Pick the train that needs the action mose
             #TODO : choose the train that needs action based on the heuristic
-            time , name = TRAINS_NEEDING_ACTION[0]
+            time , name = config.TRAINS_NEEDING_ACTION[0]
             t = name_train_map[name]
         
             #Pick the action
@@ -530,7 +529,7 @@ def choose_action_simulate (env , N, name_train_map ):
             env.process(t.act_simulate(env , action))
             
             #Remove the name of the train from the list
-            TRAINS_NEEDING_ACTION.remove((time,  name) )
+            config.TRAINS_NEEDING_ACTION.remove((time,  name) )
             
 def choose_action (env ,N ,name_train_map):
     
@@ -541,7 +540,7 @@ def choose_action (env ,N ,name_train_map):
     This will also check if the move is valid or not.
     '''
     
-    global TRAINS_NEEDING_ACTION
+
     actions = ['move' , 'wait']
     
     while True :
@@ -552,13 +551,13 @@ def choose_action (env ,N ,name_train_map):
             yield env.timeout(0)
         
         #Check if the trains need action
-        if (len(TRAINS_NEEDING_ACTION) == 0):
+        if (len(config.TRAINS_NEEDING_ACTION) == 0):
             yield env.timeout(1)
         
         else:
             
             #Pick the train that needs the action most
-            # time , name = TRAINS_NEEDING_ACTION[0]
+            # time , name = config.TRAINS_NEEDING_ACTION[0]
             time ,name = pick_most_suitable_action(name_train_map , N , env)
             t = name_train_map[name]
         
@@ -574,5 +573,5 @@ def choose_action (env ,N ,name_train_map):
             env.process(t.act_simulate(env , action))
             
             #Remove the name of the train from the list
-            TRAINS_NEEDING_ACTION.remove((time,  name) )
+            config.TRAINS_NEEDING_ACTION.remove((time,  name) )
             

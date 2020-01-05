@@ -7,7 +7,7 @@ import random
 import time
 from network import *
 from utility import *
-from config import *
+import config
 import simpy
 import logging
 
@@ -40,7 +40,6 @@ class Train:
                                             Non Simulate return -1 if the resource is not free.
         '''
         #Global variables
-        global TRAINS_NEEDING_ACTION
         
         #initialise the variables
         self.__class__.id_ += 1
@@ -134,7 +133,7 @@ class Train:
         
         self.create_log("Time : {} -- Train {} Can be put in the network".format(env.now , self.name))
         #Put the train in the event list
-        TRAINS_NEEDING_ACTION.append(( env.now, self.name))
+        config.TRAINS_NEEDING_ACTION.append(( env.now, self.name))
         
             
     def wait_train (self, env):
@@ -191,14 +190,14 @@ class Train:
                 yield initiate_train_proc
                 
                 #Put the train in line for taking action at a particular time
-                TRAINS_NEEDING_ACTION.append(( env.now, self.name))
+                config.TRAINS_NEEDING_ACTION.append(( env.now, self.name))
                 
             #Train is running
             elif (self.running == True):
                 move_train_one_step_proc = env.process (self.move_train_one_step_simulate(env))
                 yield move_train_one_step_proc
                 
-                TRAINS_NEEDING_ACTION.append(( env.now, self.name))
+                config.TRAINS_NEEDING_ACTION.append(( env.now, self.name))
             
             #train has completed the journey but the resource is not freed
             elif (self.done == True and self.resource is not None):
@@ -221,7 +220,7 @@ class Train:
             wait_train_proc = env.process(self.wait_train(self.env))
             yield wait_train_proc
             #Put the train in the list
-            TRAINS_NEEDING_ACTION.append(( env.now, self.name))
+            config.TRAINS_NEEDING_ACTION.append(( env.now, self.name))
 
     def initiate_train_simulate (self , env):
         '''
