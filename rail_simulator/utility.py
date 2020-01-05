@@ -374,6 +374,7 @@ def pick_most_suitable_action (name_train_map , N , env):
     
     #Create the list of trains that need action at this time
     #remove the trains that don't need the action at the current time.
+    # print(TRAINS_NEEDING_ACTION)
     trains_need_action = [name_train_map[name] for time , name in TRAINS_NEEDING_ACTION if time == env.now]
 
     #Find the status of each train
@@ -486,8 +487,8 @@ def pick_most_suitable_action (name_train_map , N , env):
                 best_choices.append(name)
 
     #choose one at random and send
-    final_train = random.choice(best_choices)
-
+    # final_train = random.choice(best_choices)
+    final_train = best_choices[0]
     # time , name = TRAINS_NEEDING_ACTION[0]
     return env.now, final_train
 

@@ -11,9 +11,6 @@ from config import *
 import simpy
 import logging
 
-def print_global():
-    global TRAINS_NEEDING_ACTION
-    print(TRAINS_NEEDING_ACTION)
 
 class Train:
     id_ = 0
