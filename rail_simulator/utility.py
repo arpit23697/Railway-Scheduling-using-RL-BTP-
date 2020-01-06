@@ -51,7 +51,7 @@ def read_trains(filename, N , env):
                 log_filename = "Logs/" + name + ".log"
                 
                 logger = setup_logger(name , log_filename)
-                train = Train (name , speed , priority , route , env , N , logger)
+                train = Train (name , speed , priority , route , env , N , None)
                 trains.append(train)
             else:
                 break
