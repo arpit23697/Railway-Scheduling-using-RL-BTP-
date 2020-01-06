@@ -363,7 +363,7 @@ def pick_most_suitable_action (name_train_map , N , env):
     name_train_map               : A map that maps the name of the train to its instance.
     N                            : network on which the trains are running.
     env                          : simpy environment under which runs the simulation
-    TRAINS_NEEDING_ACTION        : List of trains that need action at that time. Each element is the tuple.
+            : List of trains that need action at that time. Each element is the tuple.
                                     First is time at which they need action and second is train that needs action 
     
     @return 
