@@ -10,11 +10,12 @@ from utility import *
 import config
 import simpy
 import logging
+import math
 
 
 class Train:
     id_ = 0
-    def __init__ (self  , name , avg_speed , priority , route  , env , network , logger):
+    def __init__ (self  , name , avg_speed , priority , route  ,env , network , logger , delay = 0):
         '''
         @parameters 
         name         : name of the train
@@ -50,6 +51,7 @@ class Train:
         self.route = route
         self.env = env              
         self.network = network
+        self.delay = delay
 
         #for the current status of the train
         self.running = False                        #True if the train is running                        
@@ -106,7 +108,14 @@ class Train:
         distance : to be travelled
         
         '''
-        return distance/self.speed
+        time = distance/self.speed
+        
+        for _ in range(int(time)) :
+            late = np.random.choice([True , False] , 1 , p = [self.delay , 1 - self.delay])
+            if (late):
+                time += 1
+
+        return time
         
     def create_log (self , s):
         '''
