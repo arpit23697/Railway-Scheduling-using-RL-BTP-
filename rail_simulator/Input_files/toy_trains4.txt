@@ -1,14 +1,56 @@
 Train001 1 1 5
 Alpha 0 1
-Bravo 2 3
-Charlie 4 5
-Delta 6 7
+Bravo 1 1
+Charlie 1 1
+Delta 1 1
+Echo 1 1
+*************************************
+Train002 1 1 5
+Alpha 0 1
+Bravo 1 1
+Charlie 1 1
+Delta 1 1
+Echo 1 1
+*************************************
+Train003 1 1 5
+Alpha 0 1
+Bravo 1 1
+Charlie 1 1
+Delta 1 1
+Echo 1 1
+*************************************
+Train004 1 1 5
+Alpha 0 1
+Bravo 1 1
+Charlie 1 1
+Delta 1 1
 Echo 8 9
 *************************************
 Train011 1 1 5
 Echo 0 1
-Delta 2 3
-Charlie 4 5
-Bravo 6 7
-Alpha 8 9
+Delta 1 1
+Charlie 1 1
+Bravo 1 1
+Alpha 1 1
+*************************************
+Train012 1 1 5
+Echo 0 1
+Delta 1 1
+Charlie 1 1
+Bravo 1 1
+Alpha 1 1
+*************************************
+Train013 1 1 5
+Echo 0 1
+Delta 1 1
+Charlie 1 1
+Bravo 1 1
+Alpha 1 1
+*************************************
+Train014 1 1 5
+Echo 0 1
+Delta 1 1
+Charlie 1 1
+Bravo 1 1
+Alpha 1 1
 *************************************
