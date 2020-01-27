@@ -36,22 +36,26 @@ def read_trains(filename, N , env , delay = 0):
         
         while True:
             line = f.readline().strip().split()
-            
-            if len(line) == 4:
-                name , speed , priority, route_len = line[0] , int(line[1]) , int(line[2]) , int(line[3])
+            if len(line) == 3:
+                name , priority, route_len = line[0] , int(line[1]) , int(line[2]) 
 
                 #Read the route
                 route = []
+                halt_time = []
+                running_time = []
+
                 for _ in range(route_len):
                     line = f.readline().strip().split()
                     route.append((line[0] , int(line[1]) , int(line[2]) ))
+                    halt_time.append(int(line[3]))
+                    running_time.append(int(line[4]))
                 
                 line = f.readline().strip().split()
                 #Create train instance and append it to the list
                 log_filename = "Logs/" + name + ".log"
                 
                 logger = setup_logger(name , log_filename)
-                train = Train (name , speed , priority , route , env , N , None , delay)
+                train = Train (name , priority , route , halt_time , running_time , env , N , None , delay)
                 trains.append(train)
             else:
                 break

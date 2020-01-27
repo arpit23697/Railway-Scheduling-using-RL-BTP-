@@ -15,11 +15,12 @@ import math
 
 class Train:
     id_ = 0
-    def __init__ (self  , name , avg_speed , priority , route  ,env , network , logger , delay = 0):
+    def __init__ (self  , name , priority , route , halt_time , running_time  ,env , network , logger , delay = 0):
         '''
         @parameters 
         name         : name of the train
-        avg_speed    : average speed of the train
+        halt_time    : gives the minimum halt time of train at each station
+        running_time : gives the running time of train in between the stations
         priority     : priority of the train, later will be used in the algorithm
         route        : a python list of tuples of three elements that gives the stations on the route along with 
                         the expected time of arrival and departure
@@ -46,7 +47,8 @@ class Train:
         self.__class__.id_ += 1
         self.id = self.__class__.id_
         self.name = name
-        self.speed = avg_speed
+        self.halt_time = halt_time
+        self.running_time = running_time
         self.priority = priority
         self.route = route
         self.env = env              
@@ -101,14 +103,14 @@ class Train:
         self.waiting = '-'                         #name of the station or track : train is waiting for
 
 
-    def compute_time (self , distance):
+    def compute_time (self):
         '''
         returns the time needed to travel the distance  
         @paramters :
         distance : to be travelled
         
         '''
-        time = distance/self.speed
+        time = self.running_time[self.current_index]
         
         for _ in range(int(time)) :
             late = np.random.choice([True , False] , 1 , p = [self.delay , 1 - self.delay])
@@ -276,7 +278,7 @@ class Train:
         self.create_log("Time : {} -- Train {} initiated. On Track {}".format(env.now , self.name , start_station) )
         
         #wait for the halt time : depart_time - start_time
-        wait = depart_time - start_time
+        wait = self.halt_time[self.current_index]
         yield env.timeout(wait)
 
         #waiting on the track till the depart time, then only we can take the action for the train
@@ -350,8 +352,8 @@ class Train:
             self.station_or_not = False                       #on the track
             
             #travel down the track
-            len_of_track = track.length_of_tracks[self.current_track]
-            time_to_travel = self.compute_time(len_of_track)
+            # len_of_track = track.length_of_tracks[self.current_track]
+            time_to_travel = self.compute_time()
             
             #Yielding of this event corresponds to number 2 in the list.
             yield env.timeout (time_to_travel)
@@ -405,7 +407,7 @@ class Train:
             _ , start_time , depart_time = self.route[self.current_index]
             
             #wait for the halt time : depart_time - start_time
-            wait = depart_time - start_time
+            wait = self.halt_time[self.current_index]
             yield env.timeout(wait)
             
             #dont depart before time.
@@ -565,11 +567,11 @@ class Train:
         print("Train ID : {}".format(self.id_))
         print("Name :{}".format(self.name))
         print("Priority : {}".format(self.priority))
-        print("Average speed : {}".format(self.speed))
         
         print("Route of the train")
-        for d,t_a , t_d  in self.route:
-            print("            {} : {} - {} ".format(d , t_a , t_d ))
+        for temp, h_time , r_time  in zip(self.route , self.halt_time , self.running_time):
+            d,t_a , t_d = temp
+            print("            {} : {} - {}     {} {}".format(d , t_a , t_d , h_time , r_time))
 
         #print the waiting
         if not self.waiting == '-':
