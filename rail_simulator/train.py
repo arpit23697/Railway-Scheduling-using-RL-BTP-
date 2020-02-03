@@ -134,7 +134,6 @@ class Train:
         generates the event that corresponds to time 
         that now is the time to put the train in the network.
         '''
-        
         self.create_log ("Time : {} -- Train {} Putting in the network".format(env.now, self.name))
         
         start_station , start_time , _ = self.route[0]
@@ -145,7 +144,6 @@ class Train:
         self.create_log("Time : {} -- Train {} Can be put in the network".format(env.now , self.name))
         #Put the train in the event list
         config.TRAINS_NEEDING_ACTION.append(( env.now, self.name))
-        
             
     def wait_train (self, env):
         '''

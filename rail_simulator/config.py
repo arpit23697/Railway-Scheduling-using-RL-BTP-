@@ -1,16 +1,10 @@
-#For the Normal case
-# STATIONS_FILENAME = 'Input_files/stations.txt'
-# RAILWAY_FILENAME = 'Input_files/railway.txt'
-# TRAINS_FILENAME = 'Input_files/trains.txt'
-
-
 #For the deadlock case
-STATIONS_FILENAME = 'Input_files/toy_stations3.txt'
-RAILWAY_FILENAME = 'Input_files/toy_railway3.txt'
-TRAINS_FILENAME = 'Input_files/toy_trains3.txt'
+STATIONS_FILENAME = '/home/arpit/study/BTP/rail_simulator/Input_files/HYP3/Stations.txt'
+RAILWAY_FILENAME = '/home/arpit/study/BTP/rail_simulator/Input_files/HYP3/Railways.txt'
+TRAINS_FILENAME = '/home/arpit/study/BTP/rail_simulator/Input_files/HYP3/Trains.txt'
 
 #GLOBAL VARIABLES
-TOTAL_SIMULATION_TIME = 1000
+TOTAL_SIMULATION_TIME = 100000
 CURRENT_SIMULATION_TIME = 0
 
 #TRAINS NEEDING ACTION
