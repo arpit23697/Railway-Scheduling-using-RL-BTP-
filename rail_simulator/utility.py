@@ -491,8 +491,8 @@ def pick_most_suitable_action (name_train_map , N , env):
                 best_choices.append(name)
 
     #choose one at random and send
-    # final_train = random.choice(best_choices)
-    final_train = best_choices[0]
+    final_train = random.choice(best_choices)
+    # final_train = best_choices[0]
     # time , name = config.TRAINS_NEEDING_ACTION[0]
     return env.now, final_train
 
