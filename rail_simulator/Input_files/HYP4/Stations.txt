@@ -1,0 +1,9 @@
+Alpha1 4
+Bravo1 4
+Charlie 4
+Delta1 4
+Echo1 4
+Alpha2 4
+Bravo2 4
+Delta2 4
+Echo2 4

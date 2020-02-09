@@ -1,7 +1,7 @@
 #For the deadlock case
-STATIONS_FILENAME = '/home/arpit/study/BTP/rail_simulator/Input_files/HYP3/Stations.txt'
-RAILWAY_FILENAME = '/home/arpit/study/BTP/rail_simulator/Input_files/HYP3/Railways.txt'
-TRAINS_FILENAME = '/home/arpit/study/BTP/rail_simulator/Input_files/HYP3/Trains.txt'
+STATIONS_FILENAME = '/home/arpit/study/BTP/rail_simulator/Input_files/HYP4/Stations.txt'
+RAILWAY_FILENAME = '/home/arpit/study/BTP/rail_simulator/Input_files/HYP4/Railways.txt'
+TRAINS_FILENAME = '/home/arpit/study/BTP/rail_simulator/Input_files/HYP4/Trains.txt'
 
 #GLOBAL VARIABLES
 TOTAL_SIMULATION_TIME = 100000
