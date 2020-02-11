@@ -7,8 +7,8 @@ from flatland.utils.rendertools import RenderTool
 
 NUMBER_OF_AGENTS = 20
 env = RailEnv(
-            width=40,
-            height=40,
+            width=20,
+            height=20,
             rail_generator=complex_rail_generator(
                                     nr_start_goal=20,
                                     nr_extra=1,
