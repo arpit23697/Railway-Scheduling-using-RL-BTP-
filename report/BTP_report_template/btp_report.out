@@ -35,5 +35,13 @@
 \BOOKMARK [1][-]{section.8.3}{Deadlock avoidance heuristic}{chapter.8}% 35
 \BOOKMARK [2][-]{subsection.8.3.1}{Algorithm}{section.8.3}% 36
 \BOOKMARK [0][-]{chapter.9}{Simulator}{}% 37
-\BOOKMARK [0][-]{chapter.10}{Conclusion and Future Work}{}% 38
-\BOOKMARK [0][-]{chapter.10}{References}{}% 39
+\BOOKMARK [0][-]{chapter.10}{Algorithm Details}{}% 38
+\BOOKMARK [1][-]{section.10.1}{Generalised State Representation}{chapter.10}% 39
+\BOOKMARK [1][-]{section.10.2}{Action and Policy Definition}{chapter.10}% 40
+\BOOKMARK [2][-]{subsection.10.2.1}{ \040- greedy policy}{section.10.2}% 41
+\BOOKMARK [2][-]{subsection.10.2.2}{Modified \040- greedy policy}{section.10.2}% 42
+\BOOKMARK [1][-]{section.10.3}{Objective Function}{chapter.10}% 43
+\BOOKMARK [1][-]{section.10.4}{Sarsa\(\)}{chapter.10}% 44
+\BOOKMARK [1][-]{section.10.5}{Proxy reward}{chapter.10}% 45
+\BOOKMARK [0][-]{chapter.11}{Conclusion and Future Work}{}% 46
+\BOOKMARK [0][-]{chapter.11}{References}{}% 47
