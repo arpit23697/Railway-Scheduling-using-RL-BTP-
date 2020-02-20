@@ -1,0 +1,212 @@
+\chapter {Experiments}
+
+The algorithms as described above, is tested on three hypothetical problem instances. Description of all
+the problem instances is defined in the next section. Two real life problem instances, Ajmer and Konkan 
+railways still need to be tested but the hypothetical problem instances are comparable in size 
+to the real life instances.
+
+\section {Problem Instances}
+\subsection{HYP-1}
+The simple hypothetical instance HYP-1 consists of 8 trains
+travelling 5 stations each. All trains are already
+in the system at the start. Four trains heading left to right are
+initially located in station Alpha, while the
+others are in station Echo, heading right to left. Each station
+contains 4 parallel tracks, and there is a single track between
+stations. Only for HYP-1, the trains all have the same priority,
+running times between stations, and halt times at stations.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Instance1}
+    \caption{ HYP-1 }
+    \label{image-myimage20}
+\end{figure}
+
+\subsection{HYP-2 \& HYP-3}
+HYP-2 have 11 stations each having 3 tracks and each station is connected by a single bidirectional track.
+The scheduling problem starts from the clean slate i.e. initially no train is in the network.
+HYP-2 have 60 trains, 40 priority-1 train and 20 priority-2 train running. HYP-3 have double the number of trains 
+i.e. 120 trains with 80 priority-1 train and 40 priority-2 train. Since the number of trains have 
+doubled up, in HYP-3 each station have 4 tracks and single track is connecting these stations.
+
+\begin{center}
+    \begin{tabular}{ |c|c|c|c| } 
+     \hline
+     Name & Stns. & Trains (sorted by priority) & Events \\ 
+     \hline
+     HYP-1 & 5 & 8,0,0 & 40 \\
+     \hline
+     HYP-2 & 11 & 15,45,0 & 1320 \\
+     \hline
+     HYP-3 & 11 & 40,80,0 & 2640 \\ 
+     \hline
+    \end{tabular}
+\end{center}
+
+\section{Hyperparameters}
+All results use a look-forward of $l_f = 6$ resources, and a
+look-back of $l_b = 2$ resources. The status of each resource
+takes one of three values: 0, 1, or 2 ($R = 3$). The weight on
+converging trains is $w_c = 0.9$, while that on diverging trains
+is $w_d = 1$. The maximum number of priority levels is $P = 3$.
+In case of modified $\epsilon$ - greedy policy, the threshold for checking whether $q_0 \approx q_1$ 
+is $\tau = 0.9$, and the aggression parameter is $\alpha = 0.9$. The
+threshold for determining the maximum acceptable J is
+$\rho = 0.25$. In case of Sarsa($\lambda$) , $\lambda = 0.9$ is choosen.
+
+\vspace{\baselineskip}
+Training is run for 500 episodes, where the $\epsilon$ is linearly reduced from 1 to 0.1 in 300 
+episodes. Note, that the value of $\epsilon$ remains the same in each episode. Decrease in the value of 
+$\epsilon$ is per episode basis.
+
+\section {Results}
+\subsection{Sarsa ($\lambda$) on HYP-1}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Sarsa_HYP-1}
+    \caption{ Priority weighted delay for Sarsa($\lambda$) on HYP-1 over 1000 episodes training}
+    \label{image-myimage20}
+\end{figure}
+
+Sarsa($\lambda$) is not able to find an optimal schedule even for HYP-1. In the above plot, 
+blue dots are the delay for one training episode, while red line is the running mean over the 
+last 50 episodes.
+The results of this algorithm is not good (in the next section) due to following reasons,
+\begin{enumerate}
+\item The back-propagation of rewards
+      after the end of the episode is not possible, because the episode
+can be very long.
+\item In the trajecotry of a train, it is possible to visit the same state-action pair in loop leading to 
+large accumulation of reward at that state-action pair, leading to extreme values.
+\item Moreover, the magnitude of delays (and hence the theoretical
+optimum value of $J$ ) is different from one problem instance
+to another. Quantifying rewards directly in terms of delays
+$\delta_{r,t}$ would create obstacles when transferring the learning from
+one instance to another (\textbf{obstacle in transfer learning}).
+\end{enumerate}
+
+\subsection{Proposed work on HYP-1}
+Q-values are initialised to 0.5 as they in some sense represent the probability of taking action either 
+to move or to wait.
+Training on the HYP-1 using the proposed approach, results in the convergence of Q-values. The Q-values 
+decreased from around 35 to around 25. \textbf{Minimum is 23.58750}. Note the delay is only for those episodes that 
+are successfully completed (not ending up in deadlock). Total number of episodes that ended up in deadlock 
+are only 3 out of 500 episodes.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{/home/arpit/study/BTP/Results_image/HYP1/Approach2/1/delay}
+    \caption{ Priority weighted delay for proposed approach on HYP-1 over 500 episodes training }
+    \label{image-myimage20}
+\end{figure}
+
+The figure 11.4, shows time on the x-axis and
+distance on the y-axis. Each solid line shows the trajectory of 
+one train as it moves from one end of the line to the other. The
+horizontal portions correspond to halts at stations, while the
+inclined portions denote movement between stations. Since
+there is a single track between successive stations and only
+one train can occupy it at a time, inclined lines cannot cross
+each other in a feasible schedule. The horizontal dotted lines
+indicate specific tracks within station resources, and no two
+solid lines are allowed to overlap within these tracks.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{/home/arpit/study/BTP/Results_image/HYP1/Approach2/1/train_running}
+    \caption{ Schedule computed using proposed approach }
+    \label{image-myimage20}
+\end{figure}
+
+\section{Training on HYP-2 \& HYP-3}
+The toy instance like HYP-1 shows that the proposed
+approach is able to learn Q-Values (and hence the policy for
+choosing actions) at a small scale. However, when instances
+of a realistic size and complexity are run with the same
+initial Q-Values (0.5\%), they require a large number of training
+instances to start producing feasible solutions. This happens
+because the larger problem instances require several thousand
+decisions to be made ‘correctly’ for successful completion.
+When such decisions are made purely randomly, the instances
+frequently end with trains in deadlock situations. 
+So in order to speed up the training, the Q-values are initialized with the following 
+heuristic.
+
+\begin{center}
+    \begin{tabular}{ |c|c|c|c| } 
+     \hline
+     \# & States Satisfying & Action & Init Q-values \\ 
+     \hline
+    1 & Next Resource is Full & Move & 0 \\
+     & $ S_{r,next} = R-1 $ & Stop & 50\\
+    
+     2 & Atleast three consecutive resources are full & Move & 10 \\
+     & $ S_r = S_{r+1} = S_{r+2} = R-1 $   & Stop & 15\\
+    
+     3 & Next Resource almost Full (R-2) & Move & 15 \\
+     & Next but one is full (R-1) & Stop & 50 \\
+    
+     4 & Average status of upcoming resources & Move & 85 \\
+     & is between 0.5 and 1.0 (moderately empty) & Stop & 90\\
+     
+     5 & Average status of upcoming resources & Move & 95 \\
+      & is less than 0.25 (almost empty)  & Stop & 50\\
+     \hline
+
+    \end{tabular}
+\end{center}
+
+\section{Testing and transfer learning}
+
+\begin{table}
+\centering
+\caption{Zero delay}    
+    \begin{tabular}{ |c|c|c|c|c| } 
+     \hline
+     Train & Test & Minimum & Average & deadlock \\ 
+     \hline
+     HYP-2 & HYP-2 & 4.050 & 4.980 $\pm$ 0.590 & 0 \\
+     & & 2.680 & 3.257 $\pm$ 0.501 & 0 \\
+     \hline
+     
+     HYP-3 & HYP-2 & 3.089 & 4.080 $\pm$ 0.370 & 0 \\
+     & & 2.709 & 4.184 $\pm$ 0.438 & 0 \\
+     \hline
+
+     HYP-2 & HYP-3 & 12.683 & 14.580 $\pm$ 1.058 & 16 \\
+     & & 11.453 & 13.083 $\pm$ 1.164 & 6 \\
+     \hline
+
+     HYP-3 & HYP-3 & 11.855 & 12.954 $\pm$ 0.540 & 1 \\
+     & & 11.438 & 12.734 $\pm$ 0.613 & 0 \\
+     \hline
+    \end{tabular}
+\end{table}
+
+
+\begin{table}
+    \centering
+    \caption{20\% delay}    
+        \begin{tabular}{ |c|c|c|c|c| } 
+         \hline
+         Train & Test & Minimum & Average & deadlock \\ 
+         \hline
+         HYP-2 & HYP-2 & 9.591 & 11.388 $\pm$ 1.258 & 0 \\
+         & & 8.386 & 10.261 $\pm$ 0.733 & 1 \\
+         \hline
+         
+         HYP-3 & HYP-2 & 9.603 & 10.932 $\pm$ 0.881 & 3 \\
+         & & 8.473 & 10.472 $\pm$ 0.792 & 1 \\
+         \hline
+    
+         HYP-2 & HYP-3 & 26.882 & 31.955 $\pm$ 2.290 & 23 \\
+         & & 27.734 & 30.141 $\pm$ 1.486 & 29 \\
+         \hline
+    
+         HYP-3 & HYP-3 & 26.522 & 30.135 $\pm$ 1.649 & 3 \\
+         & & 26.560 & 29.231 $\pm$ 1.723 & 1 \\
+         \hline
+        \end{tabular}
+\end{table}

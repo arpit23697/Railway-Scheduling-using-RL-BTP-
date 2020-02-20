@@ -21,3 +21,8 @@
 \contentsline {figure}{\numberline {10.1}{\ignorespaces Modified greedy policy }}{25}{figure.10.1}
 \contentsline {figure}{\numberline {10.2}{\ignorespaces Sarsa($\lambda $)'s backup diagram }}{27}{figure.10.2}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {11.1}{\ignorespaces HYP-1 }}{30}{figure.11.1}
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Priority weighted delay for Sarsa($\lambda $) on HYP-1 over 1000 episodes training}}{31}{figure.11.2}
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Priority weighted delay for proposed approach on HYP-1 over 500 episodes training }}{32}{figure.11.3}
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Schedule computed using proposed approach }}{33}{figure.11.4}
+\addvspace {10\p@ }

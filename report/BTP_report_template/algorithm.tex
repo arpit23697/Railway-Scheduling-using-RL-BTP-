@@ -180,21 +180,8 @@ and
 
 Here, $\alpha$ is the learning rate, $\gamma$ is discount factor, $r_{t+1}$ is the reward (we have only 
 one reward at the end of episode). Algorithm is given below.
-\vspace{\baselineskip}
 
-The results of this algorithm is not good (in the next section) due to following reasons,
-\begin{enumerate}
-\item The back-propagation of rewards
-      after the end of the episode is not possible, because the episode
-can be very long.
-\item In the trajecotry of a train, it is possible to visit the same state-action pair in loop leading to 
-large accumulation of reward at that state-action pair, leading to extreme values.
-\item Moreover, the magnitude of delays (and hence the theoretical
-optimum value of $J$ ) is different from one problem instance
-to another. Quantifying rewards directly in terms of delays
-$\delta_{r,t}$ would create obstacles when transferring the learning from
-one instance to another (\textbf{obstacle in transfer learning}).
-\end{enumerate}
+
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.7\textwidth]{backup_sarsa}
@@ -222,6 +209,7 @@ one instance to another (\textbf{obstacle in transfer learning}).
 \end{algorithm}
 
 
+\vspace{1.0in}
 \section{Proxy reward}
 
 The algorithm maintains a threshold of $J$ as the goal to be
@@ -234,6 +222,7 @@ priority-weighted delay is under the current threshold, and 0
 (failure) either if it is over the threshold, or if the episode
 enters deadlock and does not terminate.
 
+\vspace{\baselineskip}
 The Q-Values
 are defined using the probability of success when an episode
 passes through a given state-action pair. Instead of tracking
@@ -260,7 +249,41 @@ reward is generated only upon episode termination, and state-
 action pairs for multiple trains are generated simultaneously.
 Therefore, $\sigma ( x, a)$ is used in as a \textbf{proxy reward}.
 
+We differ from the method mentioned in the paper by defining the Q-value differently.
+
+\subsection{Prior}
 In the paper, Q-value is defined as 
 $$ q(x,a) = w\sigma(x,a) + (1-w)\sum_{m=1}^{M}\frac{\sigma(x'_m, a'_m)}{M }  $$
-where $w$ is the weighing factor, $(x'_m, a'_m)$ are the neighbors (say M) of $(x_m,a_m)$ during an 
-episode. 
+where w is a weighting factor between the success rate of a given pair, 
+and the average success rate of its M neighbours. These M neighbours are not necessarily unique pairs, and thus 
+neighbouring pairs that are more frequently observed have a greater contribution to the average value. 
+ It is more like two step reward, in which Q-value is defined as the combination of success 
+probability of current state-action pair and success probability of neighbors. Instead of looking at 
+all the way down to trajectory, we are just looking at two steps of trajectory.
+
+\subsection{Proposed}
+We propose to have a Q-value that looks all the way down to the trajectory instead of 
+two step reward functions. We propose Q-value as,
+$$ q(x,a) = w\sigma(x,a) + (1-w)\sum_{m=1}^{M}\frac{q(x'_m, a'_m)}{M }  $$
+where w is more like discount factor, that controls how far we are looking into the future. 
+When $w = 1$, q-value just have immediate reward, when $w = 0$, Q-value is looking all the way into the future.
+We will see later, that this small change changes the result significantly.
+Again, these M neighbours are not necessarily unique pairs, and thus 
+neighbouring pairs that are more frequently observed have a greater contribution to the average value.
+We can also remove $w$ and put $\gamma$ as a discount factor, 
+$$ q(x,a) = \sigma(x,a) + \gamma \sum_{m=1}^{M}\frac{q(x'_m, a'_m)}{M }  $$
+One of the key advantage of defining Q-value like this,
+is that we can use standard RL methods to learn the Q-values. Here, reward is the proxy reward that we 
+have defined earlier and RL methods will try
+to maximize this reward, getting tighter and tighter bounds on J and thus eventually decreasing 
+the overall objective function. Although testing is done only for the first formula and second hypothesis 
+still needs to be tested.
+
+\section{Transfer Learning}
+Transfer learning make use of the knowledge gained while solving one 
+problem and applying it to a different but related problem. One of the key advantage of using 
+proxy rewards is that we can transfer the knowledge gained while training one problem instance and then 
+use it to test it on other problem instance. That means if we have a big problem instance, then once we train 
+our algorithm on that problem instance, we can store its Q-value, and when training on other problem instance
+we can use that Q-value as the starting point. Moreover, we can directly test using the stored Q-values.
+The results of transfer learning is shown letter in the Experiment section.
