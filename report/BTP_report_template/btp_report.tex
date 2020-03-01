@@ -21,6 +21,8 @@
 \usepackage{algorithm}
 %% use this in your preamble
 \usepackage{newunicodechar}
+% \usepackage{caption}
+% \usepackage{subcaption}
 \newunicodechar{ﬀ}{ff}
 \newunicodechar{ﬁ}{fi} 
 \newunicodechar{ﬂ}{fl}
@@ -47,7 +49,7 @@
 \include{title}
 \tableofcontents 
 % \voffset=-0.8in
-\addcontentsline{toc}{chapter}{List of Figures} 
+\addcontentsline{toc}{chapter}{List of Figures}
 \listoffigures 
 
 \pagenumbering{arabic}
@@ -65,27 +67,30 @@
 \include{chapter2}
 \cleardoublepage 
 \typeout{}
-\include{chapter3}
-\cleardoublepage 
+% \include{chapter3}
+% \cleardoublepage 
+% \typeout{}
+% \include{chapter4}
+% \cleardoublepage 
+% \typeout{}
+% \include{detailed_implementation}
+% \cleardoublepage
+% \typeout{}
+% \include{rail_train}
+% \cleardoublepage
+% \typeout{}
+% \include{stats}
+% \cleardoublepage
+% \typeout{}
+% \include{resource}
+% \cleardoublepage
+% \typeout{}
+% \include{simulator}
+% \cleardoublepage
+% \typeout{}
 \typeout{}
-\include{chapter4}
-\cleardoublepage 
-\typeout{}
-\include{detailed_implementation}
+\include{full_implementation}
 \cleardoublepage
-\typeout{}
-\include{rail_train}
-\cleardoublepage
-\typeout{}
-\include{stats}
-\cleardoublepage
-\typeout{}
-\include{resource}
-\cleardoublepage
-\typeout{}
-\include{simulator}
-\cleardoublepage
-\typeout{}
 \include{algorithm}
 \cleardoublepage
 \typeout{}

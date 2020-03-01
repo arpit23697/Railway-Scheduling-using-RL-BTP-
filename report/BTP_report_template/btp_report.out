@@ -5,56 +5,45 @@
 \BOOKMARK [1][-]{section.2.2}{Railway Scheduling Problem}{chapter.2}% 5
 \BOOKMARK [2][-]{subsection.2.2.1}{Scheduling}{section.2.2}% 6
 \BOOKMARK [2][-]{subsection.2.2.2}{Rescheduling}{section.2.2}% 7
-\BOOKMARK [0][-]{chapter.3}{Reinforcement Learning Approach}{}% 8
-\BOOKMARK [1][-]{section.3.1}{Brief Description}{chapter.3}% 9
-\BOOKMARK [1][-]{section.3.2}{Prior Work}{chapter.3}% 10
-\BOOKMARK [2][-]{subsection.3.2.1}{State Representation \(Local state space\)}{section.3.2}% 11
-\BOOKMARK [2][-]{subsection.3.2.2}{Action and Policy Definition}{section.3.2}% 12
-\BOOKMARK [1][-]{section.3.3}{Proposed Approach}{chapter.3}% 13
-\BOOKMARK [2][-]{subsection.3.3.1}{State Space Representation}{section.3.3}% 14
-\BOOKMARK [2][-]{subsection.3.3.2}{Action And Policy Definition}{section.3.3}% 15
-\BOOKMARK [1][-]{section.3.4}{Objective Function}{chapter.3}% 16
-\BOOKMARK [0][-]{chapter.4}{Implementation Overview}{}% 17
-\BOOKMARK [1][-]{section.4.1}{Railway simulator}{chapter.4}% 18
-\BOOKMARK [2][-]{subsection.4.1.1}{Requirement}{section.4.1}% 19
-\BOOKMARK [2][-]{subsection.4.1.2}{Implementation}{section.4.1}% 20
-\BOOKMARK [0][-]{chapter.5}{Implementation Details}{}% 21
-\BOOKMARK [1][-]{section.5.1}{Modules and its components}{chapter.5}% 22
-\BOOKMARK [0][-]{chapter.6}{Rail Network and Train}{}% 23
-\BOOKMARK [1][-]{section.6.1}{Mathematical model}{chapter.6}% 24
-\BOOKMARK [1][-]{section.6.2}{Railway Network}{chapter.6}% 25
-\BOOKMARK [1][-]{section.6.3}{Trains}{chapter.6}% 26
-\BOOKMARK [0][-]{chapter.7}{Statistical Analysis and Graph}{}% 27
-\BOOKMARK [1][-]{section.7.1}{Log generatotion}{chapter.7}% 28
-\BOOKMARK [1][-]{section.7.2}{Graphs for visulalization}{chapter.7}% 29
-\BOOKMARK [2][-]{subsection.7.2.1}{Details of the image}{section.7.2}% 30
-\BOOKMARK [0][-]{chapter.8}{Resource Usage}{}% 31
-\BOOKMARK [1][-]{section.8.1}{Resource usage graph}{chapter.8}% 32
-\BOOKMARK [1][-]{section.8.2}{Deadlock detection}{chapter.8}% 33
-\BOOKMARK [2][-]{subsection.8.2.1}{Banker's algorithm}{section.8.2}% 34
-\BOOKMARK [1][-]{section.8.3}{Deadlock avoidance heuristic}{chapter.8}% 35
-\BOOKMARK [2][-]{subsection.8.3.1}{Algorithm}{section.8.3}% 36
-\BOOKMARK [0][-]{chapter.9}{Simulator}{}% 37
-\BOOKMARK [0][-]{chapter.10}{Algorithm Details}{}% 38
-\BOOKMARK [1][-]{section.10.1}{Generalised State Representation}{chapter.10}% 39
-\BOOKMARK [1][-]{section.10.2}{Action and Policy Definition}{chapter.10}% 40
-\BOOKMARK [2][-]{subsection.10.2.1}{ \040- greedy policy}{section.10.2}% 41
-\BOOKMARK [2][-]{subsection.10.2.2}{Modified \040- greedy policy}{section.10.2}% 42
-\BOOKMARK [1][-]{section.10.3}{Objective Function}{chapter.10}% 43
-\BOOKMARK [1][-]{section.10.4}{Sarsa\(\)}{chapter.10}% 44
-\BOOKMARK [1][-]{section.10.5}{Proxy reward}{chapter.10}% 45
-\BOOKMARK [2][-]{subsection.10.5.1}{Prior}{section.10.5}% 46
-\BOOKMARK [2][-]{subsection.10.5.2}{Proposed}{section.10.5}% 47
-\BOOKMARK [1][-]{section.10.6}{Transfer Learning}{chapter.10}% 48
-\BOOKMARK [0][-]{chapter.11}{Experiments}{}% 49
-\BOOKMARK [1][-]{section.11.1}{Problem Instances}{chapter.11}% 50
-\BOOKMARK [2][-]{subsection.11.1.1}{HYP-1}{section.11.1}% 51
-\BOOKMARK [2][-]{subsection.11.1.2}{HYP-2 \046 HYP-3}{section.11.1}% 52
-\BOOKMARK [1][-]{section.11.2}{Hyperparameters}{chapter.11}% 53
-\BOOKMARK [1][-]{section.11.3}{Results}{chapter.11}% 54
-\BOOKMARK [2][-]{subsection.11.3.1}{Sarsa \(\) on HYP-1}{section.11.3}% 55
-\BOOKMARK [2][-]{subsection.11.3.2}{Proposed work on HYP-1}{section.11.3}% 56
-\BOOKMARK [1][-]{section.11.4}{Training on HYP-2 \046 HYP-3}{chapter.11}% 57
-\BOOKMARK [1][-]{section.11.5}{Testing and transfer learning}{chapter.11}% 58
-\BOOKMARK [0][-]{chapter.12}{Conclusion and Future Work}{}% 59
-\BOOKMARK [0][-]{chapter.12}{References}{}% 60
+\BOOKMARK [0][-]{chapter.3}{Simulator Implementation}{}% 8
+\BOOKMARK [1][-]{section.3.1}{Railway simulator}{chapter.3}% 9
+\BOOKMARK [2][-]{subsection.3.1.1}{Requirement}{section.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.1.2}{Implementation}{section.3.1}% 11
+\BOOKMARK [1][-]{section.3.2}{Implementation Details}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.2.1}{Modules and its components}{section.3.2}% 13
+\BOOKMARK [1][-]{section.3.3}{Rail Network and Train}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.3.1}{Mathematical model}{section.3.3}% 15
+\BOOKMARK [2][-]{subsection.3.3.2}{Railway Network}{section.3.3}% 16
+\BOOKMARK [2][-]{subsection.3.3.3}{Trains}{section.3.3}% 17
+\BOOKMARK [1][-]{section.3.4}{Statistical Analysis and Graph}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.4.1}{Log generatotion}{section.3.4}% 19
+\BOOKMARK [2][-]{subsection.3.4.2}{Graphs for visulalization}{section.3.4}% 20
+\BOOKMARK [2][-]{subsection.3.4.3}{Details of the image}{section.3.4}% 21
+\BOOKMARK [1][-]{section.3.5}{Resource Usage}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.5.1}{Resource usage graph}{section.3.5}% 23
+\BOOKMARK [2][-]{subsection.3.5.2}{Deadlock detection}{section.3.5}% 24
+\BOOKMARK [2][-]{subsection.3.5.3}{Deadlock avoidance heuristic}{section.3.5}% 25
+\BOOKMARK [1][-]{section.3.6}{Simulator}{chapter.3}% 26
+\BOOKMARK [0][-]{chapter.4}{Algorithm Details}{}% 27
+\BOOKMARK [1][-]{section.4.1}{Generalised State Representation}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.2}{Action and Policy Definition}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.2.1}{ \040- greedy policy}{section.4.2}% 30
+\BOOKMARK [2][-]{subsection.4.2.2}{Modified \040- greedy policy}{section.4.2}% 31
+\BOOKMARK [1][-]{section.4.3}{Objective Function}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.4}{Sarsa\(\)}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.5}{Proxy reward}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.5.1}{Prior}{section.4.5}% 35
+\BOOKMARK [2][-]{subsection.4.5.2}{Proposed}{section.4.5}% 36
+\BOOKMARK [1][-]{section.4.6}{Transfer Learning}{chapter.4}% 37
+\BOOKMARK [0][-]{chapter.5}{Experiments}{}% 38
+\BOOKMARK [1][-]{section.5.1}{Problem Instances}{chapter.5}% 39
+\BOOKMARK [2][-]{subsection.5.1.1}{HYP-1}{section.5.1}% 40
+\BOOKMARK [2][-]{subsection.5.1.2}{HYP-2 \046 HYP-3}{section.5.1}% 41
+\BOOKMARK [1][-]{section.5.2}{Hyperparameters}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.3.1}{Sarsa \(\) on HYP-1}{section.5.3}% 44
+\BOOKMARK [2][-]{subsection.5.3.2}{Proposed work on HYP-1}{section.5.3}% 45
+\BOOKMARK [1][-]{section.5.4}{Training on HYP-2 \046 HYP-3}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.5}{Testing and transfer learning}{chapter.5}% 47
+\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Work}{}% 48
+\BOOKMARK [0][-]{chapter.6}{References}{}% 49

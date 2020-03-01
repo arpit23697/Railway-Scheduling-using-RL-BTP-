@@ -1,6 +1,6 @@
 \chapter{Algorithm Details}
 
-The principal goal of the proposed algorithm is to compute
+The principal goal of the algorithm is to compute
 schedules for railway lines (either from scratch or from a given
 starting state) while having comparable online computation requirements. 
 Three challenges need to be overcome
@@ -11,7 +11,7 @@ to in order to achieve this objective
 \item It must scale to large, realistic railway lines.
 \item It must manage simultaneously moving trains.
 \end{enumerate}
-In this approach, the first challenge is addressed by defining a map
+The first challenge is addressed by defining a map
 from the specific state of the instance to a generalised state
 space of fixed size. The second challenge is handled by
 decentralising the decisions for individual trains, and limiting
@@ -22,7 +22,7 @@ previously defined deadlock-avoidance heuristic. Each
 component is described below.
 
 \vspace{\baselineskip}
-Note that this algorithm focuses on computing schedules for \textbf{railway lines instead of railway networks}.
+Note that this algorithm focuses on computing schedules for \textbf{railway lines \cite{ARTICLE:1} , \cite{ARTICLE:4} instead of railway networks}.
 First we will define the algorithm, test it and then have a look at why it can't work in 
 railway network setting and then try to expand the learning to the railway network.
 
@@ -60,6 +60,13 @@ $$ S_r = R - 1 - min(R - 1, \left \lceil{N_r - w_c T_{r,c} - w_d T_{r,d} }\right
 Here, $0 \leq w_c$, $w_d \leq 1$ are weights that can de-emphasise
 the effect of converging and diverging trains on the perceived
 status of a resource.
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.6\textwidth]{report2}
+  \caption{ Mapping train location and direction of movement to resource
+  status, relative to the ‘current train’ \cite{ARTICLE:1}.  }
+  \label{image-myimage}
+\end{figure}
 
 \vspace{\baselineskip}
 In addition to the resource-related entries, the state includes
@@ -111,7 +118,7 @@ which are not good.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\textwidth]{policy}
-    \caption{ Modified greedy policy }
+    \caption{ Modified $ \epsilon$ - greedy policy \cite{ARTICLE:1}  }
     \label{image-myimage20}
 \end{figure}
 
@@ -185,12 +192,12 @@ one reward at the end of episode). Algorithm is given below.
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.7\textwidth]{backup_sarsa}
-    \caption{ Sarsa($\lambda$)'s backup diagram }
-    \label{image-myimage20}
+    \caption{ Sarsa($\lambda$)'s backup diagram \cite{BOOK:1} }
+    \label{image-myimage20} 
 \end{figure}
 
 \begin{algorithm}[H]
-\caption{ Sarsa Lambda }
+\caption{ Sarsa Lambda \cite{BOOK:1} }
 \begin{algorithmic}
 \State Initialize $Q(s,a)$ arbitrarily and $e(s,a) = 0$ $\forall s,a$
 \State Repeat (for each episode):
@@ -247,7 +254,7 @@ upon episode termination).
 However, in the current context, episodes can be very long,
 reward is generated only upon episode termination, and state-
 action pairs for multiple trains are generated simultaneously.
-Therefore, $\sigma ( x, a)$ is used in as a \textbf{proxy reward}.
+Therefore, $\sigma ( x, a)$ is used in as a \textbf{proxy reward}\cite{ARTICLE:1}.
 
 We differ from the method mentioned in the paper by defining the Q-value differently.
 

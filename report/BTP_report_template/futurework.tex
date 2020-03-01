@@ -1,31 +1,47 @@
 \chapter{Conclusion and Future Work}
 
 For implementing the RL algorithms to learn schedules, we need a discrete event simulator 
-that drives the algorithm. So far, focus is to implement the simulator. Simulator is organised into different modules 
-and these modules work together to create the whole system. Railway network and train module implements 
-the underlying railway network and trains that run over these networks. Statistical analysis and graph module 
-creates graphs for visualisation and generates log for analysis and debugging. More components 
-will be added in future for more analysis as per the need. Resource usage module 
-keeps track of the resources (station and track) in the network. It generates Resource usage graph, 
-implements deadlock detection algorithm for detecting deadlock in the network and deadlock avoidance heuristic for choosing action when multiple
-trains need action at the same time. Algorithm module forms the backbone of the whole simulator and contains 
-implementation of RL algorithms (Q-learning and Deep Q-Learning) for learning the 
-schedule. Finally simulator module, puts each piece together by creating each important 
-component as process. Each train in the network is treated as process and runs simultaneously.
-Other processes are also created for detecting deadlock, generating graph for visualisation,
-checking status of the network (number of trains in the network and there status) and choosing 
-action for trains that need action. 
+that drives the algorithm. First phase of the BTP, focuses on implementing the simulator and 
+understanding the prior work in detail. The second phase is focused more on the implementation of the 
+algorithm and experiments. 
 
 \vspace{\baselineskip}
-Now the future focus is on the algorithm module that will contain implementation of 
-prior as well as proposed approach. The report discusses
-two approaches, to solve the problem. Once the prior approach is implemented, we can
-see how good it is working, how good it is scaling to real life problem instances, how good it is 
-performing compared to the present approaches and how to improve upon it. Next step is to 
-improve on this algorithm and add deep learning to it for learning the state space. Finally, 
-we drive towards the proposed approach and improve upon it.  
+The algorithm discussed in the report treats each train as a single agent, So whole system i.e. 
+whole network and trains, is a multiagent environment. First the algorithm discusses about the 
+local state space of each train , actions and policy ($\epsilon$ - greedy policy) and the objective
+function used in this study. Next we discuss about the Sarsa($\lambda$) algorithm with reward as the negative 
+of the objective function. This algorithm does not perform well, since the reward is at the end of the episode, 
+and back-propagation of reward through the trajectory is not possible. So we defined \textbf{proxy reward} which 
+captures the probability of state-action pair to end up in a successful episode. Using the proxy reward,
+we defined Q-values in two different ways. First one looks at success probability of current state-action pair 
+and success probability of its neighbors. Second one looks all the way down to trajectory instead of 
+two step reward functions. Second definition of Q-value, gives better results.
+
+% \vspace{-5cm}
+\vspace{\baselineskip}
+The algorithms are tested on three Hypothetical datasets. Testing is done on standard railway system 
+(without external delay) and 
+also by introducing 20\% random delay in the running time of trains. From results, we can conclude that the 
+proposed definition of Q-value performs better.One of the advantage of the study is \textbf{Transfer learning}
+in which training is done on one 
+problem instance and testing is done on similar problem instance.
+% \vspace{15cm}
+
+% \begin{figure}[h]
+    % \centering
+    % \includegraphics[width=0.5\textwidth]{flatland}
+    % \caption{ Flatland environment, railway network as grid world\cite{ARTICLE:3} }
+    % \label{flatland}
+%   \end{figure}
+\vspace{\baselineskip}
+The algorithm in this report focuses on finding schedules for railway lines instead of railway network.
+In the future, we can extend the algorithm to work for railway networks. 
 
 \vspace{\baselineskip}
-Since we are tackling blocking version of the JSSP problem, so the approach that we will 
-develop can be used to solve the JSSP problem with reasonable approximation. So the future plan is also 
-to use the developed approaches on other similar problems as well.
+Recently, AICrowd developed a \textbf{flatland environment}\cite{ARTICLE:3} to foster progress in \textbf{multi-agent
+reinforcement learning for any re-scheduling problem (RSP)}. They have defined
+the railway network in a complete new setting using grid instead of graph. Future course of the project is to 
+work on more general problem of flatland (which can be used for solve railway scheduling, 
+transport management problems) and develop algorithms that can solve scheduling problem over 
+grid world having multiple agents. 
+

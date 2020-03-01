@@ -40,13 +40,12 @@ time. So there are two tasks at hand :
 \item Choose a train from TRAINS\_NEEDING\_ACTION for taking an action. In this simulator, we are 
     using deadlock detection heuristic based on \cite{ARTICLE:2} for picking the train. Essentially this heuristic breaks
     the tie when multiple trains are waiting for taking the action.
-    \vspace{2.5cm}
+    \vspace{-1cm}
     \item Next step is to take the action, either to move or to wait. Choice of action depends on the state
     space of the train (discussed in detail in Algorithm section). We can also randomize this process by 
     choosing the action randomly with fixed probabilities.
 \end{itemize}
 \item \textbf{Deadlock detection}
-
 
 This process is invoked after every predefined time (20 units) and checks if the network is in deadlock 
 or not.\textbf{ Banker's Algorithm} is used as the deadlock detection algorithm (discussed in detail in 

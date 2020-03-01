@@ -3,26 +3,23 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The line and junction topology of railway networks in India \cite {WEBSITE:1}. }}{1}{figure.2.1}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Linear Railway Lines \cite {ARTICLE:1}. }}{2}{figure.2.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Mapping train location and direction of movement to resource status, relative to the \IeC {\textquoteleft }current train\IeC {\textquoteright } \cite {ARTICLE:1}. }}{5}{figure.3.1}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Flow chart summarizing the implementation of railway simulator. }}{6}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Railway Network framework }}{8}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Train Variables and methods }}{9}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Network with trains color coded. }}{11}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Network showing just what all resources are free. }}{12}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Resource usage in the network. }}{13}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Deadlock near station Charlie. }}{14}{figure.3.7}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Mapping train location and direction of movement to resource status, relative to the \IeC {\textquoteleft }current train\IeC {\textquoteright } \cite {ARTICLE:1}. }}{19}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Modified $ \epsilon $ - greedy policy \cite {ARTICLE:1} }}{20}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Sarsa($\lambda $)'s backup diagram \cite {BOOK:1} }}{22}{figure.4.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Flow chart summarizing the implementation of railway simulator. }}{9}{figure.5.1}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Railway Network framework }}{12}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Train Variables and methods }}{13}{figure.6.2}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Network with trains color coded. }}{16}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Network showing just what all resources are free. }}{16}{figure.7.2}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Resource usage in the network. }}{17}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Deadlock near station Charlie. }}{18}{figure.8.2}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Modified greedy policy }}{25}{figure.10.1}
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Sarsa($\lambda $)'s backup diagram }}{27}{figure.10.2}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces HYP-1 }}{30}{figure.11.1}
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Priority weighted delay for Sarsa($\lambda $) on HYP-1 over 1000 episodes training}}{31}{figure.11.2}
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Priority weighted delay for proposed approach on HYP-1 over 500 episodes training }}{32}{figure.11.3}
-\contentsline {figure}{\numberline {11.4}{\ignorespaces Schedule computed using proposed approach }}{33}{figure.11.4}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces HYP-1 \cite {ARTICLE:1} }}{25}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Priority weighted delay for Sarsa($\lambda $) on HYP-1 over 1000 episodes training}}{26}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Priority weighted delay for proposed approach on HYP-1 over 500 episodes training }}{27}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Schedule computed using proposed approach for HYP-1}}{28}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Objective function for training over HYP-3 }}{30}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Deadlock in \% for training over number of episodes in HYP-3 }}{30}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Schedule computed using proposed approach on HYP-3 with blue line for priority-1 train and red line for priority-2 train. }}{31}{figure.5.7}
 \addvspace {10\p@ }

@@ -1,0 +1,10 @@
+Alpha Bravo 2 1 1
+Bravo Charlie 2 1 1
+Charlie Delta 2 1 1
+Delta Echo 2 1 1
+Echo Foxtrot 2 1 1
+Foxtrot Golf 2 1 1
+Golf Hotel 2 1 1
+Hotel India 2 1 1
+India Juliet 2 1 1
+Juliet Kilo 2 1 1
