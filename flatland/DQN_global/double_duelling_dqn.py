@@ -36,7 +36,9 @@ class Agent:
         self.action_size = action_size
         self.double_dqn = double_dqn
         # Q-Network
-        self.qnetwork_local = QNetwork(state_size, action_size).to(device)
+        self.height , self.width , self.channels = self.state_size
+
+        self.qnetwork_local = QNetwork(self.height , self.width , self.channels, action_size).to(device)
         self.qnetwork_target = copy.deepcopy(self.qnetwork_local)
 
         self.optimizer = optim.Adam(self.qnetwork_local.parameters(), lr=LR)
@@ -78,6 +80,8 @@ class Agent:
             eps (float): epsilon, for epsilon-greedy action selection
         """
         state = torch.from_numpy(state).float().unsqueeze(0).to(device)
+        state = state.permute(0 , 3 , 1 ,2)
+        
         self.qnetwork_local.eval()
         with torch.no_grad():
             action_values = self.qnetwork_local(state)
@@ -158,22 +162,28 @@ class ReplayBuffer:
 
     def add(self, state, action, reward, next_state, done):
         """Add a new experience to memory."""
-        e = self.experience(np.expand_dims(state, 0), action, reward, np.expand_dims(next_state, 0), done)
+        e = self.experience(state, action, reward, next_state, done)
         self.memory.append(e)
 
     def sample(self):
         """Randomly sample a batch of experiences from memory."""
         experiences = random.sample(self.memory, k=self.batch_size)
+
         states = torch.from_numpy(self.__v_stack_impr([e.state for e in experiences if e is not None])) \
             .float().to(device)
+        states = states.permute(0,3,1,2)
+
         actions = torch.from_numpy(self.__v_stack_impr([e.action for e in experiences if e is not None])) \
             .long().to(device)
         rewards = torch.from_numpy(self.__v_stack_impr([e.reward for e in experiences if e is not None])) \
             .float().to(device)
         next_states = torch.from_numpy(self.__v_stack_impr([e.next_state for e in experiences if e is not None])) \
             .float().to(device)
+        next_states = next_states.permute(0,3,1,2)
+
         dones = torch.from_numpy(self.__v_stack_impr([e.done for e in experiences if e is not None]).astype(np.uint8)) \
             .float().to(device)
+
 
         return states, actions, rewards, next_states, dones
 
@@ -182,6 +192,8 @@ class ReplayBuffer:
         return len(self.memory)
 
     def __v_stack_impr(self, states):
-        sub_dim = len(states[0][0]) if isinstance(states[0], Iterable) else 1
-        np_states = np.reshape(np.array(states), (len(states), sub_dim))
-        return np_states
+        if not isinstance(states[0], Iterable):
+            np_states = np.reshape(np.array(states), (len(states), 1 ))
+            return np_states
+        else:
+            return np.array(states)

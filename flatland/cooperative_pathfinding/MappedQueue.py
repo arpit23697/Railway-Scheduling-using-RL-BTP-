@@ -152,6 +152,5 @@ class PriorityQueue:
         else:
             self.q.push((priority, item))
             self.elements[item] = priority
-    
     def get(self):
-        return self.q.pop()
+        return self.q.pop()[1]
