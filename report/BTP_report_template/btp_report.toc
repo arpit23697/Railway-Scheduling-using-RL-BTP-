@@ -47,5 +47,32 @@
 \contentsline {subsection}{\numberline {5.3.2}Proposed work on HYP-1}{27}{subsection.5.3.2}
 \contentsline {section}{\numberline {5.4}Training on HYP-2 \& HYP-3}{28}{section.5.4}
 \contentsline {section}{\numberline {5.5}Testing and transfer learning}{31}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{33}{chapter.6}
-\contentsline {chapter}{References}{34}{chapter.6}
+\contentsline {chapter}{\numberline {6}Flatland Environment}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Environment}{33}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Tile types}{33}{subsection.6.1.1}
+\contentsline {section}{\numberline {6.2}Observations}{34}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Global Observation}{34}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Tree Observations}{35}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Action space}{36}{section.6.3}
+\contentsline {section}{\numberline {6.4}Problem Instances}{36}{section.6.4}
+\contentsline {chapter}{\numberline {7}Double deep Q-learning Solution}{39}{chapter.7}
+\contentsline {section}{\numberline {7.1}Algorithm}{39}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Pseudocode}{41}{subsection.7.1.1}
+\contentsline {section}{\numberline {7.2}Results}{41}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Single agent}{42}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Multiple Agent}{42}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Alternate RL algorithms}{44}{section.7.3}
+\contentsline {chapter}{\numberline {8}Cooperative Pathfinding}{46}{chapter.8}
+\contentsline {section}{\numberline {8.1}The problem with A*}{46}{section.8.1}
+\contentsline {section}{\numberline {8.2}The Fourth Dimension}{46}{section.8.2}
+\contentsline {section}{\numberline {8.3}Reservation Table}{47}{section.8.3}
+\contentsline {section}{\numberline {8.4}Choosing heuristic}{48}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Manhattan distance heuristic}{48}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}True distance heuristic}{49}{subsection.8.4.2}
+\contentsline {subsubsection}{Consistency}{49}{subsection.8.4.2}
+\contentsline {section}{\numberline {8.5}Results}{49}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Cooperative A* with only cell reserved at t}{49}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Cooperative A* with cell reserved at t and t+1}{49}{subsection.8.5.2}
+\contentsline {section}{\numberline {8.6}Drawbacks}{51}{section.8.6}
+\contentsline {chapter}{\numberline {9}Conclusion and Future Work}{52}{chapter.9}
+\contentsline {chapter}{References}{53}{chapter.9}

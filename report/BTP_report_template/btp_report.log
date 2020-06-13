@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.18)  22 FEB 2020 09:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.18)  13 JUN 2020 15:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -629,7 +629,13 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-)) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
  (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -673,7 +679,49 @@ LaTeX Warning: Label `image-myimage' multiply defined.
 
 LaTeX Warning: Label `image-myimage20' multiply defined.
 
-) (/home/arpit/study/BTP/report/BTP_report_template/experiments.aux) (/home/arpit/study/BTP/report/BTP_report_template/futurework.aux))
+) (/home/arpit/study/BTP/report/BTP_report_template/experiments.aux) (/home/arpit/study/BTP/report/BTP_report_template/flatland_problem.aux
+
+LaTeX Warning: Label `image-myimage2' multiply defined.
+
+
+LaTeX Warning: Label `image-myimage2' multiply defined.
+
+
+LaTeX Warning: Label `image-myimage2' multiply defined.
+
+
+LaTeX Warning: Label `image-myimage2' multiply defined.
+
+
+LaTeX Warning: Label `image-myimage2' multiply defined.
+
+) (/home/arpit/study/BTP/report/BTP_report_template/deep_learning.aux
+
+LaTeX Warning: Label `result10' multiply defined.
+
+
+LaTeX Warning: Label `result10' multiply defined.
+
+
+LaTeX Warning: Label `result10' multiply defined.
+
+) (/home/arpit/study/BTP/report/BTP_report_template/cooperative_pathfinding.aux
+
+LaTeX Warning: Label `image-myimage2' multiply defined.
+
+
+LaTeX Warning: Label `image-myimage2' multiply defined.
+
+
+LaTeX Warning: Label `image-myimage2' multiply defined.
+
+
+LaTeX Warning: Label `image-myimage2' multiply defined.
+
+
+LaTeX Warning: Label `image-myimage2' multiply defined.
+
+) (/home/arpit/study/BTP/report/BTP_report_template/futurework.aux))
 \openout1 = `btp_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
@@ -738,7 +786,7 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 3.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-<IITPkdFullLogoColor.pdf, id=199, 270.00874pt x 264.99pt>
+<IITPkdFullLogoColor.pdf, id=304, 270.00874pt x 264.99pt>
 File: IITPkdFullLogoColor.pdf Graphic file (type pdf)
 <use IITPkdFullLogoColor.pdf>
 Package pdftex.def Info: IITPkdFullLogoColor.pdf  used on input line 19.
@@ -746,14 +794,24 @@ Package pdftex.def Info: IITPkdFullLogoColor.pdf  used on input line 19.
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/arpit/study/BTP/report/BTP_report_template/IITPkdFullLogoColor.pdf>]) (/home/arpit/study/BTP/report/BTP_report_template/btp_report.toc [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/arpit/study/BTP/report/BTP_report_template/IITPkdFullLogoColor.pdf>]) (/home/arpit/study/BTP/report/BTP_report_template/btp_report.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [2
 
 
 ])
 \tf@toc=\write4
 \openout4 = `btp_report.toc'.
 
- [3] (/home/arpit/study/BTP/report/BTP_report_template/btp_report.lof)
+ [3] (/home/arpit/study/BTP/report/BTP_report_template/btp_report.lof [4
+
+])
 \tf@lof=\write5
 \openout5 = `btp_report.lof'.
 
@@ -763,9 +821,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.64 \include{chapter1}
-                        [1
-
-]
+                        [1]
 \openout2 = `chapter1.aux'.
 
  (/home/arpit/study/BTP/report/BTP_report_template/chapter1.tex
@@ -783,7 +839,7 @@ l.64 \include{chapter1}
 
 (/home/arpit/study/BTP/report/BTP_report_template/chapter2.tex
 Chapter 2.
-<Railways_pic.png, id=333, 752.8125pt x 388.45125pt>
+<Railways_pic.png, id=531, 752.8125pt x 388.45125pt>
 File: Railways_pic.png Graphic file (type png)
 <use Railways_pic.png>
 Package pdftex.def Info: Railways_pic.png  used on input line 21.
@@ -798,7 +854,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--24
 
  []
 
-<report1.png, id=335, 355.3275pt x 130.4875pt>
+<report1.png, id=533, 355.3275pt x 130.4875pt>
 File: report1.png Graphic file (type png)
 <use report1.png>
 Package pdftex.def Info: report1.png  used on input line 34.
@@ -847,13 +903,17 @@ l.67 \include{chapter2}
 
 (/home/arpit/study/BTP/report/BTP_report_template/full_implementation.tex
 Chapter 3.
-[4
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 
+      [4
 
 
 
 
 ]
-<Implementation.png, id=367, 674.52pt x 581.17125pt>
+<Implementation.png, id=563, 674.52pt x 581.17125pt>
 File: Implementation.png Graphic file (type png)
 <use Implementation.png>
 Package pdftex.def Info: Implementation.png  used on input line 68.
@@ -871,7 +931,7 @@ Underfull \vbox (badness 4001) has occurred while \output is active []
                                                   \fi \fi 
 l.113 \item \textbf
                    {Simulator} </home/arpit/study/BTP/report/BTP_report_template/Implementation.png>] [7]
-<Rail_train.png, id=394, 930.47626pt x 604.2575pt>
+<Rail_train.png, id=590, 930.47626pt x 604.2575pt>
 File: Rail_train.png Graphic file (type png)
 <use Rail_train.png>
 Package pdftex.def Info: Rail_train.png  used on input line 183.
@@ -882,7 +942,7 @@ Package pdftex.def Info: Rail_train.png  used on input line 183.
                                                   \fi \fi 
 l.206 
        </home/arpit/study/BTP/report/BTP_report_template/Rail_train.png>]
-<train.png, id=401, 506.89375pt x 376.40625pt>
+<train.png, id=596, 506.89375pt x 376.40625pt>
 File: train.png Graphic file (type png)
 <use train.png>
 Package pdftex.def Info: train.png  used on input line 209.
@@ -893,12 +953,12 @@ Package pdftex.def Info: train.png  used on input line 209.
                                                   \fi \fi 
 l.231 \item \textbf
                    {Finish journey} : This method is used when the train is ... </home/arpit/study/BTP/report/BTP_report_template/train.png>] [10]
-<graph.png, id=429, 563.10374pt x 525.965pt>
+<graph.png, id=625, 563.10374pt x 525.965pt>
 File: graph.png Graphic file (type png)
 <use graph.png>
 Package pdftex.def Info: graph.png  used on input line 302.
 (pdftex.def)             Requested size: 234.8775pt x 219.38695pt.
-<graph2.png, id=430, 527.9725pt x 512.91624pt>
+<graph2.png, id=626, 527.9725pt x 512.91624pt>
 File: graph2.png Graphic file (type png)
 <use graph2.png>
 Package pdftex.def Info: graph2.png  used on input line 309.
@@ -909,7 +969,7 @@ Package pdftex.def Info: graph2.png  used on input line 309.
                                                   \fi \fi 
 l.313 
        </home/arpit/study/BTP/report/BTP_report_template/graph.png>]
-<resource.png, id=436, 506.89375pt x 506.89375pt>
+<resource.png, id=632, 506.89375pt x 506.89375pt>
 File: resource.png Graphic file (type png)
 <use resource.png>
 Package pdftex.def Info: resource.png  used on input line 329.
@@ -918,7 +978,7 @@ Package pdftex.def Info: resource.png  used on input line 329.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<deadlock.png, id=437, 561.09625pt x 502.87875pt>
+<deadlock.png, id=633, 561.09625pt x 502.87875pt>
 File: deadlock.png Graphic file (type png)
 <use deadlock.png>
 Package pdftex.def Info: deadlock.png  used on input line 345.
@@ -957,7 +1017,7 @@ Chapter 4.
 
 
 ]
-<report2.png, id=500, 457.71pt x 257.96375pt>
+<report2.png, id=695, 457.71pt x 257.96375pt>
 File: report2.png Graphic file (type png)
 <use report2.png>
 Package pdftex.def Info: report2.png  used on input line 65.
@@ -992,7 +1052,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 116.
 
-<policy.png, id=510, 806.01125pt x 650.43pt>
+<policy.png, id=706, 806.01125pt x 650.43pt>
 File: policy.png Graphic file (type png)
 <use policy.png>
 Package pdftex.def Info: policy.png  used on input line 120.
@@ -1015,7 +1075,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 165.
 
-<backup_sarsa.png, id=519, 1222.5675pt x 993.7125pt>
+<backup_sarsa.png, id=714, 1222.5675pt x 993.7125pt>
 File: backup_sarsa.png Graphic file (type png)
 <use backup_sarsa.png>
 Package pdftex.def Info: backup_sarsa.png  used on input line 194.
@@ -1036,7 +1096,7 @@ l.220 \section{Proxy reward}
 
 (/home/arpit/study/BTP/report/BTP_report_template/experiments.tex
 Chapter 5.
-<Instance1.png, id=542, 730.73pt x 151.56625pt>
+<Instance1.png, id=738, 730.73pt x 151.56625pt>
 File: Instance1.png Graphic file (type png)
 <use Instance1.png>
 Package pdftex.def Info: Instance1.png  used on input line 21.
@@ -1069,7 +1129,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 68.
 
-<Sarsa_HYP-1.png, id=550, 599.23875pt x 497.86pt>
+<Sarsa_HYP-1.png, id=747, 599.23875pt x 497.86pt>
 File: Sarsa_HYP-1.png Graphic file (type png)
 <use Sarsa_HYP-1.png>
 Package pdftex.def Info: Sarsa_HYP-1.png  used on input line 72.
@@ -1080,7 +1140,7 @@ Package pdftex.def Info: Sarsa_HYP-1.png  used on input line 72.
                                                   \fi \fi 
 l.85 \item I
             n the trajecotry of a train, it is possible to visit the same st... </home/arpit/study/BTP/report/BTP_report_template/Sarsa_HYP-1.png>]
-</home/arpit/study/BTP/Results_image/HYP1/Approach2/1/delay.png, id=557, 585.18625pt x 494.84875pt>
+</home/arpit/study/BTP/Results_image/HYP1/Approach2/1/delay.png, id=753, 585.18625pt x 494.84875pt>
 File: /home/arpit/study/BTP/Results_image/HYP1/Approach2/1/delay.png Graphic file (type png)
 <use /home/arpit/study/BTP/Results_image/HYP1/Approach2/1/delay.png>
 Package pdftex.def Info: /home/arpit/study/BTP/Results_image/HYP1/Approach2/1/delay.png  used on input line 104.
@@ -1091,7 +1151,7 @@ Package pdftex.def Info: /home/arpit/study/BTP/Results_image/HYP1/Approach2/1/de
                                                   \fi \fi 
 l.119 
        </home/arpit/study/BTP/Results_image/HYP1/Approach2/1/delay.png>]
-</home/arpit/study/BTP/Results_image/HYP1/Approach2/1/train_running.png, id=568, 808.01875pt x 521.95pt>
+</home/arpit/study/BTP/Results_image/HYP1/Approach2/1/train_running.png, id=763, 808.01875pt x 521.95pt>
 File: /home/arpit/study/BTP/Results_image/HYP1/Approach2/1/train_running.png Graphic file (type png)
 <use /home/arpit/study/BTP/Results_image/HYP1/Approach2/1/train_running.png>
 Package pdftex.def Info: /home/arpit/study/BTP/Results_image/HYP1/Approach2/1/train_running.png  used on input line 122.
@@ -1105,12 +1165,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \fi \fi 
 l.167 
        </home/arpit/study/BTP/Results_image/HYP1/Approach2/1/train_running.png>]
-</home/arpit/study/BTP/Results_image/HYP3/Approach2/1/delay.png, id=580, 605.26125pt x 519.9425pt>
+</home/arpit/study/BTP/Results_image/HYP3/Approach2/1/delay.png, id=775, 605.26125pt x 519.9425pt>
 File: /home/arpit/study/BTP/Results_image/HYP3/Approach2/1/delay.png Graphic file (type png)
 <use /home/arpit/study/BTP/Results_image/HYP3/Approach2/1/delay.png>
 Package pdftex.def Info: /home/arpit/study/BTP/Results_image/HYP3/Approach2/1/delay.png  used on input line 212.
 (pdftex.def)             Requested size: 328.82707pt x 282.47844pt.
-</home/arpit/study/BTP/Results_image/HYP3/Approach2/1/deadlock.png, id=581, 585.18625pt x 501.875pt>
+</home/arpit/study/BTP/Results_image/HYP3/Approach2/1/deadlock.png, id=776, 585.18625pt x 501.875pt>
 File: /home/arpit/study/BTP/Results_image/HYP3/Approach2/1/deadlock.png Graphic file (type png)
 <use /home/arpit/study/BTP/Results_image/HYP3/Approach2/1/deadlock.png>
 Package pdftex.def Info: /home/arpit/study/BTP/Results_image/HYP3/Approach2/1/deadlock.png  used on input line 218.
@@ -1126,7 +1186,7 @@ l.221 \end{figure}
                                                   \fi \fi 
 l.221 \end{figure}
                   ]
-</home/arpit/study/BTP/Results_image/HYP3/Approach2/1/running_train.png, id=587, 838.13126pt x 531.9875pt>
+</home/arpit/study/BTP/Results_image/HYP3/Approach2/1/running_train.png, id=782, 838.13126pt x 531.9875pt>
 File: /home/arpit/study/BTP/Results_image/HYP3/Approach2/1/running_train.png Graphic file (type png)
 <use /home/arpit/study/BTP/Results_image/HYP3/Approach2/1/running_train.png>
 Package pdftex.def Info: /home/arpit/study/BTP/Results_image/HYP3/Approach2/1/running_train.png  used on input line 224.
@@ -1153,56 +1213,265 @@ l.271
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \include{experiments}
+l.77 \include{experiments}
                           pdfTeX warning (ext4): destination with the same identifier (name{table.5.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \include{experiments}
+l.77 \include{experiments}
                           ]
 
-\openout2 = `futurework.aux'.
+\openout2 = `flatland_problem.aux'.
 
-(/home/arpit/study/BTP/report/BTP_report_template/futurework.tex
+(/home/arpit/study/BTP/report/BTP_report_template/flatland_problem.tex
 Chapter 6.
-) [33
-
-
-
-
-] (/home/arpit/study/BTP/report/BTP_report_template/btp_report.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
- [34
+[33
 
 
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
- (/home/arpit/study/BTP/report/BTP_report_template/btp_report.aux (/home/arpit/study/BTP/report/BTP_report_template/title.aux) (/home/arpit/study/BTP/report/BTP_report_template/chapter1.aux) (/home/arpit/study/BTP/report/BTP_report_template/chapter2.aux) (/home/arpit/study/BTP/report/BTP_report_template/full_implementation.aux) (/home/arpit/study/BTP/report/BTP_report_template/algorithm.aux) (/home/arpit/study/BTP/report/BTP_report_template/experiments.aux) (/home/arpit/study/BTP/report/BTP_report_template/futurework.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
+<flatland1.png, id=807, 723.70375pt x 165.61874pt>
+File: flatland1.png Graphic file (type png)
+<use flatland1.png>
+Package pdftex.def Info: flatland1.png  used on input line 52.
+(pdftex.def)             Requested size: 469.75502pt x 107.50432pt.
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.92 
+      </home/arpit/study/BTP/report/BTP_report_template/flatland1.png>]
+<flatland2.png, id=814, 803.0pt x 376.40625pt>
+File: flatland2.png Graphic file (type png)
+<use flatland2.png>
+Package pdftex.def Info: flatland2.png  used on input line 95.
+(pdftex.def)             Requested size: 469.75502pt x 220.20537pt.
+ [35pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.110 \item T
+             his feature stores the distance (in number of cells) to the nex... </home/arpit/study/BTP/report/BTP_report_template/flatland2.png>]
+<flatland4.png, id=826, 493.845pt x 493.845pt>
+File: flatland4.png Graphic file (type png)
+<use flatland4.png>
+Package pdftex.def Info: flatland4.png  used on input line 144.
+(pdftex.def)             Requested size: 234.8775pt x 234.87268pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<flatland3.png, id=829, 585.18625pt x 582.175pt>
+File: flatland3.png Graphic file (type png)
+<use flatland3.png>
+Package pdftex.def Info: flatland3.png  used on input line 151.
+(pdftex.def)             Requested size: 234.8775pt x 233.66536pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<flatland5.png, id=832, 645.41125pt x 649.42625pt>
+File: flatland5.png Graphic file (type png)
+<use flatland5.png>
+Package pdftex.def Info: flatland5.png  used on input line 161.
+(pdftex.def)             Requested size: 375.80544pt x 378.144pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [36] [37pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.80 \include{flatland_problem}
+                               pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.80 \include{flatland_problem}
+                                </home/arpit/study/BTP/report/BTP_report_template/flatland4.png> </home/arpit/study/BTP/report/BTP_report_template/flatland3.png>] [38pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.80 \include{flatland_problem}
+                                </home/arpit/study/BTP/report/BTP_report_template/flatland5.png>]
+
+\openout2 = `deep_learning.aux'.
+
+(/home/arpit/study/BTP/report/BTP_report_template/deep_learning.tex
+Chapter 7.
+[39
+
+
+
+
+] [40] [41]
+<single_agent_tree_observation_depth2.png, id=884, 572.1375pt x 495.8525pt>
+File: single_agent_tree_observation_depth2.png Graphic file (type png)
+<use single_agent_tree_observation_depth2.png>
+Package pdftex.def Info: single_agent_tree_observation_depth2.png  used on input line 122.
+(pdftex.def)             Requested size: 234.8775pt x 203.55809pt.
+File: single_agent_tree_observation_depth2.png Graphic file (type png)
+<use single_agent_tree_observation_depth2.png>
+Package pdftex.def Info: single_agent_tree_observation_depth2.png  used on input line 130.
+(pdftex.def)             Requested size: 234.8775pt x 203.55809pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<agent4_city_3_multi.png, id=885, 375.4025pt x 596.2275pt>
+File: agent4_city_3_multi.png Graphic file (type png)
+<use agent4_city_3_multi.png>
+Package pdftex.def Info: agent4_city_3_multi.png  used on input line 144.
+(pdftex.def)             Requested size: 234.8775pt x 373.05066pt.
+
+Underfull \vbox (badness 2443) has occurred while \output is active []
+
+ [42pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.150 
+       </home/arpit/study/BTP/report/BTP_report_template/single_agent_tree_observation_depth2.png>]
+Overfull \vbox (46.97432pt too high) has occurred while \output is active []
+
+ [43pdfTeX warning (ext4): destination with the same identifier (name{figure.7.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.150 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.7.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.150 
+       </home/arpit/study/BTP/report/BTP_report_template/agent4_city_3_multi.png>]
+<agent10_city3_multi.png, id=897, 297.11pt x 473.77pt>
+File: agent10_city3_multi.png Graphic file (type png)
+<use agent10_city3_multi.png>
+Package pdftex.def Info: agent10_city3_multi.png  used on input line 156.
+(pdftex.def)             Requested size: 234.8775pt x 374.5489pt.
+) [44pdfTeX warning (ext4): destination with the same identifier (name{figure.7.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.83 \include{deep_learning}
+                             </home/arpit/study/BTP/report/BTP_report_template/agent10_city3_multi.png>] [45]
+
+\openout2 = `cooperative_pathfinding.aux'.
+
+(/home/arpit/study/BTP/report/BTP_report_template/cooperative_pathfinding.tex
+Chapter 8.
+[46
+
+
+
+
+]
+<Cooperative1.png, id=914, 760.8425pt x 289.08pt>
+File: Cooperative1.png Graphic file (type png)
+<use Cooperative1.png>
+Package pdftex.def Info: Cooperative1.png  used on input line 62.
+(pdftex.def)             Requested size: 469.75502pt x 178.4867pt.
+ [47pdfTeX warning (ext4): destination with the same identifier (name{figure.8.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.84 \subsection{Manhattan distance heuristic}
+                                               </home/arpit/study/BTP/report/BTP_report_template/Cooperative1.png>]
+<cooperative2.png, id=922, 753.81625pt x 232.87pt>
+File: cooperative2.png Graphic file (type png)
+<use cooperative2.png>
+Package pdftex.def Info: cooperative2.png  used on input line 105.
+(pdftex.def)             Requested size: 469.75502pt x 145.11697pt.
+ [48pdfTeX warning (ext4): destination with the same identifier (name{figure.8.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.120 
+       </home/arpit/study/BTP/report/BTP_report_template/cooperative2.png>]
+<cooperative3.png, id=930, 597.23125pt x 454.69875pt>
+File: cooperative3.png Graphic file (type png)
+<use cooperative3.png>
+Package pdftex.def Info: cooperative3.png  used on input line 163.
+(pdftex.def)             Requested size: 234.8775pt x 178.82349pt.
+ [49]
+<cooperative4.png, id=936, 601.24625pt x 460.72125pt>
+File: cooperative4.png Graphic file (type png)
+<use cooperative4.png>
+Package pdftex.def Info: cooperative4.png  used on input line 170.
+(pdftex.def)             Requested size: 234.8775pt x 179.98285pt.
+<cooperative5.png, id=937, 623.32875pt x 459.7175pt>
+File: cooperative5.png Graphic file (type png)
+<use cooperative5.png>
+Package pdftex.def Info: cooperative5.png  used on input line 177.
+(pdftex.def)             Requested size: 375.80544pt x 277.16542pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50pdfTeX warning (ext4): destination with the same identifier (name{figure.8.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.181 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.8.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.181 
+       </home/arpit/study/BTP/report/BTP_report_template/cooperative3.png> </home/arpit/study/BTP/report/BTP_report_template/cooperative4.png>]) [51pdfTeX warning (ext4): destination with the same identifier (name{figure.8.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.86 \include{cooperative_pathfinding}
+                                       </home/arpit/study/BTP/report/BTP_report_template/cooperative5.png>]
+
+\openout2 = `futurework.aux'.
+
+(/home/arpit/study/BTP/report/BTP_report_template/futurework.tex
+Chapter 9.
+) [52
+
+
+
+
+] (/home/arpit/study/BTP/report/BTP_report_template/btp_report.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+[][]$\T1/cmr/m/n/12 http : / / ^^]atland-[]rl-[]docs . s3-[]website . eu-[]central-[]1 . amazonaws . com / 04 _ speci^^\cations _ toc .
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
+ [53
+
+
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
+ (/home/arpit/study/BTP/report/BTP_report_template/btp_report.aux (/home/arpit/study/BTP/report/BTP_report_template/title.aux) (/home/arpit/study/BTP/report/BTP_report_template/chapter1.aux) (/home/arpit/study/BTP/report/BTP_report_template/chapter2.aux) (/home/arpit/study/BTP/report/BTP_report_template/full_implementation.aux) (/home/arpit/study/BTP/report/BTP_report_template/algorithm.aux) (/home/arpit/study/BTP/report/BTP_report_template/experiments.aux) (/home/arpit/study/BTP/report/BTP_report_template/flatland_problem.aux) (/home/arpit/study/BTP/report/BTP_report_template/deep_learning.aux) (/home/arpit/study/BTP/report/BTP_report_template/cooperative_pathfinding.aux) (/home/arpit/study/BTP/report/BTP_report_template/futurework.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `btp_report.out' has not changed.
-(rerunfilecheck)             Checksum: B27FFAC935FB3D8DD14BFC7D2D29A353;3222.
+(rerunfilecheck)             Checksum: B36D39648EFE434F28F0774C093D0126;4957.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 7941 strings out of 492982
- 115116 string characters out of 6134896
- 205656 words of memory out of 5000000
- 11139 multiletter control sequences out of 15000+600000
- 22711 words of font info for 52 fonts, out of 8000000 for 9000
+ 8227 strings out of 492982
+ 120391 string characters out of 6134896
+ 210445 words of memory out of 5000000
+ 11296 multiletter control sequences out of 15000+600000
+ 27119 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,10n,36p,367b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbl1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on /home/arpit/study/BTP/report/BTP_report_template/btp_report.pdf (39 pages, 1393333 bytes).
+ 28i,10n,36p,580b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbl1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on /home/arpit/study/BTP/report/BTP_report_template/btp_report.pdf (59 pages, 2059784 bytes).
 PDF statistics:
- 735 PDF objects out of 1000 (max. 8388607)
- 628 compressed objects within 7 object streams
- 175 named destinations out of 1000 (max. 500000)
- 493 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1104 PDF objects out of 1200 (max. 8388607)
+ 940 compressed objects within 10 object streams
+ 254 named destinations out of 1000 (max. 500000)
+ 766 words of extra memory for PDF output out of 10000 (max. 10000000)
 

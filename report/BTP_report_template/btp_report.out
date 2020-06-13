@@ -45,5 +45,31 @@
 \BOOKMARK [2][-]{subsection.5.3.2}{Proposed work on HYP-1}{section.5.3}% 45
 \BOOKMARK [1][-]{section.5.4}{Training on HYP-2 \046 HYP-3}{chapter.5}% 46
 \BOOKMARK [1][-]{section.5.5}{Testing and transfer learning}{chapter.5}% 47
-\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Work}{}% 48
-\BOOKMARK [0][-]{chapter.6}{References}{}% 49
+\BOOKMARK [0][-]{chapter.6}{Flatland Environment}{}% 48
+\BOOKMARK [1][-]{section.6.1}{Environment}{chapter.6}% 49
+\BOOKMARK [2][-]{subsection.6.1.1}{Tile types}{section.6.1}% 50
+\BOOKMARK [1][-]{section.6.2}{Observations}{chapter.6}% 51
+\BOOKMARK [2][-]{subsection.6.2.1}{Global Observation}{section.6.2}% 52
+\BOOKMARK [2][-]{subsection.6.2.2}{Tree Observations}{section.6.2}% 53
+\BOOKMARK [1][-]{section.6.3}{Action space}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.4}{Problem Instances}{chapter.6}% 55
+\BOOKMARK [0][-]{chapter.7}{Double deep Q-learning Solution}{}% 56
+\BOOKMARK [1][-]{section.7.1}{Algorithm}{chapter.7}% 57
+\BOOKMARK [2][-]{subsection.7.1.1}{Pseudocode}{section.7.1}% 58
+\BOOKMARK [1][-]{section.7.2}{Results}{chapter.7}% 59
+\BOOKMARK [2][-]{subsection.7.2.1}{Single agent}{section.7.2}% 60
+\BOOKMARK [2][-]{subsection.7.2.2}{Multiple Agent}{section.7.2}% 61
+\BOOKMARK [1][-]{section.7.3}{Alternate RL algorithms}{chapter.7}% 62
+\BOOKMARK [0][-]{chapter.8}{Cooperative Pathfinding}{}% 63
+\BOOKMARK [1][-]{section.8.1}{The problem with A*}{chapter.8}% 64
+\BOOKMARK [1][-]{section.8.2}{The Fourth Dimension}{chapter.8}% 65
+\BOOKMARK [1][-]{section.8.3}{Reservation Table}{chapter.8}% 66
+\BOOKMARK [1][-]{section.8.4}{Choosing heuristic}{chapter.8}% 67
+\BOOKMARK [2][-]{subsection.8.4.1}{Manhattan distance heuristic}{section.8.4}% 68
+\BOOKMARK [2][-]{subsection.8.4.2}{True distance heuristic}{section.8.4}% 69
+\BOOKMARK [1][-]{section.8.5}{Results}{chapter.8}% 70
+\BOOKMARK [2][-]{subsection.8.5.1}{Cooperative A* with only cell reserved at t}{section.8.5}% 71
+\BOOKMARK [2][-]{subsection.8.5.2}{Cooperative A* with cell reserved at t and t+1}{section.8.5}% 72
+\BOOKMARK [1][-]{section.8.6}{Drawbacks}{chapter.8}% 73
+\BOOKMARK [0][-]{chapter.9}{Conclusion and Future Work}{}% 74
+\BOOKMARK [0][-]{chapter.9}{References}{}% 75

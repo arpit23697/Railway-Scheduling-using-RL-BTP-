@@ -4,7 +4,7 @@
 
 
 The aim is to work on an algorithm for scheduling
-bidirectional railway lines (both single- and multi-track) using a
+bidirectional railway network (both single- and multi-track) using a
 framework of Reinforcement Learning. Given deterministic arrival/departure times for
  all the trains on the lines, their initial positions, 
  priority and halt times, traversal times, deciding on track allocations is a 
@@ -14,13 +14,18 @@ framework of Reinforcement Learning. Given deterministic arrival/departure times
  while minimising the total priority-weighted delay. 
  This makes the underlying problem one of decision making in of 
  stochastic event driven systems. 
-The primary advantage of the proposed algorithm compared to
-exact approaches is its scalability, and compared to heuristic
-approaches is its solution quality.Improved solution quality is obtained because
-of the inherent adaptability of reinforcement learning to specific
-problem instances.
+
+ \vspace{\baselineskip}
+First we will focus on solving scheduling problem for railway line and discuss different algorithm, there 
+advantages, results. Then using the knowledge developed so far, we will solve the flatland environment\cite{ARTICLE:3} that is 
+grid based simulator for multiagent reinforcement learning for any re-scheduling problem (RSP). 
+
 
 \vspace{\baselineskip}
-This report is organised in 4 main chapters.Chapter 2 discusses the problem statement in length, 
-Chapter 3 discusses the implementation of the simulator, Chapter 4 discusses the algorithm details and 
-Chapter 5 discusses the experiments and results. Last chapter discusses about the future course of the project.
+This report is organised in 7 main chapters. Chapter 2 presents the problem statement of railway scheduling on railway line, 
+Chapter 3 provides details for the implementation of the simulator, Chapter 4 discusses the algorithm details for railway scheduling on railway line and 
+Chapter 5 shows the experiments and results of the algorithms. Chapter 6 starts discussing the flatland problem, 
+Chapter 7 discusses the 
+Double deep q-learning based approach for flatland problem and presenting the results and Chapter 8 presents 
+cooperative path finding approach for solving flatland environment and also presents the results. Last chapter presents the 
+conclusion.

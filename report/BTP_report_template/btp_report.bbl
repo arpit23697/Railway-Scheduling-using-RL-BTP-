@@ -33,6 +33,19 @@ H.~Khadilkar, ``A scalable reinforcement learning algorithm for scheduling
 R.~S. Sutton and A.~G. Barto, \emph{Reinforcement Learning : An
   Introduction}.\hskip 1em plus 0.5em minus 0.4em\relax MIT Press, 1992.
 
+\bibitem{WEBSITE:8}
+\url{http://flatland-rl-docs.s3-website.eu-central-1.amazonaws.com/04_specifications_toc.html}.
+
+\bibitem{WEBSITE:6}
+\url{https://github.com/arpit23697/Railway-Scheduling-using-RL-BTP-}.
+
+\bibitem{ARTICLE:8}
+D.~silver, ``Cooperative pathfinding,'' 2005.
+
+\bibitem{ARTICLE:3}
+E.~Nygren and G.~Spigler, ``Flatland challenge: Multi agent reinforcement
+  learning on trains,'' 2019.
+
 \bibitem{WEBSITE:2}
 \url{http://www.opentrack.ch/opentrack/opentrack_e/opentrack_e.html}.
 
@@ -45,9 +58,6 @@ R.~S. Sutton and A.~G. Barto, \emph{Reinforcement Learning : An
 \bibitem{WEBSITE:5}
 \url{https://simpy.readthedocs.io/en/latest/contents.html}.
 
-\bibitem{WEBSITE:6}
-\url{https://github.com/arpit23697/Railway-Scheduling-using-RL-BTP-}.
-
 \bibitem{ARTICLE:2}
 H.~Khadilkar, ``Scheduling of vehicle movement in resource-constrained
   transportation networks using a capacity-aware heuristic,'' \emph{Proc. Amer.
@@ -57,8 +67,16 @@ H.~Khadilkar, ``Scheduling of vehicle movement in resource-constrained
 D.~Šemrov, R.~Marsetič, M.~Zura, and L.~Todorovski, ``Reinforcement learning
   approach for train rescheduling on a single-track railway,'' 2016.
 
-\bibitem{ARTICLE:3}
-E.~Nygren and G.~Spigler, ``Flatland challenge: Multi agent reinforcement
-  learning on trains,'' 2019.
+\bibitem{ARTICLE:5}
+D.~Silver and A.~Graves, ``Playing atari with deep reinforcement learning,''
+  \emph{Nature}, Dec 2013.
+
+\bibitem{ARTICLE:6}
+D.~Silver, ``Human-level control through deep reinforcement learning,''
+  \emph{Nature}, Feb 2015.
+
+\bibitem{ARTICLE:7}
+R.~Lowe, Y.~Wu, and A.~Tamar, ``Multi-agent actor-critic for mixed
+  cooperative-competitive environments,'' Mar 2020.
 
 \end{thebibliography}

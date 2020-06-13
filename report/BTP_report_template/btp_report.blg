@@ -7,6 +7,9 @@ A level-1 auxiliary file: chapter2.aux
 A level-1 auxiliary file: full_implementation.aux
 A level-1 auxiliary file: algorithm.aux
 A level-1 auxiliary file: experiments.aux
+A level-1 auxiliary file: flatland_problem.aux
+A level-1 auxiliary file: deep_learning.aux
+A level-1 auxiliary file: cooperative_pathfinding.aux
 A level-1 auxiliary file: futurework.aux
 The style file: IEEEtran.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -18,49 +21,51 @@ Database file #1: btp.bib
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in ARTICLE:4
+Warning--empty journal in ARTICLE:8
 Warning--empty journal in ARTICLE:3
+Warning--empty journal in ARTICLE:4
+Warning--empty journal in ARTICLE:7
 
 Done.
-You've used 11 entries,
+You've used 16 entries,
             4024 wiz_defined-function locations,
-            863 strings with 8459 characters,
-and the built_in function-call counts, 3388 in all, are:
-= -- 210
-> -- 52
+            890 strings with 9022 characters,
+and the built_in function-call counts, 5035 in all, are:
+= -- 330
+> -- 83
 < -- 0
-+ -- 27
-- -- 11
-* -- 107
-:= -- 566
-add.period$ -- 17
-call.type$ -- 11
-change.case$ -- 5
++ -- 42
+- -- 18
+* -- 165
+:= -- 861
+add.period$ -- 26
+call.type$ -- 16
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 323
-empty$ -- 382
-format.name$ -- 14
-if$ -- 727
+cite$ -- 20
+duplicate$ -- 482
+empty$ -- 551
+format.name$ -- 23
+if$ -- 1082
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 67
-newline$ -- 56
-num.names$ -- 6
-pop$ -- 213
+int.to.str$ -- 16
+missing$ -- 96
+newline$ -- 71
+num.names$ -- 10
+pop$ -- 301
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 284
+skip$ -- 417
 stack$ -- 0
-substring$ -- 5
-swap$ -- 149
+substring$ -- 9
+swap$ -- 224
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 11
-warning$ -- 2
-while$ -- 6
-width$ -- 13
-write$ -- 92
-(There were 2 warnings)
+type$ -- 16
+warning$ -- 4
+while$ -- 10
+width$ -- 18
+write$ -- 127
+(There were 4 warnings)

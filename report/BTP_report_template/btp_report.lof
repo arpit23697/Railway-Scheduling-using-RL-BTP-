@@ -23,3 +23,20 @@
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Deadlock in \% for training over number of episodes in HYP-3 }}{30}{figure.5.6}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Schedule computed using proposed approach on HYP-3 with blue line for priority-1 train and red line for priority-2 train. }}{31}{figure.5.7}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Tile types in flatland grid \cite {WEBSITE:8} }}{34}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Tree observation in flatland environment \cite {WEBSITE:8}}}{35}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces A random environment. This is a toy example and minimum baseline for the algorithm\cite {WEBSITE:6} }}{37}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces A complex railway network. Due to the complexity of the network , there are multiple paths from each agent position to their target. Even having multiple paths doen't make this problem instance easy to solve\cite {WEBSITE:6}. }}{37}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Real life example.This example have 4 cities (where there are multiple parallel tracks and train targets denoted by red house) each connected by two parallel railway lines. We can add to the complexity by increasing the number of cities, decreasing number of parallel track. Also the number of agents in this environment can be large (like 100)\cite {WEBSITE:6} }}{38}{figure.6.5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Percentage of agents able to complete journey. Single agent, 5 cities, with 2 rails connecting each city with tree depth 2 }}{42}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Percentage of agents able to complete journey. Single agent, 5 cities, with 2 rails connecting each city with tree depth 2 }}{43}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Result of training over real life railway network with 4 agents, 3 cities and tree depth 2 for 5000 episodes. (A) Score of agent, this shows the average reward of agents as the training progresses. (B) Percentage of agents able to complete journey as the training progresses. }}{43}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Result of training over real life railway network with 10 agents, 3 cities and tree depth 2. (A) Score of agent, this shows the average reward of agents as the training progresses. (B) Percentage of agents able to complete journey as the training progresses. }}{44}{figure.7.4}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Two agents pathfinding cooperatively. (A) The first agent searches for a path and marks it into the reservation table. (B) The second agent searches for a path, taking account of existing reservations, and also marks it into the reservation table. Orientation is not shown in this example.\cite {ARTICLE:8}}}{47}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces The Manhattan distance heuristic can be inefficient. (A) Flooding occurs in spatial A* when the f values (shown) at many locations are lower than at the destination. (B) The number of visits to each location (shown) can be high during space-time A*. (C) Using the true distance heuristic, the number of visits to each location (shown) is optimal.\cite {ARTICLE:8}}}{48}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Pathlength (problem instance 1)}}{50}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Pathlength (problem instance 2)}}{50}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Pathlength (problem instance 1)}}{51}{figure.8.5}
+\addvspace {10\p@ }

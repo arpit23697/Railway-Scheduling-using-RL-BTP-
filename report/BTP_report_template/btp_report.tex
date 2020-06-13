@@ -15,8 +15,8 @@
 \usepackage{float}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-
-
+\usepackage{amsmath}
+\usepackage{amsfonts}
 \usepackage{algpseudocode}
 \usepackage{algorithm}
 %% use this in your preamble
@@ -67,27 +67,7 @@
 \include{chapter2}
 \cleardoublepage 
 \typeout{}
-% \include{chapter3}
-% \cleardoublepage 
-% \typeout{}
-% \include{chapter4}
-% \cleardoublepage 
-% \typeout{}
-% \include{detailed_implementation}
-% \cleardoublepage
-% \typeout{}
-% \include{rail_train}
-% \cleardoublepage
-% \typeout{}
-% \include{stats}
-% \cleardoublepage
-% \typeout{}
-% \include{resource}
-% \cleardoublepage
-% \typeout{}
-% \include{simulator}
-% \cleardoublepage
-% \typeout{}
+
 \typeout{}
 \include{full_implementation}
 \cleardoublepage
@@ -97,11 +77,17 @@
 \include{experiments}
 \cleardoublepage
 \typeout{}
+\include{flatland_problem}
+\cleardoublepage
+\typeout{}
+\include{deep_learning}
+\cleardoublepage
+\typeout{}
+\include{cooperative_pathfinding}
+\cleardoublepage
+\typeout{}
 \include{futurework}
 \cleardoublepage
-
-
-
 \bibliography{btp}
 \bibliographystyle{IEEEtran}
 
